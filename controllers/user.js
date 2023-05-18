@@ -1,4 +1,4 @@
-//import User from '../models/User'
+import User from '../models/user'
 
 export async function getUsers (req, res) {
   try {
@@ -11,6 +11,7 @@ export async function getUsers (req, res) {
 
 export async function addUser (req, res) {
   try {
+
     res.status(200).json(user)
   } catch (err) {
     res.status(500).json(err)
