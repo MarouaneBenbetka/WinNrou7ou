@@ -1,7 +1,7 @@
 const HeroBg = () => {
 	return (
 		<>
-			<div className="absolute top-0 left-0 w-screen h-screen bg-[rgba(0,0,0,.70)] z-10"></div>
+			<div className="absolute top-0 left-0 w-screen h-screen bg-[rgba(0,0,0,.50)] z-10"></div>
 			<video
 				src="/videos/hero_background.mp4"
 				autoPlay
