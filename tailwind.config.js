@@ -13,6 +13,9 @@ module.exports = {
 				orange: "#F7AF00",
 				dark: "#1D1D1B",
 			},
+			fontFamily: {
+				poppins: ["Poppins", "sans-serif"],
+			},
 		},
 	},
 	plugins: [require("daisyui")],

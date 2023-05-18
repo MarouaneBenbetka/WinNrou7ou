@@ -5,7 +5,6 @@ import { useSpring, animated } from "react-spring";
 
 const Navbar = () => {
 	const [navMobile, setNavMobile] = useState(false);
-	const [color, setColor] = useState(false);
 
 	const openAnimation = useSpring({
 		from: { maxHeight: "0px" },
@@ -13,8 +12,22 @@ const Navbar = () => {
 		config: { duration: "200" },
 	});
 
+	const handleScroll = (e) => {
+		// if (window.scrollY >= 90) {
+		// 	setColor(true);
+		// } else {
+		// 	setColor(false);
+		// }
+		console.log(e.currentTarget.scrollTop);
+	};
+
 	return (
-		<div className={"z-20 sticky top-0 bg-dark "}>
+		<div
+			className={`z-50 absolute top-0 w-screen ${
+				navMobile ? "bg-dark" : "bg-transparent"
+			} `}
+			onScroll={handleScroll}
+		>
 			<div className="flex justify-between items-center   sm:px-8  py-4 md:px-4 lg:px-8">
 				<div className="ml-4">
 					<h1>Logo</h1>
@@ -57,7 +70,7 @@ const Navbar = () => {
 					<animated.div
 						style={openAnimation}
 						className={
-							"absolute flex flex-col z-20 justify-start items-center gap-4 bg-dark rounded-lg px-8 pt-[4vh]  text-center top-10 right-0 w-screen h-screen overflow-hidden"
+							"absolute flex flex-col z-20 justify-start items-center gap-4 bg-dark rounded-lg px-8   text-center top-10 right-0 w-screen h-screen overflow-hidden"
 						}
 					>
 						<ul className="flex flex-col  ">
@@ -81,7 +94,7 @@ const Navbar = () => {
 							))}
 						</ul>
 						<div className="flex flex-col gap-4">
-							<button className="mt-2 px-4 py-2 text-white bg-green rounded-[10px] font-semibold border-2 border-green hover:bg-dark hover:text-green transition ">
+							<button className="mt-2 px-4 py-2 text-green  rounded-[10px] font-semibold border-2 border-green hover:bg-green hover:text-dark transition ">
 								Login
 							</button>
 						</div>
