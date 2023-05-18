@@ -2,9 +2,12 @@ import { useState } from "react";
 import { navLinks } from "../../data/data";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useSpring, animated } from "react-spring";
+import { useSelector } from "react-redux";
 
 const Navbar = () => {
 	const [navMobile, setNavMobile] = useState(false);
+	const ui = useSelector((state) => state.ui);
+	console.log(ui.navBarColor);
 
 	const openAnimation = useSpring({
 		from: { maxHeight: "0px" },
@@ -12,21 +15,13 @@ const Navbar = () => {
 		config: { duration: "200" },
 	});
 
-	const handleScroll = (e) => {
-		// if (window.scrollY >= 90) {
-		// 	setColor(true);
-		// } else {
-		// 	setColor(false);
-		// }
-		console.log(e.currentTarget.scrollTop);
-	};
-
 	return (
 		<div
-			className={`z-50 absolute top-0 w-screen ${
-				navMobile ? "bg-dark" : "bg-transparent"
-			} `}
-			onScroll={handleScroll}
+			className={`z-50  top-0 w-screen fixed ${
+				ui.navBarColor === "blur"
+					? " bg-dark backdrop-filter backdrop-blur-lg bg-opacity-70 "
+					: " bg-transparent"
+			} transition ease-in-out duration-200`}
 		>
 			<div className="flex justify-between items-center   sm:px-8  py-4 md:px-4 lg:px-8">
 				<div className="ml-4">
