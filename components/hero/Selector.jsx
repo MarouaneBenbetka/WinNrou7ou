@@ -5,7 +5,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 const Selector = ({ label, onChangeValue, open, onOpened }) => {
 	const [inputValue, setInputValue] = useState("");
 	const [selected, setSelected] = useState("");
-	const items = ["Vente", "Echange", "Location", "Location vacances"];
+	const items = ["Jardin", "Mosquee", "Hotel", "Restaurant"];
 
 	return (
 		<div className="text-dark">
@@ -35,7 +35,7 @@ const Selector = ({ label, onChangeValue, open, onOpened }) => {
 				<ul
 					className={`w-full  bg-white mt-2 overflow-y-auto absolute ${
 						open
-							? "max-h-60 ring-2 ring-gray-300 rounded z-40"
+							? "max-h-28 ring-2 ring-gray-300 rounded z-40"
 							: "max-h-0"
 					} `}
 				>

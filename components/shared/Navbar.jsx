@@ -18,7 +18,7 @@ const Navbar = () => {
 
 	return (
 		<div
-			className={`z-50  top-0 w-screen fixed ${
+			className={`z-50  top-0 w-screen absolute ${
 				navMobile || ui.navBarColor === "blur"
 					? " bg-dark backdrop-filter backdrop-blur-lg bg-opacity-70 "
 					: " bg-transparent"
@@ -91,12 +91,13 @@ const Navbar = () => {
 										}
 										className="w-full text-[20px]"
 									>
-										{navLink.title}
+										{navLink["title" + lang]}
 									</a>
 								</li>
 							))}
 						</ul>
-						<div className="flex flex-col gap-4">
+						<div className="flex gap-4 items-center">
+							<LanguagePicker />
 							<button className="mt-2 px-4 py-2 text-green  rounded-[10px] font-semibold border-2 border-green hover:bg-green hover:text-dark transition ">
 								Login
 							</button>

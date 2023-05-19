@@ -38,7 +38,7 @@ const Dropdown = ({ label, onChangeValue, open, onOpened, items, value }) => {
 				<ul
 					className={`bg-white mt-2 overflow-y-auto absolute ${
 						open
-							? "max-h-60 ring-2 ring-gray-300 rounded z-40"
+							? "max-h-28 ring-2 ring-gray-300 rounded z-40"
 							: "max-h-0"
 					} `}
 				>

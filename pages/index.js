@@ -2,15 +2,28 @@ import HeroBg from "@/components/hero/HeroBg";
 import { useSelector } from "react-redux";
 import { heroData } from "@/data/data";
 import Search from "@/components/hero/Search";
+import InteractiveMap from "@/components/map/InteractiveMap";
+import { useRef } from "react";
 
 export default function Home() {
-	const lang = useSelector((state) => state.ui.language);
+	const { lang, mapView } = useSelector((state) => ({
+		lang: state.ui.language,
+		mapView: state.ui.mapView,
+	}));
+
+	const searchBarRef = useRef();
+
+	const searchHandler = (query) => {
+		console.log(query);
+	};
+	const filterHandler = (query) => {
+		console.log(query);
+	};
 
 	return (
 		<section className={"relative font-poppins"}>
 			<HeroBg />
-
-			<div className="min-h-screen pt-10 flex items-center justify-center flex-col text-white relative z-30  ">
+			<div className="min-h-screen pt-20 flex items-center justify-center flex-col text-white relative z-30  ">
 				<h1 className="text-4xl md:text-6xl pb-2  font-semibold">
 					{heroData["title1"][lang]}
 				</h1>
@@ -20,10 +33,14 @@ export default function Home() {
 				<p className="mx-5 md:mx-[20vw] text-center text-lg md:text-xl mt-6">
 					{heroData["summary"][lang]}
 				</p>
-
-				<Search />
+				<Search
+					ref={searchBarRef}
+					onSearch={searchHandler}
+					onFilter={filterHandler}
+					stickTop={mapView}
+				/>
 			</div>
-			<p className="h-[300px]">hi</p>
+			<InteractiveMap />
 		</section>
 	);
 }

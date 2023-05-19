@@ -59,7 +59,7 @@ export const languages = [
 
 export const heroData = {
 	title1: {
-		Arabic: "، اكتشف الجزائر",
+		Arabic: "اكتشف الجزائر",
 		French: "Explorer l'Algérie,",
 		English: "Explore Algeria,",
 		Spanish: "Explore Argelia,",

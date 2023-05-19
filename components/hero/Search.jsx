@@ -1,20 +1,17 @@
 import { FiSearch } from "react-icons/fi";
 import { VscSettings } from "react-icons/vsc";
 import { useSpring, animated } from "react-spring";
-import { useState } from "react";
+import React, { useState } from "react";
 import Selector from "./Selector";
 import Dropdown from "./Dropdown";
 import { wilayas } from "@/data/data";
 
-export default function Search() {
+const Search = ({ onSearch, onFilter, stickTop }, ref) => {
 	const [showFilters, setShowFilters] = useState(false);
 	const [searchedText, setSearchedText] = useState("");
 	const [filterData, setFilterData] = useState({
 		typeAnnonce: "",
 		wilaya: "",
-		commune: "",
-		dateDebut: "",
-		dateFin: "",
 	});
 	const [openedList, setOpenedLists] = useState({
 		type: false,
@@ -29,7 +26,6 @@ export default function Search() {
 		setFilterData((prev) => ({
 			...prev,
 			wilaya: wilaya,
-			commune: "",
 		}));
 		// console.log(wilaya);
 	};
@@ -37,7 +33,6 @@ export default function Search() {
 		state
 			? setOpenedLists({
 					wilaya: false,
-					commune: false,
 					type: true,
 			  })
 			: setOpenedLists((prev) => ({ ...prev, type: state }));
@@ -46,7 +41,6 @@ export default function Search() {
 		state
 			? setOpenedLists({
 					wilaya: true,
-					commune: false,
 					type: false,
 			  })
 			: setOpenedLists((prev) => ({ ...prev, wilaya: state }));
@@ -55,33 +49,37 @@ export default function Search() {
 	// animation for the filters bar
 	const openAnimation = useSpring({
 		from: { maxHeight: "0" },
-		to: { maxHeight: showFilters ? "1000px" : "0" },
-		config: { duration: "300" },
+		to: { maxHeight: showFilters ? "200px" : "0" },
+		config: { duration: "250" },
 	});
 
 	return (
 		<div
-			className={
+			ref={ref}
+			className={`${
 				showFilters
-					? "mt-10  px-6 py-3 bg-dark backdrop-filter backdrop-blur-lg bg-opacity-10 rounded-3xl  "
+					? "mt-10  px-6 py-3 bg-dark backdrop-filter backdrop-blur-lg bg-opacity-20 rounded-3xl  "
 					: "mt-10 "
-			}
+			} ${stickTop ? "stickySearch" : ""}`}
 		>
-			<div className="flex items-center">
-				<div className="w-full relative flex flex-col  justify-center mr-4 ">
+			<div className="flex items-center justify-center">
+				<div className="w-[70vw]  md:w-[60vw] lg:w-[40vw] relative flex flex-col  justify-center mr-4 ">
 					<button
 						type="submit"
 						className="absolute right-3"
-						onClick={(e) => {}}
+						onClick={(e) => {
+							e.preventDefault();
+							onSearch(searchedText);
+						}}
 					>
 						<FiSearch size="30px" color="#069ADF" />
 					</button>
-					<div className="my-4">
+					<div className="my-4 ">
 						<input
 							type="text"
 							name="search"
 							placeholder="Explorer l'algerie ... "
-							className="text-dark w-[40vw] pl-6 pr-12 py-3 bg-white2 placeholder-gray-500 rounded-xl border-white ring-2 ring-gray-200 focus:outline-blue focus:outline-none  "
+							className="text-dark w-full pl-6 pr-12 py-3 bg-white2 placeholder-gray-500 rounded-xl border-white ring-2 ring-gray-200 focus:outline-blue focus:outline-none  "
 							onChange={(e) => setSearchedText(e.target.value)}
 							onKeyDown={(e) => {
 								if (e.key === "Enter") {
@@ -113,7 +111,8 @@ export default function Search() {
 			>
 				<form
 					onSubmit={(e) => {
-						// onFilter(e, filterData);
+						e.preventDefault();
+						onFilter(filterData);
 						setOpenedLists("");
 					}}
 				>
@@ -134,7 +133,7 @@ export default function Search() {
 							value={filterData.wilaya}
 						/>
 
-						<button className=" px-4 py-2 h-fit text-white bg-purple rounded-[10px] font-semibold border-2 border-purple  hover:bg-white2 hover:text-purple  transition">
+						<button className=" px-4 py-2 h-fit text-white bg-blue bg-opacity-70 rounded-[10px] font-semibold border-2 border-blue border-opacity-70  hover:bg-transparent hover:text-white  transition">
 							Filtrer
 						</button>
 					</div>
@@ -142,4 +141,6 @@ export default function Search() {
 			</animated.div>
 		</div>
 	);
-}
+};
+
+export default React.forwardRef(Search);

@@ -42,3 +42,26 @@ body {
 .nav-link:hover::after {
 	width: 40%;
 }
+
+.stickySearch {
+	position: fixed;
+
+	animation: slideDown 0.35s ease-out;
+	top: 0;
+	background-color: #d5dd18dd;
+	width: 80vw;
+	margin-top: 0;
+	border-radius: 0;
+	border-bottom-left-radius: 80px;
+	border-bottom-right-radius: 80px;
+}
+
+@keyframes slideDown {
+	from {
+		transform: translateY(-100%);
+	}
+
+	to {
+		transform: translateY(0);
+	}
+}
