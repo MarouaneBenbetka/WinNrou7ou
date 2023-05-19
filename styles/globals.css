@@ -43,17 +43,12 @@ body {
 	width: 40%;
 }
 
-.stickySearch {
-	position: fixed;
-
+.stickyAnimation {
 	animation: slideDown 0.35s ease-out;
-	top: 0;
-	background-color: #d5dd18dd;
-	width: 80vw;
-	margin-top: 0;
-	border-radius: 0;
-	border-bottom-left-radius: 80px;
-	border-bottom-right-radius: 80px;
+}
+
+.floatAnimation {
+	animation: float 2s ease-in-out infinite;
 }
 
 @keyframes slideDown {
@@ -63,5 +58,27 @@ body {
 
 	to {
 		transform: translateY(0);
+	}
+}
+
+@keyframes slideUp {
+	from {
+		transform: translateY(100%);
+	}
+
+	to {
+		transform: translateY(0);
+	}
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(-2px);
+	}
+	50% {
+		transform: translatey(2px);
+	}
+	100% {
+		transform: translatey(-2px);
 	}
 }
