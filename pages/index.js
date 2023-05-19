@@ -2,15 +2,21 @@ import HeroBg from "@/components/hero/HeroBg";
 import { useSelector } from "react-redux";
 import { heroData } from "@/data/data";
 import Search from "@/components/hero/Search";
-import InteractiveMap from "@/components/map/InteractiveMap";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
+import dynamic from "next/dynamic";
+import { uiActions } from "@/store/ui-slice";
+import { useDispatch } from "react-redux";
+
+const MapWrapper = dynamic(() => import("@/components/map/InteractiveMap"), {
+	ssr: false,
+});
 
 export default function Home() {
 	const { lang, mapView } = useSelector((state) => ({
 		lang: state.ui.language,
 		mapView: state.ui.mapView,
 	}));
-
+	const scrollContainerRef = useRef();
 	const searchBarRef = useRef();
 
 	const searchHandler = (query) => {
@@ -20,10 +26,46 @@ export default function Home() {
 		console.log(query);
 	};
 
+	const ui = useSelector((state) => state.ui);
+	const dispatcher = useDispatch();
+
+	const handleScroll = () => {
+		dispatcher(
+			uiActions.scrollChanged(scrollContainerRef.current.scrollTop)
+		);
+	};
+
+	useEffect(() => {
+		window.addEventListener("scroll", handleScroll);
+		return () => {
+			window.removeEventListener("scroll", handleScroll);
+		};
+	}, []);
+
+	useEffect(() => {
+		// Function to update window height when resized
+		dispatcher(uiActions.onResize(window.innerHeight));
+
+		function handleResize() {
+			dispatcher(uiActions.onResize(window.innerHeight));
+		}
+
+		// Event listener for window resize
+		window.addEventListener("resize", handleResize);
+
+		// Clean up the event listener
+		return () => {
+			window.removeEventListener("resize", handleResize);
+		};
+	}, []);
+
 	return (
-		<section className={"relative font-poppins"}>
-			<HeroBg />
-			<div className="min-h-screen pt-20 flex items-center justify-center flex-col text-white relative z-30  ">
+		<section
+			className="snap-y  relative font-poppins max-h-screen overflow-y-auto"
+			onScroll={handleScroll}
+			ref={scrollContainerRef}
+		>
+			<div className="snap-start h-screen pt-20 flex items-center justify-center flex-col text-white relative z-30">
 				<h1 className="text-4xl md:text-6xl pb-2  font-semibold">
 					{heroData["title1"][lang]}
 				</h1>
@@ -40,7 +82,10 @@ export default function Home() {
 					stickTop={mapView}
 				/>
 			</div>
-			<InteractiveMap />
+			<div className="snap-start h-screen">
+				<MapWrapper lat={28} lng={2} />
+			</div>
+			<HeroBg />
 		</section>
 	);
 }

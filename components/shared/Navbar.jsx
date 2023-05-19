@@ -18,7 +18,7 @@ const Navbar = () => {
 
 	return (
 		<div
-			className={`z-50  top-0 w-screen absolute ${
+			className={`z-50  top-0 w-screen sticky ${
 				navMobile || ui.navBarColor === "blur"
 					? " bg-dark backdrop-filter backdrop-blur-lg bg-opacity-70 "
 					: " bg-transparent"
