@@ -17,6 +17,18 @@ module.exports = {
 				poppins: ["Poppins", "sans-serif"],
 			},
 		},
+		screens: {
+			x2: "580px",
+			x3: "1008px",
+			x4: "1290px",
+			sm: "640px",
+
+			md: "768px",
+
+			lg: "1024px",
+
+			xl: "1280px",
+		},
 	},
 	plugins: [require("daisyui")],
 	daisyui: {

@@ -146,3 +146,36 @@ export const wilayas = [
 	{ key: "El Meghaier", value: "El Meghaier" },
 	{ key: "El Menia", value: "El Menia" },
 ];
+
+export const DUMMY_SUGGESTIONS = [
+	{
+		id: 1,
+		title: "Casbah d'Alger",
+		img: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/48/c3/60/20180224-122151-largejpg.jpg?w=900&h=600&s=1",
+	},
+	{
+		id: 2,
+		title: "Casbah d'Alger",
+		img: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/48/c3/60/20180224-122151-largejpg.jpg?w=900&h=600&s=1",
+	},
+	{
+		id: 3,
+		title: "Casbah d'Alger",
+		img: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/48/c3/60/20180224-122151-largejpg.jpg?w=900&h=600&s=1",
+	},
+	{
+		id: 4,
+		title: "Casbah d'Alger",
+		img: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/48/c3/60/20180224-122151-largejpg.jpg?w=900&h=600&s=1",
+	},
+	{
+		id: 5,
+		title: "Casbah d'Alger",
+		img: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/48/c3/60/20180224-122151-largejpg.jpg?w=900&h=600&s=1",
+	},
+	{
+		id: 6,
+		title: "Casbah d'Alger",
+		img: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/48/c3/60/20180224-122151-largejpg.jpg?w=900&h=600&s=1",
+	},
+];

@@ -12,6 +12,7 @@ export default function App({ Component, pageProps }) {
 				<title>WinNrou7ou e-tourisme</title>
 			</Head>
 			<Layout>
+				<Navbar />
 				<Component {...pageProps} />
 			</Layout>
 		</Provider>

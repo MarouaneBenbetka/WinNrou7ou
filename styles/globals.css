@@ -43,10 +43,13 @@ body {
 	width: 40%;
 }
 
-.stickyAnimation {
+.slideDownAnimation {
 	animation: slideDown 0.35s ease-out;
 }
 
+.slideUpAnimation {
+	animation: slideUp 0.35s ease-out;
+}
 .floatAnimation {
 	animation: float 2s ease-in-out infinite;
 }

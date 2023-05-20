@@ -9,13 +9,21 @@ import {
 } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
+import { useEffect, useRef } from "react";
 
-export default function InteractiveMap({ lat, lng }) {
+export default function InteractiveMap({ lat, lng, lock }) {
+	const mapRef = useRef();
+	useEffect(() => {
+		lock
+			? mapRef.current?.scrollWheelZoom.enable()
+			: mapRef.current?.scrollWheelZoom.disable();
+	}, [lock]);
 	return (
 		<MapContainer
+			ref={mapRef}
 			center={[lat, lng]}
-			zoom={15}
-			scrollWheelZoom={false}
+			zoom={6}
+			scrollWheelZoom={lock}
 			className="h-screen w-full focus:outline-none z-10 bg-transparent relative "
 			zoomControl={false}
 		>

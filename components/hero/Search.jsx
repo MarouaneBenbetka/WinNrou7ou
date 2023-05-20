@@ -61,13 +61,6 @@ const Search = ({ onSearch, onFilter, stickTop }, ref) => {
 	});
 
 	return (
-		//     /	top: 0;
-		// background-color: #d5dd18dd;
-		// width: 80vw;
-		// margin-top: 0;
-		// border-radius: 0;
-		// border-bottom-left-radius: 80px;
-		// border-bottom-right-radius: 80px;
 		<div
 			ref={ref}
 			className={` ${
@@ -77,7 +70,7 @@ const Search = ({ onSearch, onFilter, stickTop }, ref) => {
 			} ${
 				stickTop
 					? `${
-							!collapsedBar && "stickyAnimation"
+							!collapsedBar && "slideDownAnimation"
 					  } w-[100vw] md:w-[80vw] mt-0 rounded-b-[30px] md:rounded-b-[80px] bg-green fixed top-0 `
 					: "mt-10"
 			}`}
@@ -88,14 +81,14 @@ const Search = ({ onSearch, onFilter, stickTop }, ref) => {
 						stickTop
 							? "w-[65vw]  lg:w-[50vw]"
 							: "w-[70vw] md:w-[60vw] lg:w-[40vw]"
-					}   md:w-[60vw] lg:w-[40vw] relative flex flex-col  justify-center mr-4 `}
+					}   md:w-[54vw] lg:w-[40vw] relative flex flex-col  justify-center mr-4 `}
 				>
 					{stickTop && (
 						<div
 							className={`floatAnimation ${
 								collapsedBar
 									? "fixed -top-1 left-0 md:left-[70px]"
-									: "absolute -left-8 md:-left-24 rounded-3xl"
+									: "absolute  -left-11 lg:-left-24 rounded-3xl"
 							} cursor-pointer rounded-b-xl  bg-green`}
 							onClick={toggleCollapseHanlder}
 						>
@@ -133,6 +126,7 @@ const Search = ({ onSearch, onFilter, stickTop }, ref) => {
 									onKeyDown={(e) => {
 										if (e.key === "Enter") {
 											setShowFilters(false);
+											onSearch(searchedText);
 										}
 									}}
 								/>

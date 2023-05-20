@@ -7,25 +7,39 @@ const uiSlice = createSlice({
 		language: "English",
 		mapView: false,
 		windowHeight: 1000,
+		scrollDisabled: false,
 	},
 	reducers: {
-		scrollChanged: (state, payload) => {
-			if (payload.payload > 80 && state.navBarColor !== "blur")
-				state.navBarColor = "blur";
-			else if (payload.payload <= 80 && state.navBarColor === "blur")
-				state.navBarColor = "transparent";
+		toggleScroll: (state) => {
+			state.scrollDisabled = !state.scrollDisabled;
+		},
+		disableScroll: (state) => {
+			state.scrollDisabled = false;
+		},
 
-			if (payload.payload >= state.windowHeight - 10)
-				state.mapView = true;
-			else if (payload.payload < state.windowHeight - 10)
+		scrollChanged: (state, payload) => {
+			console.log(payload);
+			// if (payload.payload > 80 && state.navBarColor !== "blur")
+			// 	state.navBarColor = "blur";
+			// else if (payload.payload <= 80 && state.navBarColor === "blur")
+			// 	state.navBarColor = "transparent";
+
+			if (payload.payload >= state.windowHeight) state.mapView = true;
+			else if (payload.payload < state.windowHeight)
 				state.mapView = false;
 		},
 		setLanguage: (state, payload) => {
 			state.language = payload.payload;
-			console.log(payload);
 		},
-		onResize: (state, payload) => {
-			state.windowHeight = payload.payload;
+		onResize: (state, { payload }) => {
+			console.log(payload.scrollOffset);
+			console.log(payload.windowHeight);
+			if (payload.scrollOffset >= payload.windowHeight - 10)
+				state.mapView = true;
+			else if (payload.scrollOffset < payload.windowHeight)
+				state.mapView = false;
+
+			state.windowHeight = payload.windowHeight;
 		},
 	},
 });
