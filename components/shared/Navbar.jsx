@@ -4,6 +4,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { useSpring, animated } from "react-spring";
 import { useSelector } from "react-redux";
 import LanguagePicker from "../navbar/LanguagePicker";
+import Link from "next/link";
 
 const Navbar = () => {
 	const [navMobile, setNavMobile] = useState(false);
@@ -39,12 +40,9 @@ const Navbar = () => {
 							key={index}
 							className="relative md:px-3 lg:px-5 nav-link cursor-pointer"
 						>
-							<a
-								href={index === 0 ? "#" : `#${navLink.id}`}
-								className={" text-[18px] s"}
-							>
+							<Link href={navLink.id} className={" text-[18px] "}>
 								{navLink["title" + lang]}
-							</a>
+							</Link>
 						</li>
 					))}
 				</ul>

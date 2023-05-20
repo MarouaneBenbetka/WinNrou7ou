@@ -94,6 +94,7 @@ import { MdExpandMore } from "react-icons/md";
 import { FaRegCommentDots } from "react-icons/fa";
 import { useState } from "react";
 import { motion } from "framer-motion";
+import Review from "./Review";
 
 const InfoModal = () => {
 	const [expandHistory, setExpandHistory] = useState(false);
@@ -186,6 +187,18 @@ const InfoModal = () => {
 				<div className="flex justify-center">
 					<Ratting num={3} />
 				</div>
+				{expandReviews && (
+					<div className="ml-2 mt-4">
+						{DUMMY_INFO.reviews.map((item, index) => (
+							<Review
+								key={index}
+								sender={item.sender}
+								image={item.sender_image}
+								comment={item.comment}
+							/>
+						))}
+					</div>
+				)}
 			</div>
 		</motion.div>
 	);
