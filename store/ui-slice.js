@@ -18,7 +18,6 @@ const uiSlice = createSlice({
 		},
 
 		scrollChanged: (state, payload) => {
-			console.log(payload);
 			// if (payload.payload > 80 && state.navBarColor !== "blur")
 			// 	state.navBarColor = "blur";
 			// else if (payload.payload <= 80 && state.navBarColor === "blur")
@@ -32,8 +31,6 @@ const uiSlice = createSlice({
 			state.language = payload.payload;
 		},
 		onResize: (state, { payload }) => {
-			console.log(payload.scrollOffset);
-			console.log(payload.windowHeight);
 			if (payload.scrollOffset >= payload.windowHeight - 10)
 				state.mapView = true;
 			else if (payload.scrollOffset < payload.windowHeight)

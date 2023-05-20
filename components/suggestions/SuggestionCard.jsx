@@ -1,8 +1,18 @@
 import Image from "next/image";
-
+import { motion } from "framer-motion";
 const SuggestionCard = ({ title, img }) => {
 	return (
-		<div className="carousel-item py-3 px-3">
+		<motion.div
+			className="carousel-item py-3 px-3"
+			drag
+			whileDrag={{
+				scale: 1.08,
+				zIndex: 100,
+				border: 1,
+				borderBlockColor: "#D5DD18",
+			}}
+			dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
+		>
 			<div className="relative hover:scale-[1.03] transition">
 				<Image
 					src={img}
@@ -16,7 +26,7 @@ const SuggestionCard = ({ title, img }) => {
 					{title}
 				</h2>
 			</div>
-		</div>
+		</motion.div>
 	);
 };
 

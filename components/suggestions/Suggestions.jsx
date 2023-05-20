@@ -13,9 +13,9 @@ const Suggestions = () => {
 		<section
 			className={`${
 				collapsedBar ? "" : "slideUpAnimation"
-			} w-[80vw] sm:w-[90vw] md:w-[85vw] flex justify-center    mt-0 rounded-t-[20px]  bg-white fixed bottom-0 z-50 border-2 border-green`}
+			} w-[80vw] sm:w-[90vw] md:w-[85vw] flex justify-center    mt-0 rounded-t-[20px]  bg-white fixed bottom-0 z-50 border-2 border-green `}
 		>
-			<div className="relative w-full h-full flex justify-center">
+			<div className="relative w-full h-full flex justify-center ">
 				{!collapsedBar && (
 					<div className=" carousel carousel-start w-[280px]  x2:w-[580px] x3:w-[850px] x4:w-[1125px] rounded-t-[20px] ">
 						{DUMMY_SUGGESTIONS.map((item) => (

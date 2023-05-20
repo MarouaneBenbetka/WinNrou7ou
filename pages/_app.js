@@ -9,7 +9,8 @@ export default function App({ Component, pageProps }) {
 	return (
 		<Provider store={store}>
 			<Head>
-				<title>WinNrou7ou e-tourisme</title>
+				<title>WEEN e-tourisme</title>
+				<link rel="icon" href="/favicon.ico" sizes="any" />
 			</Head>
 			<Layout>
 				<Navbar />

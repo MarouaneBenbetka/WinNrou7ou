@@ -6,7 +6,8 @@ import Selector from "./Selector";
 import Dropdown from "./Dropdown";
 import { wilayas } from "@/data/data";
 import { MdOutlineKeyboardDoubleArrowUp } from "react-icons/md";
-
+import { motion } from "framer-motion";
+import { zoomVariant } from "@/styles/motion";
 const Search = ({ onSearch, onFilter, stickTop }, ref) => {
 	const [showFilters, setShowFilters] = useState(false);
 	const [searchedText, setSearchedText] = useState("");
@@ -61,7 +62,7 @@ const Search = ({ onSearch, onFilter, stickTop }, ref) => {
 	});
 
 	return (
-		<div
+		<motion.div
 			ref={ref}
 			className={` ${
 				showFilters && !stickTop
@@ -74,6 +75,7 @@ const Search = ({ onSearch, onFilter, stickTop }, ref) => {
 					  } w-[100vw] md:w-[80vw] mt-0 rounded-b-[30px] md:rounded-b-[80px] bg-green fixed top-0 `
 					: "mt-10"
 			}`}
+			variants={zoomVariant(0.9)}
 		>
 			<div className="flex items-center justify-center">
 				<div
@@ -187,7 +189,7 @@ const Search = ({ onSearch, onFilter, stickTop }, ref) => {
 					</form>
 				</animated.div>
 			)}
-		</div>
+		</motion.div>
 	);
 };
 
