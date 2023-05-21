@@ -5,12 +5,15 @@ import { useSpring, animated } from "react-spring";
 import { useSelector } from "react-redux";
 import LanguagePicker from "../navbar/LanguagePicker";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
 	const [navMobile, setNavMobile] = useState(false);
 	const ui = useSelector((state) => state.ui);
 	const lang = useSelector((state) => state.ui.language);
-
+	const router = useRouter();
+	const { pathname } = router;
+	console.log(pathname);
 	const openAnimation = useSpring({
 		from: { maxHeight: "0px" },
 		to: { maxHeight: navMobile ? "1000px" : "0px" },
@@ -19,9 +22,11 @@ const Navbar = () => {
 
 	return (
 		<div
-			className={`snap-start z-50  top-0 w-screen absolute ${
+			className={`snap-start z-50  top-0 w-screen ${
+				pathname === "/" ? "absolute" : "fixed"
+			} ${
 				navMobile || ui.navBarColor === "blur"
-					? " bg-dark backdrop-filter backdrop-blur-lg bg-opacity-70 "
+					? " bg-[#0B1723] backdrop-filter backdrop-blur-xl bg-opacity-40 "
 					: " bg-transparent"
 			} md:transition md:ease-in-out md:duration-200`}
 		>

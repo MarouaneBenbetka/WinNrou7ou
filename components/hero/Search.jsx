@@ -8,6 +8,7 @@ import { wilayas } from "@/data/data";
 import { MdOutlineKeyboardDoubleArrowUp } from "react-icons/md";
 import { motion } from "framer-motion";
 import { zoomVariant } from "@/styles/motion";
+
 const Search = ({ onSearch, onFilter, stickTop }, ref) => {
 	const [showFilters, setShowFilters] = useState(false);
 	const [searchedText, setSearchedText] = useState("");

@@ -16,6 +16,9 @@ module.exports = {
 			fontFamily: {
 				poppins: ["Poppins", "sans-serif"],
 			},
+			backgroundImage: {
+				events: "url('/images/events.png')",
+			},
 		},
 		screens: {
 			x2: "580px",

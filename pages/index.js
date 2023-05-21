@@ -47,13 +47,14 @@ export default function Home() {
 	};
 
 	return (
-		<motion.section
-			variants={staggerContainer}
-			initial="hidden"
-			whileInView="show"
-		>
+		<section>
 			<HeroBg />
-			<div className="snap-start h-screen pt-20 flex items-center justify-center flex-col text-white relative z-30">
+			<motion.div
+				className="snap-start h-screen pt-20 flex items-center justify-center flex-col text-white relative z-30"
+				variants={staggerContainer}
+				initial="hidden"
+				whileInView="show"
+			>
 				<motion.h1
 					className="text-4xl md:text-6xl pb-2  font-semibold"
 					variants={textVariant(0.3)}
@@ -78,7 +79,7 @@ export default function Home() {
 					onFilter={filterHandler}
 					stickTop={mapView}
 				/>
-			</div>
+			</motion.div>
 			<div
 				ref={mapRef}
 				className="snap-start h-screen relative flex flex-col items-center"
@@ -107,6 +108,6 @@ export default function Home() {
 				)}
 				<MapWrapper lat={28} lng={2} lock={mapLocked} />
 			</div>
-		</motion.section>
+		</section>
 	);
 }
