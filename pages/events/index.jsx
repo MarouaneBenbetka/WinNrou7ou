@@ -123,6 +123,7 @@ const Events = () => {
 						{DUMMY_EVENTS.slice(0, 3).map((event) => (
 							<EventCard
 								key={event.id}
+								id={event.id}
 								title={event.title}
 								date={event.date}
 								image={event.image}
@@ -148,6 +149,7 @@ const Events = () => {
 				<div className=" hidden md:grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-6 mt-8 mb-4 ">
 					{DUMMY_EVENTS.map((event) => (
 						<SmallEventCard
+							id={event.id}
 							key={event.id}
 							title={event.title}
 							date={event.date}

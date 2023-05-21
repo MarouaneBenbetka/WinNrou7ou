@@ -3,15 +3,17 @@ import { useState } from "react";
 import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
 import { FiCalendar, FiExternalLink } from "react-icons/fi";
 import { motion } from "framer-motion";
-const EventCard = ({ title, date, image }) => {
+import Link from "next/link";
+const EventCard = ({ id, title, date, image }) => {
 	const [isFavorite, setIsFavorite] = useState(false);
 	const [isHovering, setIsHovering] = useState(false);
 
 	return (
-		<div
+		<Link
 			className=" carousel-item  relative mx-5 w-fit rounded-2xl overflow-hidden shadow-xl hover:scale-[1.04] transition cursor-pointer"
 			onMouseOver={() => setIsHovering(true)}
 			onMouseLeave={() => setIsHovering(false)}
+			href={"/events/" + id}
 		>
 			<div className="absolute inset-0  bg-[#0B1723] opacity-10 z-10"></div>
 			<div className="w-[250px] h-[360px] md:w-[300px] md:h-[440px]">
@@ -31,7 +33,10 @@ const EventCard = ({ title, date, image }) => {
 			</div>
 			<div
 				className="absolute top-2 right-2 cursor-pointer z-40"
-				onClick={() => setIsFavorite((prev) => !prev)}
+				onClick={(e) => {
+					e.stopPropagation();
+					setIsFavorite((prev) => !prev);
+				}}
 			>
 				{isFavorite ? (
 					<AiFillHeart size={28} className="text-white" />
@@ -49,7 +54,7 @@ const EventCard = ({ title, date, image }) => {
 					<FiExternalLink size={26} className="text-white  " />
 				</motion.div>
 			)}
-		</div>
+		</Link>
 	);
 };
 
