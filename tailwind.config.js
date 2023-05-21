@@ -31,6 +31,8 @@ module.exports = {
 			lg: "1024px",
 
 			xl: "1280px",
+
+			mmd: { max: "1000px" },
 		},
 	},
 	plugins: [require("daisyui")],

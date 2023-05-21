@@ -58,7 +58,7 @@ const Layout = ({ children }) => {
 	return (
 		<div
 			onScroll={handleScroll}
-			className="  font-poppins  overflow-x-hidden"
+			className="  font-poppins  overflow-x-hidden "
 		>
 			{children}
 		</div>

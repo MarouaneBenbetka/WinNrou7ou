@@ -1,3 +1,14 @@
+import { BsFillTelephoneFill, BsGlobe } from "react-icons/bs";
+import { MdMail } from "react-icons/md";
+import { RiMapPin2Fill, RiTeamLine } from "react-icons/ri";
+import {
+	FaFacebook,
+	FaInstagram,
+	FaLinkedin,
+	FaTwitter,
+	FaYoutube,
+} from "react-icons/fa";
+
 export const navLinks = [
 	{
 		id: "/",
@@ -177,5 +188,41 @@ export const DUMMY_SUGGESTIONS = [
 		id: 6,
 		title: "Casbah d'Alger",
 		img: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/48/c3/60/20180224-122151-largejpg.jpg?w=900&h=600&s=1",
+	},
+];
+
+export const contactInfos = [
+	{
+		href: "https://www.google.com/maps/place/Ecole+Nationale+Sup%C3%A9rieure+d'Informatique+(Higher+School+for+Computer+Science)/@36.7050299,3.1739156,15z/data=!4m5!3m4!1s0x0:0x215c157a5406653c!8m2!3d36.7050299!4d3.1739156",
+		name: "Place",
+		icon: <RiMapPin2Fill size={20}></RiMapPin2Fill>,
+		content: "Oued Smar, Alger",
+	},
+	{
+		href: "mailto:km_benbetka@esi.dz",
+		name: "Mail",
+		icon: <MdMail size={20}></MdMail>,
+		content: "contact@utotech.com",
+	},
+	{
+		href: "tel:+213666636252",
+		name: "Phone",
+		icon: <BsFillTelephoneFill size={20}></BsFillTelephoneFill>,
+		content: "+213 667 271 665",
+	},
+];
+
+export const aboutInfo = [
+	{
+		href: "https://uto-tech.vercel.app/",
+		name: "website",
+		icon: <BsGlobe size={20} />,
+		content: "website",
+	},
+	{
+		href: "mailto:schoolofai.algiers@esi.dz",
+		name: "team",
+		icon: <RiTeamLine size={20}></RiTeamLine>,
+		content: "Our team",
 	},
 ];

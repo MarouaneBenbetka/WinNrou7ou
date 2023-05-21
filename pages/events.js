@@ -1,5 +1,6 @@
 import EventCard from "@/components/events/EventCard";
-import SuggestionCard from "@/components/suggestions/SuggestionCard";
+import SmallEventCard from "@/components/events/SmallEventCard";
+import Footer from "@/components/shared/Footer";
 import { staggerContainer, textVariant } from "@/styles/motion";
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -20,6 +21,36 @@ const DUMMY_EVENTS = [
 	},
 	{
 		id: 3,
+		title: "Timgad International Festival of Music",
+		date: "25-05-2023",
+		image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/48/c3/60/20180224-122151-largejpg.jpg?w=900&h=600&s=1",
+	},
+	{
+		id: 4,
+		title: "Timgad International Festival of Music",
+		date: "25-05-2023",
+		image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/48/c3/60/20180224-122151-largejpg.jpg?w=900&h=600&s=1",
+	},
+	{
+		id: 5,
+		title: "Timgad International Festival of Music",
+		date: "25-05-2023",
+		image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/48/c3/60/20180224-122151-largejpg.jpg?w=900&h=600&s=1",
+	},
+	{
+		id: 5,
+		title: "Timgad International Festival of Music",
+		date: "25-05-2023",
+		image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/48/c3/60/20180224-122151-largejpg.jpg?w=900&h=600&s=1",
+	},
+	{
+		id: 7,
+		title: "Timgad International Festival of Music",
+		date: "25-05-2023",
+		image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/48/c3/60/20180224-122151-largejpg.jpg?w=900&h=600&s=1",
+	},
+	{
+		id: 8,
 		title: "Timgad International Festival of Music",
 		date: "25-05-2023",
 		image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/48/c3/60/20180224-122151-largejpg.jpg?w=900&h=600&s=1",
@@ -87,9 +118,9 @@ const Events = () => {
 						className="object-fill"
 					/>
 				</div>
-				<div className=" px-10 ">
-					<div className="carousel carousel-start overflow-visible md:flex  mt-7 w-[300px] md:w-[640px]  x3:w-auto py-4 px-6">
-						{DUMMY_EVENTS.map((event) => (
+				<div className=" px-10 flex justify-center items-center">
+					<div className="  flex mmmd:block  mmd:carousel mmmd:carousel-start   mt-7 mmd:w-[100vw]   py-4 px-6">
+						{DUMMY_EVENTS.slice(0, 3).map((event) => (
 							<EventCard
 								key={event.id}
 								title={event.title}
@@ -114,7 +145,28 @@ const Events = () => {
 						className="object-fill"
 					/>
 				</div>
+				<div className=" hidden md:grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-6 mt-8 mb-4 ">
+					{DUMMY_EVENTS.map((event) => (
+						<SmallEventCard
+							key={event.id}
+							title={event.title}
+							date={event.date}
+							image={event.image}
+						/>
+					))}
+				</div>
+				<div className="    md:hidden  carousel carousel-start   mt-7 w-[100vw]   py-4 px-6">
+					{DUMMY_EVENTS.map((event) => (
+						<EventCard
+							key={event.id}
+							title={event.title}
+							date={event.date}
+							image={event.image}
+						/>
+					))}
+				</div>
 			</section>
+			<Footer />
 		</div>
 	);
 };
