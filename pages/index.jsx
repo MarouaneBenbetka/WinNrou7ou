@@ -8,7 +8,7 @@ import Suggestions from "@/components/suggestions/Suggestions";
 import { uiActions } from "@/store/ui-slice";
 import { motion } from "framer-motion";
 import { staggerContainer, textVariant } from "../styles/motion";
-import Image from "next/image";
+import Modal from "@/components/auth/Modal";
 
 const MapWrapper = dynamic(() => import("@/components/map/InteractiveMap"), {
 	ssr: false,
@@ -58,18 +58,24 @@ export default function Home() {
 				<motion.h1
 					className="text-4xl md:text-6xl pb-2  font-semibold"
 					variants={textVariant(0.4)}
+					initial="hidden"
+					animate="show"
 				>
 					{heroData["title1"][lang]}
 				</motion.h1>
 				<motion.h2
 					className="text-4xl relative z-1 md:text-6xl font-semibold before:content-[''] before:h-5 before:bg-blue before:w-full before:absolute before:bottom-0 before:left-0 before:-z-10"
 					variants={textVariant(0.4)}
+					initial="hidden"
+					animate="show"
 				>
 					{heroData["title2"][lang]}
 				</motion.h2>
 				<motion.p
 					className="mx-5 md:mx-[20vw] text-center text-lg md:text-xl mt-6"
 					variants={textVariant(0.6)}
+					initial="hidden"
+					animate="show"
 				>
 					{heroData["summary"][lang]}
 				</motion.p>

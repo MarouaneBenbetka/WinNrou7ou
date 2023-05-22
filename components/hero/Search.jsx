@@ -77,6 +77,8 @@ const Search = ({ onSearch, onFilter, stickTop }, ref) => {
 					: "mt-10"
 			}`}
 			variants={zoomVariant(0.9)}
+			initial="hidden"
+			animate="show"
 		>
 			<div className="flex items-center justify-center">
 				<div

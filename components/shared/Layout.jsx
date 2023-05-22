@@ -2,6 +2,7 @@ import Head from "next/head";
 import React, { Children, useEffect, useState } from "react";
 import { uiActions } from "@/store/ui-slice";
 import { useSelector, useDispatch } from "react-redux";
+import Modal from "../auth/Modal";
 
 function getWindowHeight() {
 	return window.innerHeight;

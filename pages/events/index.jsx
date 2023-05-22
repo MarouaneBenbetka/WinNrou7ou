@@ -146,7 +146,7 @@ const Events = () => {
 						className="object-fill"
 					/>
 				</div>
-				<div className=" hidden md:grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-6 mt-8 mb-4 ">
+				<div className=" hidden md:grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-6 mt-8 mb-14 ">
 					{DUMMY_EVENTS.map((event) => (
 						<SmallEventCard
 							id={event.id}
@@ -157,7 +157,7 @@ const Events = () => {
 						/>
 					))}
 				</div>
-				<div className="    md:hidden  carousel carousel-start   mt-7 w-[100vw]   py-4 px-6">
+				<div className="    md:hidden  carousel carousel-start   mt-7 w-[100vw]   py-4 px-6 mb-8">
 					{DUMMY_EVENTS.map((event) => (
 						<EventCard
 							key={event.id}

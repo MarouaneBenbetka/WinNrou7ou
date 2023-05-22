@@ -89,3 +89,31 @@ body {
 .mantine-carousel button {
 	background-color: white;
 }
+
+.backdrop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 1;
+}
+.modal {
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 40px 20px;
+	background: white;
+	border-radius: 10px;
+	text-align: center;
+}
+.modal button {
+	color: #444;
+	border-color: #444;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.modal p {
+	color: #444;
+	font-weight: bold;
+}

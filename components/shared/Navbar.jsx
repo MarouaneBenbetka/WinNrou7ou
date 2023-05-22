@@ -7,7 +7,7 @@ import LanguagePicker from "../navbar/LanguagePicker";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-const Navbar = () => {
+const Navbar = ({ setShowModal }) => {
 	const [navMobile, setNavMobile] = useState(false);
 	const ui = useSelector((state) => state.ui);
 	const lang = useSelector((state) => state.ui.language);
@@ -19,6 +19,10 @@ const Navbar = () => {
 		to: { maxHeight: navMobile ? "1000px" : "0px" },
 		config: { duration: "200" },
 	});
+
+	const loginHandler = () => {
+		setShowModal(true);
+	};
 
 	return (
 		<div
@@ -55,7 +59,10 @@ const Navbar = () => {
 				<div className="hidden mr-3 md:flex items-center gap-4">
 					<LanguagePicker />
 
-					<button className="px-4 py-2 hover:text-green hover:bg-transparent  rounded-[10px] font-bold border-2 border-green bg-green text-dark transition">
+					<button
+						className="px-4 py-2 hover:text-green hover:bg-transparent  rounded-[10px] font-bold border-2 border-green bg-green text-dark transition"
+						onClick={loginHandler}
+					>
 						{lang === "Arabic" ? "تسجيل الدخول" : "login"}
 					</button>
 				</div>

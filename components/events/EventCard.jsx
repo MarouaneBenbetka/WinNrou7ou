@@ -9,28 +9,32 @@ const EventCard = ({ id, title, date, image }) => {
 	const [isHovering, setIsHovering] = useState(false);
 
 	return (
-		<Link
+		<div
 			className=" carousel-item  relative mx-5 w-fit rounded-2xl overflow-hidden shadow-xl hover:scale-[1.04] transition cursor-pointer"
 			onMouseOver={() => setIsHovering(true)}
 			onMouseLeave={() => setIsHovering(false)}
-			href={"/events/" + id}
 		>
 			<div className="absolute inset-0  bg-[#0B1723] opacity-10 z-10"></div>
-			<div className="w-[250px] h-[360px] md:w-[300px] md:h-[440px]">
-				<Image
-					fill
-					src={image}
-					alt=""
-					className="rounded-2xl object-cover"
-				/>
-			</div>
-			<div className="absolute bottom-0 w-full h-[120px] bg-black  bg-opacity-60 flex flex-col justify-center items-center">
-				<h2 className="font-semibold text-center px-3">{title}</h2>
-				<div className="flex gap-3 text-sm items-center mt-1">
-					<FiCalendar size={22} className="text-white opacity-80" />
-					<p>{date}</p>
+			<Link href={"/events/" + id} className="z-30">
+				<div className="w-[250px] h-[360px] md:w-[300px] md:h-[440px]">
+					<Image
+						fill
+						src={image}
+						alt=""
+						className="rounded-2xl object-cover"
+					/>
 				</div>
-			</div>
+				<div className="absolute bottom-0 w-full h-[120px] bg-black  bg-opacity-60 flex flex-col justify-center items-center">
+					<h2 className="font-semibold text-center px-3">{title}</h2>
+					<div className="flex gap-3 text-sm items-center mt-1">
+						<FiCalendar
+							size={22}
+							className="text-white opacity-80"
+						/>
+						<p>{date}</p>
+					</div>
+				</div>
+			</Link>
 			<div
 				className="absolute top-2 right-2 cursor-pointer z-40"
 				onClick={(e) => {
@@ -54,7 +58,7 @@ const EventCard = ({ id, title, date, image }) => {
 					<FiExternalLink size={26} className="text-white  " />
 				</motion.div>
 			)}
-		</Link>
+		</div>
 	);
 };
 
