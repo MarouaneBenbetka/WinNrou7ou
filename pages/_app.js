@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }) {
 	return (
 		<Provider store={store}>
 			<Head>
-				<title>WEEN e-tourisme</title>
+				<title>WIN e-tourisme</title>
 				<link rel="icon" href="/favicon.ico" sizes="any" />
 			</Head>
 			<Modal showModal={showModal} setShowModal={setShowModal} />

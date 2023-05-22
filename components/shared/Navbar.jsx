@@ -25,97 +25,106 @@ const Navbar = ({ setShowModal }) => {
 	};
 
 	return (
-		<div
-			className={`snap-start z-50  top-0 w-screen ${
-				pathname === "/" ? "absolute" : "fixed"
-			} ${
-				navMobile || ui.navBarColor === "blur"
-					? " bg-[#0B1723] backdrop-filter backdrop-blur-xl bg-opacity-40 "
-					: " bg-transparent"
-			} md:transition md:ease-in-out md:duration-200`}
-		>
-			<div className="flex justify-between items-center   sm:px-8  py-4 md:px-4 lg:px-8">
-				<div className="ml-4">
-					<h1>logo</h1>
-				</div>
-				<ul
-					className={
-						"hidden md:flex items-center gap-2 " +
-						(lang === "Arabic" ? " flex-row-reverse" : "flex-row")
-					}
-				>
-					{navLinks.map((navLink, index) => (
-						<li
-							key={index}
-							className="relative md:px-3 lg:px-5 nav-link cursor-pointer"
-						>
-							<Link href={navLink.id} className={" text-[18px] "}>
-								{navLink["title" + lang]}
-							</Link>
-						</li>
-					))}
-				</ul>
-
-				<div className="hidden mr-3 md:flex items-center gap-4">
-					<LanguagePicker />
-
-					<button
-						className="px-4 py-2 hover:text-green hover:bg-transparent  rounded-[10px] font-bold border-2 border-green bg-green text-dark transition"
-						onClick={loginHandler}
-					>
-						{lang === "Arabic" ? "تسجيل الدخول" : "login"}
-					</button>
-				</div>
-
-				<div className="block md:hidden relative cursor-pointer ">
-					{navMobile ? (
-						<FaTimes
-							className="text-3xl mr-4"
-							onClick={() => setNavMobile(!navMobile)}
-						/>
-					) : (
-						<FaBars
-							className="text-3xl mr-4"
-							onClick={() => setNavMobile(!navMobile)}
-						/>
-					)}
-
-					<animated.div
-						style={openAnimation}
+		pathname !== "/signup" && (
+			<div
+				className={`snap-start z-50  top-0 w-screen ${
+					pathname === "/" ? "absolute" : "fixed"
+				} ${
+					navMobile || ui.navBarColor === "blur"
+						? " bg-[#0B1723] backdrop-filter backdrop-blur-xl bg-opacity-40 "
+						: " bg-transparent"
+				} md:transition md:ease-in-out md:duration-200`}
+			>
+				<div className="flex justify-between items-center   sm:px-8  py-4 md:px-4 lg:px-8">
+					<div className="ml-4">
+						<h1>logo</h1>
+					</div>
+					<ul
 						className={
-							"absolute flex flex-col z-20 justify-start items-center gap-4 bg-dark backdrop-filter backdrop-blur-lg bg-opacity-70  rounded-lg px-8   text-center top-10 right-0 w-screen h-screen overflow-hidden"
+							"hidden md:flex items-center gap-2 " +
+							(lang === "Arabic"
+								? " flex-row-reverse"
+								: "flex-row")
 						}
 					>
-						<ul className="flex flex-col  ">
-							{navLinks.map((navLink, index) => (
-								<li
-									key={index}
-									className="relative w-screen  focus:bg-zinc-900 hover:bg-zinc-900 p-4 rounded-lg focus:underline"
-									onClick={() => {
-										setNavMobile(false);
-									}}
+						{navLinks.map((navLink, index) => (
+							<li
+								key={index}
+								className="relative md:px-3 lg:px-5 nav-link cursor-pointer"
+							>
+								<Link
+									href={navLink.id}
+									className={" text-[18px] "}
 								>
-									<a
-										href={
-											index === 0 ? "#" : `#${navLink.id}`
-										}
-										className="w-full text-[20px]"
+									{navLink["title" + lang]}
+								</Link>
+							</li>
+						))}
+					</ul>
+
+					<div className="hidden mr-3 md:flex items-center gap-4">
+						<LanguagePicker />
+
+						<button
+							className="px-4 py-2 hover:text-green hover:bg-transparent  rounded-[10px] font-bold border-2 border-green bg-green text-dark transition"
+							onClick={loginHandler}
+						>
+							{lang === "Arabic" ? "تسجيل الدخول" : "login"}
+						</button>
+					</div>
+
+					<div className="block md:hidden relative cursor-pointer ">
+						{navMobile ? (
+							<FaTimes
+								className="text-3xl mr-4"
+								onClick={() => setNavMobile(!navMobile)}
+							/>
+						) : (
+							<FaBars
+								className="text-3xl mr-4"
+								onClick={() => setNavMobile(!navMobile)}
+							/>
+						)}
+
+						<animated.div
+							style={openAnimation}
+							className={
+								"absolute flex flex-col z-20 justify-start items-center gap-4 bg-dark backdrop-filter backdrop-blur-lg bg-opacity-70  rounded-lg px-8   text-center top-10 right-0 w-screen h-screen overflow-hidden"
+							}
+						>
+							<ul className="flex flex-col  ">
+								{navLinks.map((navLink, index) => (
+									<li
+										key={index}
+										className="relative w-screen  focus:bg-zinc-900 hover:bg-zinc-900 p-4 rounded-lg focus:underline"
+										onClick={() => {
+											setNavMobile(false);
+										}}
 									>
-										{navLink["title" + lang]}
-									</a>
-								</li>
-							))}
-						</ul>
-						<div className="flex gap-4 items-center">
-							<LanguagePicker />
-							<button className="mt-2 px-4 py-2 text-green  rounded-[10px] font-semibold border-2 border-green hover:bg-green hover:text-dark transition ">
-								Login
-							</button>
-						</div>
-					</animated.div>
+										<a
+											href={
+												index === 0
+													? "#"
+													: `#${navLink.id}`
+											}
+											className="w-full text-[20px]"
+										>
+											{navLink["title" + lang]}
+										</a>
+									</li>
+								))}
+							</ul>
+							<div className="flex gap-4 items-center">
+								<LanguagePicker />
+								<button className="mt-2 px-4 py-2 text-green  rounded-[10px] font-semibold border-2 border-green hover:bg-green hover:text-dark transition ">
+									Login
+								</button>
+							</div>
+						</animated.div>
+					</div>
 				</div>
 			</div>
-		</div>
+		)
 	);
 };
 

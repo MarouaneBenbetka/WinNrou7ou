@@ -105,6 +105,7 @@ const InfoModal = () => {
 			initial={{ x: "-400px" }}
 			animate={{ x: 0 }}
 			transition={{ type: "spring", stiffness: 105 }}
+			exit={{ x: "-400px" }}
 		>
 			<h1 className="text-blue text-center font-semibold text-2xl">
 				{DUMMY_INFO.title}
