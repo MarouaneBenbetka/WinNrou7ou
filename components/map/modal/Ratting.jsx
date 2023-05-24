@@ -6,13 +6,14 @@ const Ratting = ({ num }) => {
 			{[...Array(num)].map((_, index) => (
 				<AiFillStar key={index} size={26} className="text-orange" />
 			))}
-			{[...Array(5 - num)].map((_, index) => (
-				<AiOutlineStar
-					key={index}
-					size={26}
-					className="text-dark opacity-70"
-				/>
-			))}
+			{num < 5 &&
+				[...Array(5 - num)].map((_, index) => (
+					<AiOutlineStar
+						key={index}
+						size={26}
+						className="text-dark opacity-70"
+					/>
+				))}
 		</div>
 	);
 };

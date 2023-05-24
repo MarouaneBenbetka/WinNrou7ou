@@ -92,29 +92,32 @@ import { FiBookOpen } from "react-icons/fi";
 import Ratting from "./Ratting";
 import { MdExpandMore } from "react-icons/md";
 import { FaRegCommentDots } from "react-icons/fa";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Review from "./Review";
+import axios from "axios";
 
 const InfoModal = ({ id }) => {
 	const [expandHistory, setExpandHistory] = useState(false);
 	const [expandReviews, setExpandReviews] = useState(false);
 	const [modalData, setModalData] = useState(DUMMY_INFO);
 
-	// useEffect(() => {
-	// 	const fetchMarkers = async () => {
-	// 		try {
-	// 			const res = await axios.get(
-	// 				`http://localhost:3000/api/monuments/${id}`
-	// 			);
-	// 			setMarkers(res.data.monuments);
-	// 		} catch (e) {
-	// 			console.log(e);
-	// 		}
-	// 	};
-	// 	fetchMarkers();
-	// }, []);
+	useEffect(() => {
+		const fetchMarkers = async () => {
+			try {
+				const res = await axios.get(
+					`http://localhost:3000/api/monuments/${id}`
+				);
+				setModalData(res.data.monument);
+			} catch (e) {
+				console.log(e);
+			}
+		};
+		fetchMarkers();
+	}, []);
 
+	console.log("Modal data --------------------------");
+	console.log(modalData);
 	return (
 		<motion.div
 			className="mantine-carousel bg-white shadow-md h-[calc(95vh-150px)] py-5 px-2 w-[360px] rounded-3xl absolute left-4 top-28 z-50 overflow-y-scroll"
@@ -124,7 +127,7 @@ const InfoModal = ({ id }) => {
 			exit={{ x: "-400px" }}
 		>
 			<h1 className="text-blue text-center font-semibold text-2xl">
-				{DUMMY_INFO.title}
+				{modalData.title}
 			</h1>
 			<h3 className="text-green font-medium text-lg text-center py-2">
 				open
@@ -147,7 +150,7 @@ const InfoModal = ({ id }) => {
 					},
 				}}
 			>
-				{DUMMY_INFO.images.map((img, index) => (
+				{modalData.images.map((img, index) => (
 					<Carousel.Slide key={index}>
 						<Image src={img} alt="" fill />
 					</Carousel.Slide>
@@ -156,11 +159,11 @@ const InfoModal = ({ id }) => {
 			<div className="mt-4 ml-10 mr-5">
 				<RowInfo>
 					<GoLocation size={28} className="text-orange" />
-					<p className="text-dark">Casbah d&apos;Alger , Alger</p>
+					<p className="text-dark">{modalData.wilaya}</p>
 				</RowInfo>
 				<RowInfo>
 					<CiGrid41 size={28} className="text-orange" />
-					<p className="text-dark">Museum</p>
+					<p className="text-dark">{modalData.type}</p>
 				</RowInfo>
 
 				<RowInfo>
@@ -186,7 +189,7 @@ const InfoModal = ({ id }) => {
 						className="ml-6  text-gray-500 text-sm text-justify mb-4 cursor-pointer"
 						onClick={() => setExpandHistory(false)}
 					>
-						{DUMMY_INFO.summary}
+						{modalData.summary}
 					</p>
 				)}
 				<RowInfo>
@@ -202,11 +205,11 @@ const InfoModal = ({ id }) => {
 					/>
 				</RowInfo>
 				<div className="flex justify-center">
-					<Ratting num={3} />
+					<Ratting num={modalData.rating} />
 				</div>
 				{expandReviews && (
 					<div className="ml-2 mt-4">
-						{DUMMY_INFO.reviews.map((item, index) => (
+						{modalData.reviews.map((item, index) => (
 							<Review
 								key={index}
 								sender={item.sender}

@@ -51,6 +51,12 @@ export async function getMonument(req, res) {
 			...usersReviews,
 			...externalReviews
 		);
+		monument.dataValues.type = (
+			await MonumentTypesItem.findOne({
+				where: { monument_id: monument.id },
+				attributes: ["type"],
+			})
+		).type;
 		res.status(200).send({ monument: monument.dataValues });
 	} catch (err) {
 		console.log(err);
