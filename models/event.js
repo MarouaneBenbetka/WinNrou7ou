@@ -1,21 +1,21 @@
-import {STRING, DOUBLE, ENUM, SMALLINT, INTEGER, TEXT} from 'sequelize';
+import {DATE, DOUBLE, INTEGER, STRING, TEXT} from 'sequelize';
 
 
 import db from "../utils/config/dbConnection";
 
-const Monument = db.define('monument', {
+const Event = db.define('event', {
     id:{
         type:INTEGER.UNSIGNED,
         primaryKey:true,
         autoIncrement:true
     },
-    title:{
+    name:{
         type:STRING,
-        allowNull:true,
+        allowNull:false,
     },
-    summary:{
+    description:{
         type:TEXT,
-        allowNull:true
+        allowNull:false
     },
     latitude:{
         type:DOUBLE,
@@ -25,11 +25,16 @@ const Monument = db.define('monument', {
         type:DOUBLE,
         allowNull:true
     },
-    rating:{
-        type:SMALLINT,
-        defaultValue:0
+    date:{
+        type:DATE,
+        allowNull:false
+    },
+    image_url:{
+        type:STRING,
+        allowNull:false
     }
+
 },{timestamps:false});
 
 
-export default Monument;
+export default Event;

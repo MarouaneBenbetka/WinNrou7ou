@@ -3,7 +3,7 @@ import {INTEGER, STRING, TEXT} from 'sequelize';
 
 import db from "../utils/config/dbConnection";
 
-const Review = db.define('review', {
+const ExternalReview = db.define('external_review', {
     id:{
         type:INTEGER.UNSIGNED,
         primaryKey:true,
@@ -12,8 +12,16 @@ const Review = db.define('review', {
     comment:{
         type:TEXT,
         allowNull:false,
+    },
+    sender:{
+        type:STRING,
+        allowNull: false,
+    },
+    sender_image:{
+        type:STRING,
+        allowNull:false
     }
-},{createdAt:true,updatedAt:false});
+},{timestamps:false});
 
 
-export default Review;
+export default ExternalReview;

@@ -27,8 +27,9 @@ const User = db.define('user', {
     },
     gender:{
         type:ENUM("H","F"),
+        defaultValue: "H",
     }
-});
+},{createdAt:true,updatedAt:false});
 
 
 export default User;

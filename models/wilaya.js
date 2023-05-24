@@ -1,4 +1,4 @@
-import { STRING,ENUM, INTEGER,TINYINT} from 'sequelize';
+import { STRING} from 'sequelize';
 
 
 import db from "../utils/config/dbConnection";
