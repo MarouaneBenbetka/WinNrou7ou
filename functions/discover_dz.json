@@ -8336,5 +8336,4272 @@
 			}
 		],
 		"rating": 5
+	},
+	{
+		"title": "H\u00f4tel Sultan - Djelfa",
+		"wilaya": "Djelfa",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "34.665569", "lon": "3.255687" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-Sultan-Djelfa.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-Sultan-Djelfa.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Zahra",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les passionn\u00e9s d'architecture."
+			},
+			{
+				"sender": "Abdullah",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut savourer une cuisine d\u00e9licieuse."
+			},
+			{
+				"sender": "Khaled",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amateurs d'art."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "Mus\u00e9e d'anthropologie et d'art traditionnel",
+		"wilaya": "Djelfa",
+		"types": ["Mus\u00e9e"],
+		"summary": "",
+		"coordinates": { "lat": "34.675711", "lon": "3.25431" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Youssef",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui propose une vari\u00e9t\u00e9 d'activit\u00e9s pour tous les go\u00fbts."
+			},
+			{
+				"sender": "Khaled",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit magnifique \u00e0 visiter absolument!"
+			},
+			{
+				"sender": "Hassan",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination incontournable pour les amateurs de voyages."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "Parc Zoologique de Djelfa",
+		"wilaya": "Djelfa",
+		"types": ["Zoo"],
+		"summary": "",
+		"coordinates": { "lat": "34.657137", "lon": "3.264806" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Djamila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit id\u00e9al pour se d\u00e9tendre et se ressourcer."
+			},
+			{
+				"sender": "Ines",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination incontournable pour les amateurs de voyages."
+			},
+			{
+				"sender": "Ahmed",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui offre une exp\u00e9rience unique."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "H\u00f4tel El Emir",
+		"wilaya": "Djelfa",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "34.675932", "lon": "3.252518" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-El-Amir-Djelfa.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-El-Amir-Djelfa.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-El-Amir-Djelfa-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-El-Amir-Djelfa-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-El-Amir-Djelfa-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-El-Amir-Djelfa-2.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Samia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui vous offre une exp\u00e9rience unique et authentique."
+			},
+			{
+				"sender": "Amel",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit id\u00e9al pour se d\u00e9tendre et se ressourcer."
+			},
+			{
+				"sender": "Abdelkader",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amoureux de la gastronomie."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "H\u00f4tel Ajiad",
+		"wilaya": "Djelfa",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "34.662477", "lon": "3.276817" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-Ajiad.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-Ajiad.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-Ajiad-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-Ajiad-1.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Amina",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui vous \u00e9merveillera par sa beaut\u00e9 naturelle."
+			},
+			{
+				"sender": "Lila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination pleine de surprises et de contrastes."
+			},
+			{
+				"sender": "Sara",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 r\u00e8gne une ambiance chaleureuse."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "h\u00f4tel El Watania",
+		"wilaya": "Djelfa",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "35.428856", "lon": "2.917054" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-El-watania.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-El-watania.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-El-watania-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-El-watania-1.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Ahmed",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui vous offre une exp\u00e9rience unique et authentique."
+			},
+			{
+				"sender": "Amir",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu plein de charme et d'histoire."
+			},
+			{
+				"sender": "Lamia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amateurs de sports nautiques."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "Th\u00e9\u00e2tre de Djelfa",
+		"wilaya": "Djelfa",
+		"types": ["Salle de spectacles / Th\u00e9\u00e2tre"],
+		"summary": "",
+		"coordinates": { "lat": "34.658313", "lon": "3.263631" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Amel",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui propose une vari\u00e9t\u00e9 d'activit\u00e9s pour tous les go\u00fbts."
+			},
+			{
+				"sender": "Zahra",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 l'on peut admirer des couchers de soleil \u00e0 couper le souffle."
+			},
+			{
+				"sender": "Nadia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 r\u00e8gne une ambiance conviviale et festive."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "Gravures rupestres de Tin Taghirt",
+		"wilaya": "Illizi",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "25.148761", "lon": "8.505974" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Gravures-rupestres-de-Tin-Taghirt-Djanet.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Gravures-rupestres-de-Tin-Taghirt-Djanet.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Abdelkader",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui offre une vue panoramique exceptionnelle."
+			},
+			{
+				"sender": "Samia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut se d\u00e9tendre au bord de la mer."
+			},
+			{
+				"sender": "Mohamed",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination riche en histoire et en patrimoine."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "Tassili N\u2019ajjer",
+		"wilaya": "Illizi",
+		"types": ["R\u00e9serve naturelle"],
+		"summary": "",
+		"coordinates": { "lat": "25.813595", "lon": "8.133856" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Tassili-Najjer-5.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Tassili-Najjer-5.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Tassili-Najjer-4.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Tassili-Najjer-4.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Tassili-Najjer-3.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Tassili-Najjer-3.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Tassili-Najjer-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Tassili-Najjer-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Tassili-Najjer-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Tassili-Najjer-1.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Sofia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amoureux de la nature."
+			},
+			{
+				"sender": "Rachid",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu charg\u00e9 de culture et de traditions."
+			},
+			{
+				"sender": "Nadia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amateurs de sports nautiques."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "Ksar El Mihane",
+		"wilaya": "Illizi",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "24.547122", "lon": "9.485134" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-El-Mihane.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-El-Mihane.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Houda",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit id\u00e9al pour se d\u00e9tendre et se ressourcer."
+			},
+			{
+				"sender": "Amel",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 l'on peut admirer des couchers de soleil \u00e0 couper le souffle."
+			},
+			{
+				"sender": "Amel",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amateurs d'art."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "T\u00e9n\u00e9r\u00e9 Village",
+		"wilaya": "Illizi",
+		"types": ["G\u00eete / Maison d'h\u00f4te"],
+		"summary": "",
+		"coordinates": { "lat": "24.471654", "lon": "9.506447" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Tenere-Village.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Tenere-Village.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Tenere-Village-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Tenere-Village-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Tenere-Village-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Tenere-Village-1.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Nadia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination pleine de surprises et de contrastes."
+			},
+			{
+				"sender": "Ahmed",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les passionn\u00e9s d'architecture."
+			},
+			{
+				"sender": "Sara",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination pleine de surprises et de contrastes."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "A\u00e9roport d'Illizi - Takhamalt",
+		"wilaya": "Illizi",
+		"types": ["Utiles / Services"],
+		"summary": "",
+		"coordinates": { "lat": "26.719115", "lon": "8.618186" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Samia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 l'on peut se perdre dans les ruelles pittoresques."
+			},
+			{
+				"sender": "Youssef",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu plein de charme et d'histoire."
+			},
+			{
+				"sender": "Lamia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui vous \u00e9merveillera par sa beaut\u00e9 naturelle."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "A\u00e9roport de Djanet - Tiska",
+		"wilaya": "Illizi",
+		"types": ["Utiles / Services"],
+		"summary": "",
+		"coordinates": { "lat": "24.286698", "lon": "9.460322" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Lila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 r\u00e8gne une ambiance conviviale et festive."
+			},
+			{
+				"sender": "Djamila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amateurs d'art."
+			},
+			{
+				"sender": "Salma",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amoureux de la nature."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "A\u00e9roport de In Am\u00e9nas - Zarzaitine",
+		"wilaya": "Illizi",
+		"types": ["Utiles / Services"],
+		"summary": "",
+		"coordinates": { "lat": "28.051605", "lon": "9.637976" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Fatima",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amoureux de la nature."
+			},
+			{
+				"sender": "Abdelkader",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu charg\u00e9 de culture et de traditions."
+			},
+			{
+				"sender": "Sara",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit \u00e0 ne pas manquer lors de votre prochain voyage."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "Mus\u00e9e Tassili",
+		"wilaya": "Illizi",
+		"types": ["Mus\u00e9e"],
+		"summary": "",
+		"coordinates": { "lat": "24.554138", "lon": "9.485951" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Nadia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit avec une atmosph\u00e8re anim\u00e9e et dynamique."
+			},
+			{
+				"sender": "Fatima",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amoureux de la gastronomie."
+			},
+			{
+				"sender": "Omar",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut savourer une cuisine d\u00e9licieuse."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "Tadrart Village",
+		"wilaya": "Illizi",
+		"types": ["G\u00eete / Maison d'h\u00f4te"],
+		"summary": "",
+		"coordinates": { "lat": "24.481223", "lon": "9.506624" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Tadrart-Village.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Tadrart-Village.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Tariq",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit \u00e0 ne pas manquer lors de votre prochain voyage."
+			},
+			{
+				"sender": "Rachid",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit \u00e0 ne pas manquer lors de votre prochain voyage."
+			},
+			{
+				"sender": "Fatima",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit rempli de merveilles \u00e0 explorer."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "Parc d'attractions Bordj Bou Arreridj (\u062d\u062f\u064a\u0642\u0629 \u0627\u0644\u0646\u0648\u0631 \u0648\u0627\u0644\u0646\u0633\u064a\u0645)",
+		"wilaya": "BordjBouArreridj",
+		"types": ["Parc / Jardin"],
+		"summary": "",
+		"coordinates": { "lat": "36.064622", "lon": "4.777486" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/%D8%AD%D8%AF%D9%8A%D9%82%D8%A9-%D8%A7%D9%84%D9%86%D9%88%D8%B1-%D9%88-%D8%A7%D9%84%D9%86%D8%B3%D9%8A%D9%85.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/%D8%AD%D8%AF%D9%8A%D9%82%D8%A9-%D8%A7%D9%84%D9%86%D9%88%D8%B1-%D9%88-%D8%A7%D9%84%D9%86%D8%B3%D9%8A%D9%85.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/%D8%AD%D8%AF%D9%8A%D9%82%D8%A9-%D8%A7%D9%84%D9%86%D9%88%D8%B1-%D9%88-%D8%A7%D9%84%D9%86%D8%B3%D9%8A%D9%85-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/%D8%AD%D8%AF%D9%8A%D9%82%D8%A9-%D8%A7%D9%84%D9%86%D9%88%D8%B1-%D9%88-%D8%A7%D9%84%D9%86%D8%B3%D9%8A%D9%85-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/%D8%AD%D8%AF%D9%8A%D9%82%D8%A9-%D8%A7%D9%84%D9%86%D9%88%D8%B1-%D9%88-%D8%A7%D9%84%D9%86%D8%B3%D9%8A%D9%85-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/%D8%AD%D8%AF%D9%8A%D9%82%D8%A9-%D8%A7%D9%84%D9%86%D9%88%D8%B1-%D9%88-%D8%A7%D9%84%D9%86%D8%B3%D9%8A%D9%85-2.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Youssef",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu charg\u00e9 de culture et de traditions."
+			},
+			{
+				"sender": "Hassan",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit rempli de merveilles \u00e0 explorer."
+			},
+			{
+				"sender": "Djamila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amoureux de la nature."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "H\u00f4tel Beni HAMAD",
+		"wilaya": "BordjBouArreridj",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "36.068436", "lon": "4.765508" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-beni-hamad.jpg?resize=546%2C359&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-beni-hamad.jpg?resize=546%2C359&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-beni-hamad-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-beni-hamad-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-beni-hamad-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-beni-hamad-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-beni-hamad-2.jpg?resize=546%2C360&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-beni-hamad-2.jpg?resize=546%2C360&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Hichem",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit avec une atmosph\u00e8re anim\u00e9e et dynamique."
+			},
+			{
+				"sender": "Ali",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut se d\u00e9tendre au bord de la mer."
+			},
+			{
+				"sender": "Hassan",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination riche en histoire et en patrimoine."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "Bordj El Mokrani",
+		"wilaya": "BordjBouArreridj",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "36.072497", "lon": "4.761545" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/El-Mokrani-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/El-Mokrani-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/El-Mokrani.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/El-Mokrani.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Abdelkader",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 r\u00e8gne une ambiance conviviale et festive."
+			},
+			{
+				"sender": "Mohamed",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amoureux de la nature."
+			},
+			{
+				"sender": "Djamila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut savourer une cuisine d\u00e9licieuse."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "H\u00f4tel El Houria",
+		"wilaya": "BordjBouArreridj",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "36.08677", "lon": "4.773988" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-el-Houria-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-el-Houria-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-el-Houria.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-el-Houria.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-el-Houria-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-el-Houria-1.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Said",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui vous laisse des souvenirs inoubliables."
+			},
+			{
+				"sender": "Djamila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu plein de charme et d'histoire."
+			},
+			{
+				"sender": "Nour",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu charg\u00e9 de culture et de traditions."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "Musee de l'artisanat",
+		"wilaya": "BordjBouArreridj",
+		"types": ["Mus\u00e9e"],
+		"summary": "",
+		"coordinates": { "lat": "36.069707", "lon": "4.763208" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Rachid",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit id\u00e9al pour se d\u00e9tendre et se ressourcer."
+			},
+			{
+				"sender": "Said",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les passionn\u00e9s d'architecture."
+			},
+			{
+				"sender": "Djamila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui vous offre une exp\u00e9rience unique et authentique."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "Restaurant TSILIOUINE",
+		"wilaya": "BordjBouArreridj",
+		"types": ["Restauration"],
+		"summary": "",
+		"coordinates": { "lat": "36.068436", "lon": "4.765508" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/TSILIOUINE.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/TSILIOUINE.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-beni-hamad.jpg?resize=546%2C359&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-beni-hamad.jpg?resize=546%2C359&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Youssef",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui propose une vari\u00e9t\u00e9 d'activit\u00e9s pour tous les go\u00fbts."
+			},
+			{
+				"sender": "Ali",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu plein de charme et d'histoire."
+			},
+			{
+				"sender": "Omar",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui vous laisse des souvenirs inoubliables."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "Gravures Rupestres d'El Guicha",
+		"wilaya": "Laghouat",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "33.964195", "lon": "2.134334" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Dessins-rupestres-El-Guicha.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Dessins-rupestres-El-Guicha.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Amel",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui vous laisse des souvenirs inoubliables."
+			},
+			{
+				"sender": "Ines",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 l'on peut admirer des couchers de soleil \u00e0 couper le souffle."
+			},
+			{
+				"sender": "Djamila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu magique qui vous transporte dans un autre monde."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "A\u00e9roport d'Hassi R'Mel - Tilrhemt",
+		"wilaya": "Laghouat",
+		"types": ["Utiles / Services"],
+		"summary": "",
+		"coordinates": { "lat": "32.934713", "lon": "3.301039" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Lila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui offre une vue panoramique exceptionnelle."
+			},
+			{
+				"sender": "Sara",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination pleine de surprises et de contrastes."
+			},
+			{
+				"sender": "Mohamed",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu authentique et pr\u00e9serv\u00e9."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "A\u00e9roport de Laghouat",
+		"wilaya": "Laghouat",
+		"types": ["Utiles / Services"],
+		"summary": "",
+		"coordinates": { "lat": "33.764746", "lon": "2.92204" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Omar",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit magnifique \u00e0 visiter absolument!"
+			},
+			{
+				"sender": "Sara",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 l'on peut se perdre dans les ruelles pittoresques."
+			},
+			{
+				"sender": "Lila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit magnifique \u00e0 visiter absolument!"
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "H\u00f4tel El Hana - Laghouat",
+		"wilaya": "Laghouat",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "33.801099", "lon": "2.856701" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Ines",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amoureux de la nature."
+			},
+			{
+				"sender": "Karim",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit id\u00e9al pour se d\u00e9tendre et se ressourcer."
+			},
+			{
+				"sender": "Lila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amoureux de la gastronomie."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "H\u00f4tel Elboustane",
+		"wilaya": "Laghouat",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "33.800947", "lon": "2.857158" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Said",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amateurs de sports nautiques."
+			},
+			{
+				"sender": "Khaled",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amateurs d'art."
+			},
+			{
+				"sender": "Sara",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit avec une atmosph\u00e8re anim\u00e9e et dynamique."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "H\u00f4tel Marhaba (ex-Transatlantique)",
+		"wilaya": "Laghouat",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "33.808339", "lon": "2.883117" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Marhaba-Laghouat-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Marhaba-Laghouat-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Marhaba-Laghouat-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Marhaba-Laghouat-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Marhaba-Laghouat.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Marhaba-Laghouat.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Amir",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit id\u00e9al pour se d\u00e9tendre et se ressourcer."
+			},
+			{
+				"sender": "Hassan",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui offre une exp\u00e9rience unique."
+			},
+			{
+				"sender": "Ali",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut savourer une cuisine d\u00e9licieuse."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "Vieux Ksar",
+		"wilaya": "Laghouat",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "33.807341", "lon": "2.883989" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Vieux-Ksar-de-Laghouat.jpg?resize=400%2C300&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Vieux-Ksar-de-Laghouat.jpg?resize=400%2C300&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Ahmed",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui vous \u00e9merveillera par sa beaut\u00e9 naturelle."
+			},
+			{
+				"sender": "Youssef",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut savourer une cuisine d\u00e9licieuse."
+			},
+			{
+				"sender": "Nour",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit rempli de merveilles \u00e0 explorer."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "Zaouia Tidjania",
+		"wilaya": "Laghouat",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "33.795338", "lon": "2.305927" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Zaouia-Tidjania.jpg?resize=512%2C309&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Zaouia-Tidjania.jpg?resize=512%2C309&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Hassan",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amateurs d'art."
+			},
+			{
+				"sender": "Hichem",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amateurs d'art."
+			},
+			{
+				"sender": "Ahmed",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 l'on peut se perdre dans les ruelles pittoresques."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "Dolmens et Cromlechs (Sigus)",
+		"wilaya": "OumElBouaghi",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "36.071093", "lon": "6.783293" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Dolmens-et-Cromlechs-Sigus.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Dolmens-et-Cromlechs-Sigus.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Amir",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit avec une atmosph\u00e8re anim\u00e9e et dynamique."
+			},
+			{
+				"sender": "Ahmed",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 r\u00e8gne une ambiance conviviale et festive."
+			},
+			{
+				"sender": "Omar",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu plein de charme et d'histoire."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "Mus\u00e9e du Moudjahid",
+		"wilaya": "OumElBouaghi",
+		"types": ["Mus\u00e9e"],
+		"summary": "",
+		"coordinates": { "lat": "35.868106", "lon": "7.112554" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Sofia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui vous laisse des souvenirs inoubliables."
+			},
+			{
+				"sender": "Youssef",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 l'on peut admirer des couchers de soleil \u00e0 couper le souffle."
+			},
+			{
+				"sender": "Lamia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amateurs de sports nautiques."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "N\u00e9cropole m\u00e9galithique de Sigus",
+		"wilaya": "OumElBouaghi",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "36.117872", "lon": "6.797906" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Necropole-megalithique-de-Sigus.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Necropole-megalithique-de-Sigus.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Hichem",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu plein de charme et d'histoire."
+			},
+			{
+				"sender": "Karim",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu plein de charme et d'histoire."
+			},
+			{
+				"sender": "Karim",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut savourer une cuisine d\u00e9licieuse."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "Site de Gadiaufala (Ksar Sbahi)",
+		"wilaya": "OumElBouaghi",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "36.087877", "lon": "7.262006" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Gadiaufala.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Gadiaufala.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Hichem",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui propose une vari\u00e9t\u00e9 d'activit\u00e9s pour tous les go\u00fbts."
+			},
+			{
+				"sender": "Amir",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amoureux de la gastronomie."
+			},
+			{
+				"sender": "Karim",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit rempli de merveilles \u00e0 explorer."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "Th\u00e9\u00e2tre r\u00e9gional d\u2019Oum El Bouaghi",
+		"wilaya": "OumElBouaghi",
+		"types": ["Salle de spectacles / Th\u00e9\u00e2tre"],
+		"summary": "",
+		"coordinates": { "lat": "35.798263", "lon": "7.392012" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Fatima",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 l'on peut se perdre dans les ruelles pittoresques."
+			},
+			{
+				"sender": "Fatima",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les passionn\u00e9s d'architecture."
+			},
+			{
+				"sender": "Hassan",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 r\u00e8gne une ambiance chaleureuse."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "H\u00f4tel Sidi Djaballah",
+		"wilaya": "ElTarf",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "36.777222", "lon": "8.1225" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-sidi-djaballah.jpg?resize=473%2C355&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-sidi-djaballah.jpg?resize=473%2C355&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Karim",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amoureux de la nature."
+			},
+			{
+				"sender": "Amel",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination pleine de surprises et de contrastes."
+			},
+			{
+				"sender": "Youssef",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination riche en histoire et en patrimoine."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "H\u00f4tel El Mordjane",
+		"wilaya": "ElTarf",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "36.898344", "lon": "8.435504" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Nour",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amateurs d'art."
+			},
+			{
+				"sender": "Sara",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut se d\u00e9tendre au bord de la mer."
+			},
+			{
+				"sender": "Khaled",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 r\u00e8gne une ambiance conviviale et festive."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "Parc National d\u2019El kala",
+		"wilaya": "ElTarf",
+		"types": ["R\u00e9serve naturelle"],
+		"summary": "",
+		"coordinates": { "lat": "36.841246", "lon": "8.436608" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Parc-National-dEl-kala-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Parc-National-dEl-kala-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Parc-National-dEl-kala.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Parc-National-dEl-kala.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Parc-National-dEl-kala-7.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Parc-National-dEl-kala-7.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Parc-National-dEl-kala-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Parc-National-dEl-kala-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Parc-National-dEl-kala-6.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Parc-National-dEl-kala-6.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Parc-National-dEl-kala-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Parc-National-dEl-kala-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Parc-National-dEl-kala-4.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Parc-National-dEl-kala-4.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Parc-National-dEl-kala-3.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Parc-National-dEl-kala-3.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Khaled",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut savourer une cuisine d\u00e9licieuse."
+			},
+			{
+				"sender": "Hassan",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 r\u00e8gne une ambiance chaleureuse."
+			},
+			{
+				"sender": "Amina",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui offre une vue panoramique exceptionnelle."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "Fort Mersa El Kharez",
+		"wilaya": "ElTarf",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "36.898046", "lon": "8.439663" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Amir",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination pleine de surprises et de contrastes."
+			},
+			{
+				"sender": "Djamila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 r\u00e8gne une ambiance chaleureuse."
+			},
+			{
+				"sender": "Sara",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui vous laisse des souvenirs inoubliables."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "H\u00f4tel El Manar",
+		"wilaya": "ElTarf",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "36.898344", "lon": "8.435504" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Khaled",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amoureux de la nature."
+			},
+			{
+				"sender": "Tariq",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu pittoresque avec des paysages \u00e0 couper le souffle."
+			},
+			{
+				"sender": "Hichem",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui offre une exp\u00e9rience unique."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "H\u00f4tel Melegue",
+		"wilaya": "ElTarf",
+		"types": ["H\u00e9bergement"],
+		"summary": "",
+		"coordinates": { "lat": "36.893929", "lon": "8.441631" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Amel",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit plein de surprises et de d\u00e9couvertes."
+			},
+			{
+				"sender": "Khaled",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amoureux de la nature."
+			},
+			{
+				"sender": "Karim",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amoureux de la nature."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "A\u00e9roport de Tindouf - Commandant Ferradj",
+		"wilaya": "Tindouf",
+		"types": ["Utiles / Services"],
+		"summary": "",
+		"coordinates": { "lat": "27.70503", "lon": "-8.165394" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2022/01/Aeroport-Tindouf.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2022/01/Aeroport-Tindouf.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Hichem",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui propose une vari\u00e9t\u00e9 d'activit\u00e9s pour tous les go\u00fbts."
+			},
+			{
+				"sender": "Mohamed",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amoureux de la nature."
+			},
+			{
+				"sender": "Hichem",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui vous laisse des souvenirs inoubliables."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "H\u00f4tel Bijou",
+		"wilaya": "Tindouf",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "27.675113", "lon": "-8.131086" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Abdelkader",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 l'on peut admirer des couchers de soleil \u00e0 couper le souffle."
+			},
+			{
+				"sender": "Nour",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut se d\u00e9tendre au bord de la mer."
+			},
+			{
+				"sender": "Houda",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit rempli de merveilles \u00e0 explorer."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "Mosqu\u00e9e Abderrahman Ibn Sakhre",
+		"wilaya": "Tindouf",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "27.669757", "lon": "-8.14816" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Ines",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui vous offre une exp\u00e9rience unique et authentique."
+			},
+			{
+				"sender": "Lila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 r\u00e8gne une ambiance chaleureuse."
+			},
+			{
+				"sender": "Amel",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit \u00e0 ne pas manquer lors de votre prochain voyage."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "Zaou\u00efa EL Mokhtar Bellameche",
+		"wilaya": "Tindouf",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "27.672011", "lon": "-8.152324" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Zaouia-EL-Mokhtar-Bellameche.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Zaouia-EL-Mokhtar-Bellameche.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Rachid",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit magnifique \u00e0 visiter absolument!"
+			},
+			{
+				"sender": "Houda",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu plein de charme et d'histoire."
+			},
+			{
+				"sender": "Ines",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui vous laisse des souvenirs inoubliables."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "Abou Tarbouche",
+		"wilaya": "B\u00e9char",
+		"types": ["Restauration"],
+		"summary": "",
+		"coordinates": { "lat": "30.939597", "lon": "-2.048344" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2022/02/Abou-Tarbouche.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2022/02/Abou-Tarbouche.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2022/02/Abou-Tarbouche-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2022/02/Abou-Tarbouche-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2022/02/Bladi-Palace-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2022/02/Bladi-Palace-2.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Ali",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination pleine de surprises et de contrastes."
+			},
+			{
+				"sender": "Tariq",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui offre une vue panoramique exceptionnelle."
+			},
+			{
+				"sender": "Ahmed",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut savourer une cuisine d\u00e9licieuse."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "Jnane Sidi Habri",
+		"wilaya": "B\u00e9char",
+		"types": ["G\u00eete / Maison d'h\u00f4te"],
+		"summary": "",
+		"coordinates": { "lat": "30.920106", "lon": "-2.032217" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Jnane-Sidi-Habri.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Jnane-Sidi-Habri.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Jnane-Sidi-Habri-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Jnane-Sidi-Habri-0.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Sofia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit id\u00e9al pour se d\u00e9tendre et se ressourcer."
+			},
+			{
+				"sender": "Amir",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 r\u00e8gne une ambiance conviviale et festive."
+			},
+			{
+				"sender": "Youssef",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu pittoresque avec des paysages \u00e0 couper le souffle."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "Bladi Palace",
+		"wilaya": "B\u00e9char",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "30.939597", "lon": "-2.048344" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Amina",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 r\u00e8gne une ambiance chaleureuse."
+			},
+			{
+				"sender": "Amir",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui vous laisse des souvenirs inoubliables."
+			},
+			{
+				"sender": "Tariq",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 r\u00e8gne une ambiance chaleureuse."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "H\u00f4tel EL Jazira",
+		"wilaya": "B\u00e9char",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "31.62789", "lon": "-2.209482" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/EL-JAZIRA-Hotel-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/EL-JAZIRA-Hotel-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/EL-JAZIRA-Hotel-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/EL-JAZIRA-Hotel-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/EL-JAZIRA-Hotel.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/EL-JAZIRA-Hotel.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Said",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amateurs de sports nautiques."
+			},
+			{
+				"sender": "Ines",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amoureux de la nature."
+			},
+			{
+				"sender": "Amel",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination incontournable pour les amateurs de voyages."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "H\u00f4tel SAOURA - Taghit",
+		"wilaya": "B\u00e9char",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "30.920136", "lon": "-2.031125" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Hotel-Saoura-Taghit.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Hotel-Saoura-Taghit.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Hotel-Saoura-Taghit-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Hotel-Saoura-Taghit-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Hotel-Saoura-Taghit-3.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Hotel-Saoura-Taghit-3.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Hotel-Saoura-Taghit-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Hotel-Saoura-Taghit-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Hotel-Saoura-Taghit-4.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Hotel-Saoura-Taghit-4.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Houda",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu plein de charme et d'histoire."
+			},
+			{
+				"sender": "Zahra",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les passionn\u00e9s d'architecture."
+			},
+			{
+				"sender": "Sofia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu charg\u00e9 de culture et de traditions."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "R\u00e9sidence Loubana",
+		"wilaya": "B\u00e9char",
+		"types": ["G\u00eete / Maison d'h\u00f4te"],
+		"summary": "",
+		"coordinates": { "lat": "30.922636", "lon": "-2.031625" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Loubana-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Loubana-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Loubana.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Loubana.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Zahra",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut savourer une cuisine d\u00e9licieuse."
+			},
+			{
+				"sender": "Khaled",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 l'on peut admirer des couchers de soleil \u00e0 couper le souffle."
+			},
+			{
+				"sender": "Djamila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination pleine de surprises et de contrastes."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "Vieux Ksar de Kenadsa (Ath Salem)",
+		"wilaya": "B\u00e9char",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "31.556076", "lon": "-2.438237" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-de-Kenadsa.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-de-Kenadsa.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-de-Kenadsa-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-de-Kenadsa-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-de-Kenadsa-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-de-Kenadsa-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-de-Kenadsa-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-de-Kenadsa-0.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Rachid",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui offre une vue panoramique exceptionnelle."
+			},
+			{
+				"sender": "Ahmed",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination incontournable pour les amateurs de voyages."
+			},
+			{
+				"sender": "Mohamed",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amoureux de la gastronomie."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "Ksar de Taghit",
+		"wilaya": "B\u00e9char",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "30.92298", "lon": "-2.031566" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-de-Taghit-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-de-Taghit-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-de-Taghit.jpg?resize=500%2C270&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-de-Taghit.jpg?resize=500%2C270&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Salma",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui offre une vue panoramique exceptionnelle."
+			},
+			{
+				"sender": "Ali",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination incontournable pour les amateurs de voyages."
+			},
+			{
+				"sender": "Amel",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui vous offre une exp\u00e9rience unique et authentique."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "H\u00f4tel Antar",
+		"wilaya": "B\u00e9char",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "31.607238", "lon": "-2.217179" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Antar-Bechar.jpeg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Antar-Bechar.jpeg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Antar-Bechar-1.jpeg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Antar-Bechar-1.jpeg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Houda",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit avec une atmosph\u00e8re anim\u00e9e et dynamique."
+			},
+			{
+				"sender": "Ali",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit magnifique \u00e0 visiter absolument!"
+			},
+			{
+				"sender": "Omar",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les passionn\u00e9s d'architecture."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "Vieux Ksar de Beni Abbes",
+		"wilaya": "B\u00e9char",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "30.123058", "lon": "-2.173373" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-de-Beni-Abbes-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-de-Beni-Abbes-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-de-Beni-Abbes-4.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-de-Beni-Abbes-4.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-de-Beni-Abbes-3.jpg?resize=500%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-de-Beni-Abbes-3.jpg?resize=500%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-de-Beni-Abbes.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-de-Beni-Abbes.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Djamila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui vous offre une exp\u00e9rience unique et authentique."
+			},
+			{
+				"sender": "Omar",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit avec une atmosph\u00e8re anim\u00e9e et dynamique."
+			},
+			{
+				"sender": "Abdelkader",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 r\u00e8gne une ambiance conviviale et festive."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "H\u00f4tel Rym",
+		"wilaya": "B\u00e9char",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "30.13113", "lon": "-2.175553" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Rym-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Rym-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Rym-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Rym-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Rym-3.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Rym-3.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Rym-4.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Rym-4.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Rym-5.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Rym-5.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Rym-6.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Rym-6.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Rym0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Rym0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Rym.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Rym.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Rym-11.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Rym-11.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Hassan",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui vous offre une exp\u00e9rience unique et authentique."
+			},
+			{
+				"sender": "Hassan",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination riche en histoire et en patrimoine."
+			},
+			{
+				"sender": "Djamila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les passionn\u00e9s d'architecture."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "H\u00f4tel Wakda",
+		"wilaya": "B\u00e9char",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "31.642081", "lon": "-2.19338" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Hotel-wakda.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Hotel-wakda.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Tariq",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 l'on peut se perdre dans les ruelles pittoresques."
+			},
+			{
+				"sender": "Abdullah",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amateurs de sports nautiques."
+			},
+			{
+				"sender": "Samia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les passionn\u00e9s d'architecture."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "Dar TerreG\u00eete (EX-Terrehut)",
+		"wilaya": "B\u00e9char",
+		"types": ["G\u00eete / Maison d'h\u00f4te"],
+		"summary": "",
+		"coordinates": { "lat": "30.904151", "lon": "-2.022871" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Dar-terrehut.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Dar-terrehut.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Dar-terrehut-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Dar-terrehut-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Dar-terrehut-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Dar-terrehut-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Dar-terrehut-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Dar-terrehut-2.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Nadia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination pleine de surprises et de contrastes."
+			},
+			{
+				"sender": "Samia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu authentique et pr\u00e9serv\u00e9."
+			},
+			{
+				"sender": "Houda",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit id\u00e9al pour se d\u00e9tendre et se ressourcer."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "A\u00e9roport de Bechar - Boudghene Ben Ali Lotfi",
+		"wilaya": "B\u00e9char",
+		"types": ["Utiles / Services"],
+		"summary": "",
+		"coordinates": { "lat": "31.651471", "lon": "-2.252549" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2022/01/Aeroport-Bechar.jpg?resize=546%2C250&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2022/01/Aeroport-Bechar.jpg?resize=546%2C250&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Houda",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit avec une atmosph\u00e8re anim\u00e9e et dynamique."
+			},
+			{
+				"sender": "Ali",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui vous \u00e9merveillera par sa beaut\u00e9 naturelle."
+			},
+			{
+				"sender": "Amel",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit plein de surprises et de d\u00e9couvertes."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "H\u00d4TEL EL MADANIA",
+		"wilaya": "B\u00e9char",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "31.614321", "lon": "-2.215428" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Said",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui offre une vue panoramique exceptionnelle."
+			},
+			{
+				"sender": "Tariq",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut se d\u00e9tendre au bord de la mer."
+			},
+			{
+				"sender": "Amel",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination riche en histoire et en patrimoine."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "Dar La Taghitoiz",
+		"wilaya": "B\u00e9char",
+		"types": ["H\u00e9bergement"],
+		"summary": "",
+		"coordinates": { "lat": "30.922692", "lon": "-2.03172" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/11/DAR-LA-TAGHITOIZ.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/11/DAR-LA-TAGHITOIZ.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/11/DAR-LA-TAGHITOIZ-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/11/DAR-LA-TAGHITOIZ-1.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Hichem",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit \u00e0 ne pas manquer lors de votre prochain voyage."
+			},
+			{
+				"sender": "Djamila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui propose une vari\u00e9t\u00e9 d'activit\u00e9s pour tous les go\u00fbts."
+			},
+			{
+				"sender": "Hichem",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 r\u00e8gne une ambiance conviviale et festive."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "Dar Rawi",
+		"wilaya": "B\u00e9char",
+		"types": ["G\u00eete / Maison d'h\u00f4te"],
+		"summary": "",
+		"coordinates": { "lat": "30.922783", "lon": "-2.03132" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Dar-Rawi-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Dar-Rawi-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Dar-Rawi-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Dar-Rawi-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Dar-Rawi-3.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Dar-Rawi-3.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Dar-Rawi-4.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Dar-Rawi-4.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Dar-Rawi-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Dar-Rawi-0.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Youssef",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit \u00e0 ne pas manquer lors de votre prochain voyage."
+			},
+			{
+				"sender": "Sofia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit plein de surprises et de d\u00e9couvertes."
+			},
+			{
+				"sender": "Zahra",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 l'on peut se perdre dans les ruelles pittoresques."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "Mus\u00e9e de B\u00e9char",
+		"wilaya": "B\u00e9char",
+		"types": ["Mus\u00e9e"],
+		"summary": "",
+		"coordinates": { "lat": "31.591586", "lon": "-2.242248" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Musee-de-Bechar.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Musee-de-Bechar.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Lila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit id\u00e9al pour se d\u00e9tendre et se ressourcer."
+			},
+			{
+				"sender": "Ahmed",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit avec une atmosph\u00e8re anim\u00e9e et dynamique."
+			},
+			{
+				"sender": "Rachid",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 r\u00e8gne une ambiance chaleureuse."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "Mus\u00e9e de B\u00e9ni Abb\u00e9s",
+		"wilaya": "B\u00e9char",
+		"types": ["Mus\u00e9e"],
+		"summary": "",
+		"coordinates": { "lat": "30.129131", "lon": "-2.176237" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Ahmed",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui vous offre une exp\u00e9rience unique et authentique."
+			},
+			{
+				"sender": "Houda",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 r\u00e8gne une ambiance chaleureuse."
+			},
+			{
+				"sender": "Lamia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amateurs d'art."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "Mus\u00e9e de Kenadsa",
+		"wilaya": "B\u00e9char",
+		"types": ["Mus\u00e9e"],
+		"summary": "",
+		"coordinates": { "lat": "31.553877", "lon": "-2.426457" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Youssef",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut savourer une cuisine d\u00e9licieuse."
+			},
+			{
+				"sender": "Houda",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut savourer une cuisine d\u00e9licieuse."
+			},
+			{
+				"sender": "Sofia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu authentique et pr\u00e9serv\u00e9."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "Hammam Essalihine (Aquae Flavianae)",
+		"wilaya": "Khenchela",
+		"types": ["stations thermales"],
+		"summary": "",
+		"coordinates": { "lat": "35.440174", "lon": "7.084656" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/station-thermale-Hammam-Essalihine.jpg?resize=546%2C350&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/station-thermale-Hammam-Essalihine.jpg?resize=546%2C350&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Complexe-thermal-Hammam-Salihine.jpg?resize=512%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Complexe-thermal-Hammam-Salihine.jpg?resize=512%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hammam-Essalihine.jpg?resize=480%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hammam-Essalihine.jpg?resize=480%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Hassan",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit avec une atmosph\u00e8re anim\u00e9e et dynamique."
+			},
+			{
+				"sender": "Houda",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu plein de charme et d'histoire."
+			},
+			{
+				"sender": "Karim",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit rempli de merveilles \u00e0 explorer."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "Aquae Flavianae (Hammam Essalihine)",
+		"wilaya": "Khenchela",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "35.440158", "lon": "7.084631" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hammam-Essalihine.jpg?resize=480%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hammam-Essalihine.jpg?resize=480%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/station-thermale-Hammam-Essalihine.jpg?resize=546%2C350&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/station-thermale-Hammam-Essalihine.jpg?resize=546%2C350&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Complexe-thermal-Hammam-Salihine.jpg?resize=512%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Complexe-thermal-Hammam-Salihine.jpg?resize=512%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Djamila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu pittoresque avec des paysages \u00e0 couper le souffle."
+			},
+			{
+				"sender": "Ali",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 r\u00e8gne une ambiance conviviale et festive."
+			},
+			{
+				"sender": "Fatima",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amateurs de sports nautiques."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "Ksar El Djazia (Mausol\u00e9e de C\u00e9dais)",
+		"wilaya": "Khenchela",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "35.322227", "lon": "7.234978" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-El-Djazia.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-El-Djazia.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Djamila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les passionn\u00e9s d'architecture."
+			},
+			{
+				"sender": "Abdelkader",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les passionn\u00e9s d'architecture."
+			},
+			{
+				"sender": "Youssef",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu magique qui vous transporte dans un autre monde."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "Village de Taberdaga",
+		"wilaya": "Khenchela",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "35.022134", "lon": "7.020261" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/village-de-taberdaga.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/village-de-taberdaga.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Sara",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui vous \u00e9merveillera par sa beaut\u00e9 naturelle."
+			},
+			{
+				"sender": "Nour",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu magique qui vous transporte dans un autre monde."
+			},
+			{
+				"sender": "Abdullah",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu magique qui vous transporte dans un autre monde."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "H\u00f4tel Youcef",
+		"wilaya": "Khenchela",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "35.4633", "lon": "7.093888" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/hotel-youcef.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/hotel-youcef.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Youssef",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit plein de surprises et de d\u00e9couvertes."
+			},
+			{
+				"sender": "Hichem",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut se d\u00e9tendre au bord de la mer."
+			},
+			{
+				"sender": "Said",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 r\u00e8gne une ambiance chaleureuse."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "Foris",
+		"wilaya": "Khenchela",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "35.092096", "lon": "7.195846" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Foris-e1605862438150.jpg?resize=438%2C252&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Foris-e1605862438150.jpg?resize=438%2C252&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Khaled",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 l'on peut admirer des couchers de soleil \u00e0 couper le souffle."
+			},
+			{
+				"sender": "Djamila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amoureux de la gastronomie."
+			},
+			{
+				"sender": "Ahmed",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit id\u00e9al pour se d\u00e9tendre et se ressourcer."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "Grotte de Djellal",
+		"wilaya": "Khenchela",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "34.92443", "lon": "6.900634" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Karim",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination riche en histoire et en patrimoine."
+			},
+			{
+				"sender": "Rachid",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amateurs d'art."
+			},
+			{
+				"sender": "Zahra",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui offre une exp\u00e9rience unique."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "HANCHIR AL TABROURI",
+		"wilaya": "Khenchela",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "35.368744", "lon": "7.283152" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/HANCHIR-AL-TABROURI.jpg?resize=424%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/HANCHIR-AL-TABROURI.jpg?resize=424%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Amir",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu magique qui vous transporte dans un autre monde."
+			},
+			{
+				"sender": "Amel",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu pittoresque avec des paysages \u00e0 couper le souffle."
+			},
+			{
+				"sender": "Sofia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amateurs de sports nautiques."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "Ksar Bagha\u00ef",
+		"wilaya": "Khenchela",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "35.539678", "lon": "7.120635" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Palais-De-Baghay.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Palais-De-Baghay.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Lila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit id\u00e9al pour se d\u00e9tendre et se ressourcer."
+			},
+			{
+				"sender": "Nadia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu authentique et pr\u00e9serv\u00e9."
+			},
+			{
+				"sender": "Abdullah",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui vous \u00e9merveillera par sa beaut\u00e9 naturelle."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "Laboratoire de pr\u00e9servation et de promotion",
+		"wilaya": "Khenchela",
+		"types": ["Mus\u00e9e"],
+		"summary": "",
+		"coordinates": { "lat": "35.432596", "lon": "7.136147" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Khaled",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amoureux de la nature."
+			},
+			{
+				"sender": "Fatima",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 l'on peut admirer des couchers de soleil \u00e0 couper le souffle."
+			},
+			{
+				"sender": "Abdelkader",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit \u00e0 ne pas manquer lors de votre prochain voyage."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "Mus\u00e9e National Public (Fr\u00e8res Martyrs Boula\u00e2ziz)",
+		"wilaya": "Khenchela",
+		"types": ["Mus\u00e9e"],
+		"summary": "",
+		"coordinates": { "lat": "35.430876", "lon": "7.146677" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Musee-National-Public-de-Khenchela.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Musee-National-Public-de-Khenchela.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Nadia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 l'on peut admirer des couchers de soleil \u00e0 couper le souffle."
+			},
+			{
+				"sender": "Houda",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit rempli de merveilles \u00e0 explorer."
+			},
+			{
+				"sender": "Houda",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les passionn\u00e9s d'architecture."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "Th\u00e9\u00e2tre de plein air",
+		"wilaya": "Khenchela",
+		"types": ["Salle de spectacles / Th\u00e9\u00e2tre"],
+		"summary": "",
+		"coordinates": { "lat": "35.432328", "lon": "7.133435" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Lamia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amoureux de la gastronomie."
+			},
+			{
+				"sender": "Amina",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 l'on peut se perdre dans les ruelles pittoresques."
+			},
+			{
+				"sender": "Rachid",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui offre une vue panoramique exceptionnelle."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "Tibaylaine",
+		"wilaya": "Khenchela",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "35.03526", "lon": "6.791738" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/TIBALAINE-e1605862267381.jpg?resize=540%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/TIBALAINE-e1605862267381.jpg?resize=540%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Ines",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination incontournable pour les amateurs de voyages."
+			},
+			{
+				"sender": "Karim",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amoureux de la gastronomie."
+			},
+			{
+				"sender": "Djamila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu pittoresque avec des paysages \u00e0 couper le souffle."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "Tombes fun\u00e9raires M\u00e9galithiques \" EL KETFE \"",
+		"wilaya": "Khenchela",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "35.490486", "lon": "7.265679" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Lila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit id\u00e9al pour se d\u00e9tendre et se ressourcer."
+			},
+			{
+				"sender": "Hichem",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu magique qui vous transporte dans un autre monde."
+			},
+			{
+				"sender": "Amir",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination riche en histoire et en patrimoine."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "VILLAGE DE DJELLAL",
+		"wilaya": "Khenchela",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "34.881897", "lon": "6.853452" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Village-Djellal-e1605863393988.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Village-Djellal-e1605863393988.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Nour",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui vous offre une exp\u00e9rience unique et authentique."
+			},
+			{
+				"sender": "Djamila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui vous \u00e9merveillera par sa beaut\u00e9 naturelle."
+			},
+			{
+				"sender": "Lila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit plein de surprises et de d\u00e9couvertes."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "Village de Tizgrarine",
+		"wilaya": "Khenchela",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "34.822858", "lon": "6.79505" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Village-de-Tizgrarine.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Village-de-Tizgrarine.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Amina",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui offre une vue panoramique exceptionnelle."
+			},
+			{
+				"sender": "Ahmed",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui propose une vari\u00e9t\u00e9 d'activit\u00e9s pour tous les go\u00fbts."
+			},
+			{
+				"sender": "Abdullah",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les passionn\u00e9s d'architecture."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "H\u00f4tel Louss",
+		"wilaya": "ElOued",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "33.367314", "lon": "6.853921" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Louss-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Louss-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Louss-7.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Louss-7.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Louss-6.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Louss-6.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Louss-5.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Louss-5.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Louss-.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Louss-.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Louss-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Louss-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Louss-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Louss-2.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Omar",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amateurs de sports nautiques."
+			},
+			{
+				"sender": "Amir",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu pittoresque avec des paysages \u00e0 couper le souffle."
+			},
+			{
+				"sender": "Hassan",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut se d\u00e9tendre au bord de la mer."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "H\u00f4tel La Gazelle d\u2019Or",
+		"wilaya": "ElOued",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "33.34922", "lon": "6.803868" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/La-Gazelle-dOr.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/La-Gazelle-dOr.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/La-Gazelle-dOr-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/La-Gazelle-dOr-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/La-Gazelle-dOr-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/La-Gazelle-dOr-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/La-Gazelle-dOr-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/La-Gazelle-dOr-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/La-Gazelle-dOr-3.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/La-Gazelle-dOr-3.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/La-Gazelle-dOr-4.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/La-Gazelle-dOr-4.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/La-Gazelle-dOr-5.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/La-Gazelle-dOr-5.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Hassan",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui vous offre une exp\u00e9rience unique et authentique."
+			},
+			{
+				"sender": "Ali",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu magique qui vous transporte dans un autre monde."
+			},
+			{
+				"sender": "Amir",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 r\u00e8gne une ambiance conviviale et festive."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "H\u00f4tel La coupole",
+		"wilaya": "ElOued",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "33.350184", "lon": "6.803736" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/Hotel-la-coupole.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/Hotel-la-coupole.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/Hotel-la-coupole-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/Hotel-la-coupole-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/Hotel-la-coupole-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/Hotel-la-coupole-2.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Houda",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu pittoresque avec des paysages \u00e0 couper le souffle."
+			},
+			{
+				"sender": "Ahmed",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 r\u00e8gne une ambiance conviviale et festive."
+			},
+			{
+				"sender": "Tariq",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amoureux de la gastronomie."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "LE GRILL",
+		"wilaya": "ElOued",
+		"types": ["Pizzeria / Fast-Food"],
+		"summary": "",
+		"coordinates": { "lat": "33.34922", "lon": "6.803868" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/LE-GRILL.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/LE-GRILL.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Ines",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit \u00e0 ne pas manquer lors de votre prochain voyage."
+			},
+			{
+				"sender": "Amina",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu magique qui vous transporte dans un autre monde."
+			},
+			{
+				"sender": "Ines",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut savourer une cuisine d\u00e9licieuse."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "H\u00f4tel du Souf",
+		"wilaya": "ElOued",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "33.367314", "lon": "6.853921" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-du-souf.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-du-souf.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-du-souf-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-du-souf-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-du-souf-6.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-du-souf-6.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-du-souf-33.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-du-souf-33.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-du-souf-5.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-du-souf-5.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-du-souf-4.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-du-souf-4.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-du-souf-3.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-du-souf-3.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-du-souf-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-du-souf-1.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Ahmed",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination riche en histoire et en patrimoine."
+			},
+			{
+				"sender": "Salma",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut se d\u00e9tendre au bord de la mer."
+			},
+			{
+				"sender": "Mohamed",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui vous laisse des souvenirs inoubliables."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "H\u00f4tel El Elmi (\u0627\u0644\u0639\u0644\u0645\u064a)",
+		"wilaya": "ElOued",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "33.373015", "lon": "6.854442" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/hotel-el-elmi.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/hotel-el-elmi.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/hotel-el-elmi-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/hotel-el-elmi-1.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Samia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut se d\u00e9tendre au bord de la mer."
+			},
+			{
+				"sender": "Omar",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui propose une vari\u00e9t\u00e9 d'activit\u00e9s pour tous les go\u00fbts."
+			},
+			{
+				"sender": "Omar",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amoureux de la gastronomie."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "A\u00e9roport de El Oued - Abdelkader Lamoudi",
+		"wilaya": "ElOued",
+		"types": ["Utiles / Services"],
+		"summary": "",
+		"coordinates": { "lat": "33.507218", "lon": "6.784869" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Hichem",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu pittoresque avec des paysages \u00e0 couper le souffle."
+			},
+			{
+				"sender": "Lila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amateurs de sports nautiques."
+			},
+			{
+				"sender": "Ali",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit rempli de merveilles \u00e0 explorer."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "Ksar Tamerna Kedima",
+		"wilaya": "ElOued",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "33.460341", "lon": "5.962682" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-Tamerna-Kedima.jpg?resize=500%2C332&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-Tamerna-Kedima.jpg?resize=500%2C332&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Amel",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut savourer une cuisine d\u00e9licieuse."
+			},
+			{
+				"sender": "Amel",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit \u00e0 ne pas manquer lors de votre prochain voyage."
+			},
+			{
+				"sender": "Nadia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu authentique et pr\u00e9serv\u00e9."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "LE MIRAGE",
+		"wilaya": "ElOued",
+		"types": ["Restauration"],
+		"summary": "",
+		"coordinates": { "lat": "33.34922", "lon": "6.803868" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/LE-MIRAGE.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/LE-MIRAGE.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/LE-MIRAGE-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/LE-MIRAGE-1.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Ines",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut se d\u00e9tendre au bord de la mer."
+			},
+			{
+				"sender": "Abdullah",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amoureux de la nature."
+			},
+			{
+				"sender": "Omar",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit magnifique \u00e0 visiter absolument!"
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "LE SUD",
+		"wilaya": "ElOued",
+		"types": ["Restauration"],
+		"summary": "",
+		"coordinates": { "lat": "33.34922", "lon": "6.803868" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/LE-SUD.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/LE-SUD.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/LE-SUD-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/LE-SUD-1.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Omar",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit rempli de merveilles \u00e0 explorer."
+			},
+			{
+				"sender": "Hichem",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 l'on peut se perdre dans les ruelles pittoresques."
+			},
+			{
+				"sender": "Hichem",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu plein de charme et d'histoire."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "Les Cent Ciels",
+		"wilaya": "ElOued",
+		"types": ["Sant\u00e9 et Beaut\u00e9"],
+		"summary": "",
+		"coordinates": { "lat": "33.34922", "lon": "6.803868" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/Les-Cent-Ciels.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/Les-Cent-Ciels.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/Les-Cent-Ciels-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/Les-Cent-Ciels-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/Les-Cent-Ciels-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/Les-Cent-Ciels-1.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Amina",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu authentique et pr\u00e9serv\u00e9."
+			},
+			{
+				"sender": "Omar",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui offre une exp\u00e9rience unique."
+			},
+			{
+				"sender": "Samia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu authentique et pr\u00e9serv\u00e9."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "SKYBAR",
+		"wilaya": "ElOued",
+		"types": ["Restauration"],
+		"summary": "",
+		"coordinates": { "lat": "33.34922", "lon": "6.803868" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/SKYBAR.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/12/SKYBAR.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Hassan",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu pittoresque avec des paysages \u00e0 couper le souffle."
+			},
+			{
+				"sender": "Hassan",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination incontournable pour les amateurs de voyages."
+			},
+			{
+				"sender": "Khaled",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 r\u00e8gne une ambiance conviviale et festive."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "H\u00f4tel Badjouda",
+		"wilaya": "Tamanrasset",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "27.198098", "lon": "2.475294" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Ahmed",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit rempli de merveilles \u00e0 explorer."
+			},
+			{
+				"sender": "Karim",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amateurs de sports nautiques."
+			},
+			{
+				"sender": "Karim",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu pittoresque avec des paysages \u00e0 couper le souffle."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "Le Hoggar",
+		"wilaya": "Tamanrasset",
+		"types": ["R\u00e9serve naturelle"],
+		"summary": "",
+		"coordinates": { "lat": "23.289792", "lon": "5.536386" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Hoggar-Algerie-Tamanrasset-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Hoggar-Algerie-Tamanrasset-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Hoggar-Algerie-Tamanrasset-Askreem-%D8%A7%D8%B3%D9%83%D8%B1%D8%A7%D9%85.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Hoggar-Algerie-Tamanrasset-Askreem-%D8%A7%D8%B3%D9%83%D8%B1%D8%A7%D9%85.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Hoggar-Algerie-Tamanrasset.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Hoggar-Algerie-Tamanrasset.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Ali",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 l'on peut admirer des couchers de soleil \u00e0 couper le souffle."
+			},
+			{
+				"sender": "Youssef",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination incontournable pour les amateurs de voyages."
+			},
+			{
+				"sender": "Nour",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit plein de surprises et de d\u00e9couvertes."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "Refuge de l'Assekrem",
+		"wilaya": "Tamanrasset",
+		"types": ["H\u00e9bergement"],
+		"summary": "",
+		"coordinates": { "lat": "23.304722", "lon": "6.324444" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Refuge-de-lAssekrem.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Refuge-de-lAssekrem.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Refuge-de-lAssekrem-1.jpg?resize=390%2C293&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Refuge-de-lAssekrem-1.jpg?resize=390%2C293&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Hassan",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui vous laisse des souvenirs inoubliables."
+			},
+			{
+				"sender": "Djamila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amateurs d'art."
+			},
+			{
+				"sender": "Omar",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les passionn\u00e9s d'architecture."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "H\u00f4tel Tidikelt",
+		"wilaya": "Tamanrasset",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "27.199751", "lon": "2.489129" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Tidikelt-5.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Tidikelt-5.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Tidikelt-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Tidikelt-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Tidikelt-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Tidikelt-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Tidikelt-3.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Tidikelt-3.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Tidikelt-4.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Tidikelt-4.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Salma",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 r\u00e8gne une ambiance conviviale et festive."
+			},
+			{
+				"sender": "Sara",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui propose une vari\u00e9t\u00e9 d'activit\u00e9s pour tous les go\u00fbts."
+			},
+			{
+				"sender": "Ali",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui offre une exp\u00e9rience unique."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "H\u00f4tel Maha",
+		"wilaya": "Tamanrasset",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "22.7975", "lon": "5.554242" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Hotel-Maha.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Hotel-Maha.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Hotel-Maha-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Hotel-Maha-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Hotel-Maha-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Hotel-Maha-2.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Sara",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu pittoresque avec des paysages \u00e0 couper le souffle."
+			},
+			{
+				"sender": "Tariq",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 l'on peut admirer des couchers de soleil \u00e0 couper le souffle."
+			},
+			{
+				"sender": "Fatima",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 r\u00e8gne une ambiance conviviale et festive."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "H\u00f4tel Tahat",
+		"wilaya": "Tamanrasset",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "22.782774", "lon": "5.535135" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Tahat-Tamanrasset-4.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Tahat-Tamanrasset-4.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Tahat-Tamanrasset-3.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Tahat-Tamanrasset-3.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Tahat-Tamanrasset-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Tahat-Tamanrasset-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Tahat-Tamanrasset.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Tahat-Tamanrasset.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Rachid",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amateurs d'art."
+			},
+			{
+				"sender": "Fatima",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu charg\u00e9 de culture et de traditions."
+			},
+			{
+				"sender": "Sofia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut savourer une cuisine d\u00e9licieuse."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "A\u00e9roport d'In Guezzam",
+		"wilaya": "Tamanrasset",
+		"types": ["Utiles / Services"],
+		"summary": "",
+		"coordinates": { "lat": "19.563676", "lon": "5.751896" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Nadia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui offre une exp\u00e9rience unique."
+			},
+			{
+				"sender": "Lamia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit magnifique \u00e0 visiter absolument!"
+			},
+			{
+				"sender": "Samia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination pleine de surprises et de contrastes."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "A\u00e9roport d'In Salah",
+		"wilaya": "Tamanrasset",
+		"types": ["Utiles / Services"],
+		"summary": "",
+		"coordinates": { "lat": "27.251968", "lon": "2.508734" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Mohamed",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amateurs de sports nautiques."
+			},
+			{
+				"sender": "Amir",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu charg\u00e9 de culture et de traditions."
+			},
+			{
+				"sender": "Abdullah",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 l'on peut se perdre dans les ruelles pittoresques."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "A\u00e9roport de Tamanrasset - Aguenar - Hadj Bey Akhamok",
+		"wilaya": "Tamanrasset",
+		"types": ["Utiles / Services"],
+		"summary": "",
+		"coordinates": { "lat": "22.815191", "lon": "5.448912" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Sofia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination pleine de surprises et de contrastes."
+			},
+			{
+				"sender": "Said",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu magique qui vous transporte dans un autre monde."
+			},
+			{
+				"sender": "Amel",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit plein de surprises et de d\u00e9couvertes."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "H\u00f4tel Bois P\u00e9trifi\u00e9",
+		"wilaya": "Tamanrasset",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "22.803622", "lon": "5.512367" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Said",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu magique qui vous transporte dans un autre monde."
+			},
+			{
+				"sender": "Rachid",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui vous offre une exp\u00e9rience unique et authentique."
+			},
+			{
+				"sender": "Sara",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amoureux de la gastronomie."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "H\u00f4tel Khodja",
+		"wilaya": "Tamanrasset",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "22.788575", "lon": "5.522493" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-Khodja-Tamanrasset.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-Khodja-Tamanrasset.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-Khodja-Tamanrasset-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-Khodja-Tamanrasset-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-Khodja-Tamanrasset-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-Khodja-Tamanrasset-2.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Ahmed",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les passionn\u00e9s d'architecture."
+			},
+			{
+				"sender": "Salma",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination pleine de surprises et de contrastes."
+			},
+			{
+				"sender": "Ines",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui vous laisse des souvenirs inoubliables."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "L'Assekrem",
+		"wilaya": "Tamanrasset",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "23.304722", "lon": "6.324444" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/hoggar-et-tassili-askreme.jpg?resize=546%2C320&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/hoggar-et-tassili-askreme.jpg?resize=546%2C320&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Nour",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit plein de surprises et de d\u00e9couvertes."
+			},
+			{
+				"sender": "Zahra",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu charg\u00e9 de culture et de traditions."
+			},
+			{
+				"sender": "Said",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination incontournable pour les amateurs de voyages."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "H\u00f4tel El Mehri",
+		"wilaya": "Ouargla",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "31.956655", "lon": "5.337143" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-El-Mehri-7.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-El-Mehri-7.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-El-Mehri-6.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-El-Mehri-6.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-El-Mehri-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-El-Mehri-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-El-Mehri-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-El-Mehri-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-El-Mehri-5.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-El-Mehri-5.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-El-Mehri-4.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-El-Mehri-4.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-El-Mehri-3.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-El-Mehri-3.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Lila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit id\u00e9al pour se d\u00e9tendre et se ressourcer."
+			},
+			{
+				"sender": "Salma",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 r\u00e8gne une ambiance conviviale et festive."
+			},
+			{
+				"sender": "Amina",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amoureux de la gastronomie."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "HAVANA+",
+		"wilaya": "Ouargla",
+		"types": ["Restauration"],
+		"summary": "",
+		"coordinates": { "lat": "31.650597", "lon": "6.140935" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Havana.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Havana.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Havana-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Havana-1.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Youssef",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu plein de charme et d'histoire."
+			},
+			{
+				"sender": "Ali",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu authentique et pr\u00e9serv\u00e9."
+			},
+			{
+				"sender": "Tariq",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu authentique et pr\u00e9serv\u00e9."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "Ksar de Mestaoua (Touggourt)",
+		"wilaya": "Ouargla",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "33.106892", "lon": "6.067423" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Le-ksar-de-Mestaoua-Touggourt.jpg?resize=546%2C339&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Le-ksar-de-Mestaoua-Touggourt.jpg?resize=546%2C339&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Nadia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui vous laisse des souvenirs inoubliables."
+			},
+			{
+				"sender": "Said",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit id\u00e9al pour se d\u00e9tendre et se ressourcer."
+			},
+			{
+				"sender": "Ahmed",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui vous offre une exp\u00e9rience unique et authentique."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "Parc d'attractions Ouled El Hadj Ahmed",
+		"wilaya": "Ouargla",
+		"types": ["Parc d'attractions"],
+		"summary": "",
+		"coordinates": { "lat": "33.068589", "lon": "6.033472" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Amina",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amateurs d'art."
+			},
+			{
+				"sender": "Hichem",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit \u00e0 ne pas manquer lors de votre prochain voyage."
+			},
+			{
+				"sender": "Sofia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut savourer une cuisine d\u00e9licieuse."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "H\u00f4tel Oasis",
+		"wilaya": "Ouargla",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "33.102278", "lon": "6.070342" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Oasis.jpg?resize=525%2C325&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Oasis.jpg?resize=525%2C325&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Hichem",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 r\u00e8gne une ambiance chaleureuse."
+			},
+			{
+				"sender": "Houda",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amoureux de la nature."
+			},
+			{
+				"sender": "Amir",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 r\u00e8gne une ambiance chaleureuse."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "A\u00e9roport de Hassi Messaoud - Krim Belkacem",
+		"wilaya": "Ouargla",
+		"types": ["Utiles / Services"],
+		"summary": "",
+		"coordinates": { "lat": "31.675326", "lon": "6.144491" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Hichem",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination incontournable pour les amateurs de voyages."
+			},
+			{
+				"sender": "Zahra",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut se d\u00e9tendre au bord de la mer."
+			},
+			{
+				"sender": "Houda",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut savourer une cuisine d\u00e9licieuse."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "A\u00e9roport de Ouargla - A\u00efn Beida",
+		"wilaya": "Ouargla",
+		"types": ["Utiles / Services"],
+		"summary": "",
+		"coordinates": { "lat": "31.936193", "lon": "5.408427" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Said",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui offre une vue panoramique exceptionnelle."
+			},
+			{
+				"sender": "Ines",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui propose une vari\u00e9t\u00e9 d'activit\u00e9s pour tous les go\u00fbts."
+			},
+			{
+				"sender": "Samia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui offre une exp\u00e9rience unique."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "A\u00e9roport de Touggourt - Sidi Mahdi",
+		"wilaya": "Ouargla",
+		"types": ["Utiles / Services"],
+		"summary": "",
+		"coordinates": { "lat": "33.066584", "lon": "6.091884" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Karim",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit plein de surprises et de d\u00e9couvertes."
+			},
+			{
+				"sender": "Fatima",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amoureux de la gastronomie."
+			},
+			{
+				"sender": "Mohamed",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit rempli de merveilles \u00e0 explorer."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "H\u00f4tel Anis R\u00e9sidence",
+		"wilaya": "Ouargla",
+		"types": ["H\u00e9bergement"],
+		"summary": "",
+		"coordinates": { "lat": "31.727496", "lon": "6.047319" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Anis-residence.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Anis-residence.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Anis-residence-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Anis-residence-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/ezgif.com-webp-to-jpg.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/ezgif.com-webp-to-jpg.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Sara",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amoureux de la gastronomie."
+			},
+			{
+				"sender": "Amina",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu authentique et pr\u00e9serv\u00e9."
+			},
+			{
+				"sender": "Said",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit plein de surprises et de d\u00e9couvertes."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "H\u00f4tel EuroJapan R\u00e9sidence",
+		"wilaya": "Ouargla",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "31.727277", "lon": "6.047891" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/EUROJAPAN-RESIDENCE.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/EUROJAPAN-RESIDENCE.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/EUROJAPAN-RESIDENCE-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/EUROJAPAN-RESIDENCE-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/EUROJAPAN-RESIDENCE-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/EUROJAPAN-RESIDENCE-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/EUROJAPAN-RESIDENCE-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/EUROJAPAN-RESIDENCE-2.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Ahmed",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les passionn\u00e9s d'architecture."
+			},
+			{
+				"sender": "Lamia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 l'on peut se perdre dans les ruelles pittoresques."
+			},
+			{
+				"sender": "Nadia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 l'on peut se perdre dans les ruelles pittoresques."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "H\u00f4tel Raymon",
+		"wilaya": "Ouargla",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "31.685788", "lon": "6.05868" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-Raymon.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-Raymon.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-Raymon-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-Raymon-1.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Khaled",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 l'on peut se perdre dans les ruelles pittoresques."
+			},
+			{
+				"sender": "Abdelkader",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 l'on peut se perdre dans les ruelles pittoresques."
+			},
+			{
+				"sender": "Amir",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu authentique et pr\u00e9serv\u00e9."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "Ksar de Ouargla",
+		"wilaya": "Ouargla",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "31.967982", "lon": "5.327253" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-de-Ouargla.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-de-Ouargla.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Rachid",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amateurs de sports nautiques."
+			},
+			{
+				"sender": "Zahra",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amateurs d'art."
+			},
+			{
+				"sender": "Amir",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination incontournable pour les amateurs de voyages."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "Ksar Tamacine",
+		"wilaya": "Ouargla",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "33.016952", "lon": "6.019556" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-Tamacine-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-Tamacine-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-Tamacine.jpg?resize=300%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Ksar-Tamacine.jpg?resize=300%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Samia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amateurs de sports nautiques."
+			},
+			{
+				"sender": "Mohamed",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination pleine de surprises et de contrastes."
+			},
+			{
+				"sender": "Djamila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amoureux de la nature."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "Mus\u00e9e du Moudjahid",
+		"wilaya": "Ouargla",
+		"types": ["Mus\u00e9e"],
+		"summary": "",
+		"coordinates": { "lat": "33.105753", "lon": "6.06971" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Sofia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination riche en histoire et en patrimoine."
+			},
+			{
+				"sender": "Samia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu authentique et pr\u00e9serv\u00e9."
+			},
+			{
+				"sender": "Ahmed",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu authentique et pr\u00e9serv\u00e9."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "A\u00e9roport de El Bayadh - Kssal",
+		"wilaya": "ElBayadh",
+		"types": ["Utiles / Services"],
+		"summary": "",
+		"coordinates": { "lat": "33.718105", "lon": "1.093318" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2022/01/Aeroport-El-Bayadh.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2022/01/Aeroport-El-Bayadh.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Amina",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amoureux de la gastronomie."
+			},
+			{
+				"sender": "Djamila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut savourer une cuisine d\u00e9licieuse."
+			},
+			{
+				"sender": "Samia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amoureux de la nature."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "H\u00f4tel Benkayoum",
+		"wilaya": "ElBayadh",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "33.684673", "lon": "1.015829" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Abdullah",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination pleine de surprises et de contrastes."
+			},
+			{
+				"sender": "Hassan",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit plein de surprises et de d\u00e9couvertes."
+			},
+			{
+				"sender": "Salma",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu plein de charme et d'histoire."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "H\u00f4tel Bourenane",
+		"wilaya": "ElBayadh",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "33.691673", "lon": "1.018947" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Salma",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit avec une atmosph\u00e8re anim\u00e9e et dynamique."
+			},
+			{
+				"sender": "Amel",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 r\u00e8gne une ambiance chaleureuse."
+			},
+			{
+				"sender": "Rachid",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amoureux de la nature."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "H\u00f4tel Bournane",
+		"wilaya": "ElBayadh",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "33.691671", "lon": "1.01892" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2022/04/Hotel-Bournane-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2022/04/Hotel-Bournane-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2022/04/Hotel-Bournane.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2022/04/Hotel-Bournane.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Khaled",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit plein de surprises et de d\u00e9couvertes."
+			},
+			{
+				"sender": "Amina",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut savourer une cuisine d\u00e9licieuse."
+			},
+			{
+				"sender": "Nadia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination pleine de surprises et de contrastes."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "H\u00f4tel Nadjem",
+		"wilaya": "ElBayadh",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "33.675926", "lon": "1.026728" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-nadjem.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-nadjem.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-Nadjem-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/02/Hotel-Nadjem-1.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Ali",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu magique qui vous transporte dans un autre monde."
+			},
+			{
+				"sender": "Nour",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui offre une exp\u00e9rience unique."
+			},
+			{
+				"sender": "Sofia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amateurs d'art."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "Le Gite Tarist",
+		"wilaya": "Gharda\u00efa",
+		"types": ["H\u00e9bergement"],
+		"summary": "",
+		"coordinates": { "lat": "32.462748", "lon": "3.661158" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Gite-Tarist.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Gite-Tarist.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Gite-Tarist-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Gite-Tarist-1.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Hassan",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui offre une vue panoramique exceptionnelle."
+			},
+			{
+				"sender": "Nadia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui vous laisse des souvenirs inoubliables."
+			},
+			{
+				"sender": "Fatima",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les passionn\u00e9s d'architecture."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "H\u00f4tel El Djanoub",
+		"wilaya": "Gharda\u00efa",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "32.495352", "lon": "3.680652" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-El-Djanoub.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-El-Djanoub.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-El-Djanoub-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-El-Djanoub-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-El-Djanoub-4.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-El-Djanoub-4.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-El-Djanoub-3.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-El-Djanoub-3.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-El-Djanoub-5.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-El-Djanoub-5.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Zahra",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu charg\u00e9 de culture et de traditions."
+			},
+			{
+				"sender": "Abdullah",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu authentique et pr\u00e9serv\u00e9."
+			},
+			{
+				"sender": "Houda",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui offre une vue panoramique exceptionnelle."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "H\u00f4tel El Boustane",
+		"wilaya": "Gharda\u00efa",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "30.583189", "lon": "2.886233" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/hotel-El-Boustane-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/hotel-El-Boustane-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/hotel-El-Boustane-4.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/hotel-El-Boustane-4.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/hotel-El-Boustane-3.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/hotel-El-Boustane-3.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Amir",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui propose une vari\u00e9t\u00e9 d'activit\u00e9s pour tous les go\u00fbts."
+			},
+			{
+				"sender": "Lamia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit plein de surprises et de d\u00e9couvertes."
+			},
+			{
+				"sender": "Lamia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 l'on peut admirer des couchers de soleil \u00e0 couper le souffle."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "H\u00f4tel M'zab (EX-Les Rost\u00e9mides)",
+		"wilaya": "Gharda\u00efa",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "32.484318", "lon": "3.67611" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Mzab-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Mzab-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Mzab-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Hotel-Mzab-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/11/Hotel-Mzab-Ghardaia.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/11/Hotel-Mzab-Ghardaia.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/11/Hotel-Mzab-Ghardaia-4.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/11/Hotel-Mzab-Ghardaia-4.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/11/Hotel-Mzab-Ghardaia-6.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/11/Hotel-Mzab-Ghardaia-6.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/11/Hotel-Mzab-Ghardaia-5.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/11/Hotel-Mzab-Ghardaia-5.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Tariq",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu authentique et pr\u00e9serv\u00e9."
+			},
+			{
+				"sender": "Nour",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 l'on peut admirer des couchers de soleil \u00e0 couper le souffle."
+			},
+			{
+				"sender": "Lamia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui vous offre une exp\u00e9rience unique et authentique."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "Maison d'h\u00f4te Than-Mirth - Ghardaia",
+		"wilaya": "Gharda\u00efa",
+		"types": ["H\u00e9bergement"],
+		"summary": "",
+		"coordinates": { "lat": "32.494374", "lon": "3.64446" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2022/04/Maison-dhote-Than-Mirth-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2022/04/Maison-dhote-Than-Mirth-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2022/04/Maison-dhote-Than-Mirth-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2022/04/Maison-dhote-Than-Mirth-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2022/04/Maison-dhote-Than-Mirth.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2022/04/Maison-dhote-Than-Mirth.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2022/04/Maison-dhote-Than-Mirth-0.jpg?resize=546%2C330&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2022/04/Maison-dhote-Than-Mirth-0.jpg?resize=546%2C330&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2022/04/Maison-dhote-Than-Mirth-3.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2022/04/Maison-dhote-Than-Mirth-3.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2022/04/Maison-dhote-Than-Mirth11.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2022/04/Maison-dhote-Than-Mirth11.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Hichem",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui vous \u00e9merveillera par sa beaut\u00e9 naturelle."
+			},
+			{
+				"sender": "Omar",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut savourer une cuisine d\u00e9licieuse."
+			},
+			{
+				"sender": "Hassan",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 l'on peut se perdre dans les ruelles pittoresques."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "Maison Traditionnelle AKHAM - Gharda\u00efa",
+		"wilaya": "Gharda\u00efa",
+		"types": ["H\u00e9bergement"],
+		"summary": "",
+		"coordinates": { "lat": "32.465115", "lon": "3.669497" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Maison-Traditionnelle-AKHAM-Ghardaia.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Maison-Traditionnelle-AKHAM-Ghardaia.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Maison-Traditionnelle-AKHAM-Ghardaia-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Maison-Traditionnelle-AKHAM-Ghardaia-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Maison-Traditionnelle-AKHAM-Ghardaia-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Maison-Traditionnelle-AKHAM-Ghardaia-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Maison-Traditionnelle-AKHAM-Ghardaia-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Maison-Traditionnelle-AKHAM-Ghardaia-2.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Maison-Traditionnelle-AKHAM-Ghardaia-3.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Maison-Traditionnelle-AKHAM-Ghardaia-3.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Maison-Traditionnelle-AKHAM-Ghardaia-6.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Maison-Traditionnelle-AKHAM-Ghardaia-6.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Abdelkader",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 r\u00e8gne une ambiance conviviale et festive."
+			},
+			{
+				"sender": "Zahra",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amateurs de sports nautiques."
+			},
+			{
+				"sender": "Rachid",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit avec une atmosph\u00e8re anim\u00e9e et dynamique."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "Parc des Reptiles",
+		"wilaya": "Gharda\u00efa",
+		"types": ["Zoo"],
+		"summary": "",
+		"coordinates": { "lat": "32.440378", "lon": "3.715615" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Ines",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination pleine de surprises et de contrastes."
+			},
+			{
+				"sender": "Omar",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 l'on peut se perdre dans les ruelles pittoresques."
+			},
+			{
+				"sender": "Djamila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les amateurs de sports nautiques."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "H\u00f4tel Le Belv\u00e9d\u00e8re",
+		"wilaya": "Gharda\u00efa",
+		"types": ["H\u00f4tel"],
+		"summary": "",
+		"coordinates": { "lat": "32.493439", "lon": "3.690515" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Hotel-Belvedere-Ghardaia.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/10/Hotel-Belvedere-Ghardaia.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Hassan",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les passionn\u00e9s d'architecture."
+			},
+			{
+				"sender": "Djamila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu charg\u00e9 de culture et de traditions."
+			},
+			{
+				"sender": "Youssef",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut savourer une cuisine d\u00e9licieuse."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "R\u00e9sidence des Deux Tours",
+		"wilaya": "Gharda\u00efa",
+		"types": ["H\u00e9bergement"],
+		"summary": "",
+		"coordinates": { "lat": "32.459908", "lon": "3.686083" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Residence-des-Deux-Tours-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Residence-des-Deux-Tours-0.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Residence-des-Deux-Tours-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Residence-des-Deux-Tours-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Residence-des-Deux-Tours.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/Residence-des-Deux-Tours.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Amel",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut se d\u00e9tendre au bord de la mer."
+			},
+			{
+				"sender": "Hassan",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amoureux de la gastronomie."
+			},
+			{
+				"sender": "Amel",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui vous offre une exp\u00e9rience unique et authentique."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "A\u00e9roport d\u2019El Menia",
+		"wilaya": "Gharda\u00efa",
+		"types": ["Utiles / Services"],
+		"summary": "",
+		"coordinates": { "lat": "30.571545", "lon": "2.868873" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Amel",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amateurs d'art."
+			},
+			{
+				"sender": "Ali",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu pittoresque avec des paysages \u00e0 couper le souffle."
+			},
+			{
+				"sender": "Sara",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui vous \u00e9merveillera par sa beaut\u00e9 naturelle."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "A\u00e9roport de Gharda\u00efa - Noum\u00e9rat - Moufdi Zakaria",
+		"wilaya": "Gharda\u00efa",
+		"types": ["Utiles / Services"],
+		"summary": "",
+		"coordinates": { "lat": "32.37849", "lon": "3.801525" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Amir",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui propose une vari\u00e9t\u00e9 d'activit\u00e9s pour tous les go\u00fbts."
+			},
+			{
+				"sender": "Ali",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination riche en histoire et en patrimoine."
+			},
+			{
+				"sender": "Sofia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui vous offre une exp\u00e9rience unique et authentique."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "Arche de Noe - Parc Zoologique",
+		"wilaya": "Gharda\u00efa",
+		"types": ["Zoo"],
+		"summary": "",
+		"coordinates": { "lat": "32.477201", "lon": "3.735735" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Amina",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui vous \u00e9merveillera par sa beaut\u00e9 naturelle."
+			},
+			{
+				"sender": "Tariq",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit rempli de merveilles \u00e0 explorer."
+			},
+			{
+				"sender": "Sara",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui propose une vari\u00e9t\u00e9 d'activit\u00e9s pour tous les go\u00fbts."
+			}
+		],
+		"rating": 5
+	},
+	{
+		"title": "Mus\u00e9e du Moudjahid",
+		"wilaya": "Gharda\u00efa",
+		"types": ["Mus\u00e9e"],
+		"summary": "",
+		"coordinates": { "lat": "32.268873", "lon": "3.631641" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Salma",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit o\u00f9 l'on peut se d\u00e9tendre au bord de la mer."
+			},
+			{
+				"sender": "Lamia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui offre une exp\u00e9rience unique."
+			},
+			{
+				"sender": "Khaled",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu o\u00f9 l'on peut admirer des couchers de soleil \u00e0 couper le souffle."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "Mus\u00e9e Public National",
+		"wilaya": "Gharda\u00efa",
+		"types": ["Mus\u00e9e"],
+		"summary": "",
+		"coordinates": { "lat": "30.583756", "lon": "2.884603" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Lila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination id\u00e9ale pour les amateurs d'art."
+			},
+			{
+				"sender": "Ali",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu plein de charme et d'histoire."
+			},
+			{
+				"sender": "Ahmed",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit id\u00e9al pour se d\u00e9tendre et se ressourcer."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "Palm-inn",
+		"wilaya": "Gharda\u00efa",
+		"types": ["G\u00eete / Maison d'h\u00f4te"],
+		"summary": "",
+		"coordinates": { "lat": "32.249145", "lon": "3.811819" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/palm-inn.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/palm-inn.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/palm-inn-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2021/01/palm-inn-1.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Djamila",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu charg\u00e9 de culture et de traditions."
+			},
+			{
+				"sender": "Amir",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination parfaite pour les passionn\u00e9s d'architecture."
+			},
+			{
+				"sender": "Salma",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination pleine de surprises et de contrastes."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "Remparts de Beni Isguen",
+		"wilaya": "Gharda\u00efa",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "32.473037", "lon": "3.695472" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Fatima",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit magnifique \u00e0 visiter absolument!"
+			},
+			{
+				"sender": "Ahmed",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit rempli de merveilles \u00e0 explorer."
+			},
+			{
+				"sender": "Youssef",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu plein de charme et d'histoire."
+			}
+		],
+		"rating": 3
+	},
+	{
+		"title": "Souilem Camping",
+		"wilaya": "Gharda\u00efa",
+		"types": ["G\u00eete / Maison d'h\u00f4te"],
+		"summary": "",
+		"coordinates": { "lat": "31.991012", "lon": "3.745922" },
+		"images": [],
+		"reviews": [
+			{
+				"sender": "Houda",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination pleine de surprises et de contrastes."
+			},
+			{
+				"sender": "Amir",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=600&h=-1&s=1",
+				"comment": "Une destination pleine de surprises et de contrastes."
+			},
+			{
+				"sender": "Sofia",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui vous \u00e9merveillera par sa beaut\u00e9 naturelle."
+			}
+		],
+		"rating": 4
+	},
+	{
+		"title": "Vall\u00e9e du Mzab",
+		"wilaya": "Gharda\u00efa",
+		"types": ["Site touristique"],
+		"summary": "",
+		"coordinates": { "lat": "32.483836", "lon": "3.682861" },
+		"images": [
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Vallee-du-MZab-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/Vallee-du-MZab-1.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/vallee-du-mzab.jpg?resize=546%2C365&ssl=1",
+			"https://i0.wp.com/harba-dz.com/wp-content/uploads/2020/11/vallee-du-mzab.jpg?resize=546%2C365&ssl=1"
+		],
+		"reviews": [
+			{
+				"sender": "Ines",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui offre une vue panoramique exceptionnelle."
+			},
+			{
+				"sender": "Ines",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=600&h=-1&s=1",
+				"comment": "Un endroit qui offre une exp\u00e9rience unique."
+			},
+			{
+				"sender": "Abdelkader",
+				"sender_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/66/76/9b/ahmedlagra.jpg?w=600&h=-1&s=1",
+				"comment": "Un lieu qui propose une vari\u00e9t\u00e9 d'activit\u00e9s pour tous les go\u00fbts."
+			}
+		],
+		"rating": 5
 	}
 ]
