@@ -16,7 +16,7 @@ const CustomInput2 = ({ label, ...props }) => {
 				}
 			/>
 			{meta.touched && meta.error && (
-				<div className="text-red-500 text-sm mr-auto ">
+				<div className="text-red-500 text-sm mr-auto font-semibold">
 					{meta.error}
 				</div>
 			)}

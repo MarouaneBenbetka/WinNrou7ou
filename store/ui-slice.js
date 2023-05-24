@@ -31,7 +31,7 @@ const uiSlice = createSlice({
 			state.language = payload.payload;
 		},
 		onResize: (state, { payload }) => {
-			if (payload.scrollOffset >= payload.windowHeight - 10)
+			if (payload.scrollOffset >= payload.windowHeight)
 				state.mapView = true;
 			else if (payload.scrollOffset < payload.windowHeight)
 				state.mapView = false;
