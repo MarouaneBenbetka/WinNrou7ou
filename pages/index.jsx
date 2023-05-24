@@ -9,6 +9,7 @@ import { uiActions } from "@/store/ui-slice";
 import { motion } from "framer-motion";
 import { staggerContainer, textVariant } from "../styles/motion";
 import Modal from "@/components/auth/Modal";
+import axios from "axios";
 
 const MapWrapper = dynamic(() => import("@/components/map/InteractiveMap"), {
 	ssr: false,
@@ -45,6 +46,14 @@ export default function Home() {
 		console.log(query);
 		mapRef.current.scrollIntoView({ behavior: "smooth" });
 	};
+
+	useEffect(() => {
+		const fetchMarkers = async () => {
+			const monuments = await axios.get(
+				"http://localhost:3000/api/monuments"
+			);
+		};
+	}, []);
 
 	return (
 		<section>

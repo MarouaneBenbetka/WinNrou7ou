@@ -96,9 +96,25 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import Review from "./Review";
 
-const InfoModal = () => {
+const InfoModal = ({ id }) => {
 	const [expandHistory, setExpandHistory] = useState(false);
 	const [expandReviews, setExpandReviews] = useState(false);
+	const [modalData, setModalData] = useState(DUMMY_INFO);
+
+	// useEffect(() => {
+	// 	const fetchMarkers = async () => {
+	// 		try {
+	// 			const res = await axios.get(
+	// 				`http://localhost:3000/api/monuments/${id}`
+	// 			);
+	// 			setMarkers(res.data.monuments);
+	// 		} catch (e) {
+	// 			console.log(e);
+	// 		}
+	// 	};
+	// 	fetchMarkers();
+	// }, []);
+
 	return (
 		<motion.div
 			className="mantine-carousel bg-white shadow-md h-[calc(95vh-150px)] py-5 px-2 w-[360px] rounded-3xl absolute left-4 top-28 z-50 overflow-y-scroll"

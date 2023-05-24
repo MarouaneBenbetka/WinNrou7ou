@@ -41,6 +41,16 @@ export async function getMonument(req, res) {
 		monument.dataValues.images = (
 			await Image.findAll({ where: { monumentId: id } })
 		).map((image) => image.url);
+		const usersReviews = await Review.findAll({
+			where: { monumentId: id },
+		});
+		const externalReviews = await ExternalReview.findAll({
+			where: { monumentId: id },
+		});
+		monument.dataValues.reviews = Array.of(
+			...usersReviews,
+			...externalReviews
+		);
 		res.status(200).send({ monument: monument.dataValues });
 	} catch (err) {
 		console.log(err);
