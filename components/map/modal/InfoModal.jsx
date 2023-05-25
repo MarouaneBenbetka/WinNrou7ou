@@ -114,19 +114,19 @@ const InfoModal = ({ id }) => {
 			}
 		};
 		fetchMarkers();
-	}, []);
+	}, [id]);
 
 	console.log("Modal data --------------------------");
 	console.log(modalData);
 	return (
 		<motion.div
-			className="mantine-carousel bg-white shadow-md h-[calc(95vh-150px)] py-5 px-2 w-[360px] rounded-3xl absolute left-4 top-28 z-50 overflow-y-scroll"
+			className="mantine-carousel bg-white shadow-md h-[calc(96vh-130px)] py-5 px-2 w-[360px] rounded-3xl absolute left-4 top-28 z-50 overflow-y-scroll"
 			initial={{ x: "-400px" }}
 			animate={{ x: 0 }}
 			transition={{ type: "spring", stiffness: 105 }}
 			exit={{ x: "-400px" }}
 		>
-			<h1 className="text-blue text-center font-semibold text-2xl">
+			<h1 className="text-blue text-center font-semibold text-2xl px-2">
 				{modalData.title}
 			</h1>
 			<h3 className="text-green font-medium text-lg text-center py-2">
@@ -186,7 +186,7 @@ const InfoModal = ({ id }) => {
 				{/* truncate overflow-ellipsis max-w-[200px] */}
 				{expandHistory && (
 					<p
-						className="ml-6  text-gray-500 text-sm text-justify mb-4 cursor-pointer"
+						className=" pr-2  text-gray-500 text-sm text-justify mb-4 cursor-pointer"
 						onClick={() => setExpandHistory(false)}
 					>
 						{modalData.summary}

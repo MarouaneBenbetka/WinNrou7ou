@@ -42,7 +42,11 @@ const Modal = ({ showModal, setShowModal }) => {
 						animate="show"
 						exit={"hidden"}
 					>
-						<SignInForm />
+						<SignInForm
+							closeModal={() => {
+								setShowModal(false);
+							}}
+						/>
 					</motion.div>
 				</div>
 			)}

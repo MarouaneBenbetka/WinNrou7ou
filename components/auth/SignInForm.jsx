@@ -83,7 +83,7 @@ const SignInForm = ({ closeModal }) => {
 							<Link
 								href={"/signup"}
 								className="text-orange hover:underline"
-								onClick={() => setShowModal(false)}
+								onClick={closeModal}
 							>
 								Register
 							</Link>{" "}

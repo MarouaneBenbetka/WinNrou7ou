@@ -15,7 +15,20 @@ const MapWrapper = dynamic(() => import("@/components/map/InteractiveMap"), {
 	ssr: false,
 });
 
-export default function Home() {
+export async function getStaticProps() {
+	try {
+		const res = await axios.get("http://localhost:3000/api/monuments");
+		return {
+			props: {
+				markers: res.data.monuments,
+			},
+		};
+	} catch (e) {
+		console.log(e);
+	}
+}
+
+export default function Home({ markers }) {
 	const { lang, mapView } = useSelector((state) => ({
 		lang: state.ui.language,
 		mapView: state.ui.mapView,
@@ -24,6 +37,8 @@ export default function Home() {
 	const [mapLocked, setMapLocked] = useState(false);
 	const searchBarRef = useRef();
 	const mapRef = useRef();
+	const [highlightedMarkers, setHighlightedMarkers] = useState([]);
+	const [lastSearch, setLastSearch] = useState("");
 
 	useEffect(() => {
 		if (mapView) {
@@ -32,28 +47,42 @@ export default function Home() {
 			setMapLocked(false);
 			dispatch(uiActions.disableScroll());
 		}
-	}, [mapView]);
+	}, [mapView, dispatch]);
 
 	const toggleLockMap = () => {
 		setMapLocked((prev) => !prev);
 		dispatch(uiActions.toggleScroll());
 	};
-	const searchHandler = (query) => {
-		console.log(query);
-		mapRef.current.scrollIntoView({ behavior: "smooth" });
+	const searchHandler = async (query) => {
+		if (!mapView) mapRef.current.scrollIntoView({ behavior: "smooth" });
+		if (query === "") setHighlightedMarkers([]);
+		else {
+			try {
+				const res = await axios.get(
+					`http://localhost:3000/api/monuments?q=${query}`
+				);
+				setHighlightedMarkers(res.data.monuments);
+				setLastSearch(query);
+			} catch (e) {
+				console.log(e);
+			}
+		}
 	};
-	const filterHandler = (query) => {
+	const filterHandler = async (query) => {
+		if (!mapView) mapRef.current.scrollIntoView({ behavior: "smooth" });
 		console.log(query);
-		mapRef.current.scrollIntoView({ behavior: "smooth" });
+		if (query === "") setHighlightedMarkers([]);
+		else {
+			try {
+				const res = await axios.get(
+					`http://localhost:3000/api/monuments?q=${lastSearch}&wilaya=${query.wilaya}&type=${query.typeAnnonce}`
+				);
+				setHighlightedMarkers(res.data.monuments);
+			} catch (e) {
+				console.log(e);
+			}
+		}
 	};
-
-	useEffect(() => {
-		const fetchMarkers = async () => {
-			const monuments = await axios.get(
-				"http://localhost:3000/api/monuments"
-			);
-		};
-	}, []);
 
 	return (
 		<section>
@@ -121,7 +150,13 @@ export default function Home() {
 						<Suggestions />
 					</>
 				)}
-				<MapWrapper lat={28} lng={2} lock={mapLocked} />
+				<MapWrapper
+					lat={34.254999624124345}
+					lng={3.291259381451609}
+					lock={mapLocked}
+					markers={markers}
+					highlightedMarkers={highlightedMarkers}
+				/>
 			</div>
 		</section>
 	);

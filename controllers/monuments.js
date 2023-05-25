@@ -34,12 +34,22 @@ export async function getMonuments(req, res) {
 export async function getMonument(req, res) {
 	const { id } = req.query;
 	try {
-		const monument = await Monument.findByPk(id);
+		const monument = await Monument.findByPk(id, {
+			attributes: [
+				["wilaya_name", "wilaya"],
+				"summary",
+				"rating",
+				"id",
+				"title",
+			],
+		});
 		if (!monument) {
 			return res.status(404).json({ message: "monument not found" });
 		}
 		monument.dataValues.images = (
-			await Image.findAll({ where: { monumentId: id } })
+			await Image.findAll({
+				where: { monumentId: id },
+			})
 		).map((image) => image.url);
 		const usersReviews = await Review.findAll({
 			where: { monumentId: id },

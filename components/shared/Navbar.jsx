@@ -13,7 +13,6 @@ const Navbar = ({ setShowModal }) => {
 	const lang = useSelector((state) => state.ui.language);
 	const router = useRouter();
 	const { pathname } = router;
-	console.log(pathname);
 	const openAnimation = useSpring({
 		from: { maxHeight: "0px" },
 		to: { maxHeight: navMobile ? "1000px" : "0px" },
