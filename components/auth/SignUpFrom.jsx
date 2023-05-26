@@ -7,11 +7,13 @@ import { MdOutlineNavigateBefore } from "react-icons/md";
 import { motion } from "framer-motion";
 import CustomInput2 from "./CustomInput2";
 import { useRouter } from "next/router";
+import ImageInput from "./ImageInput";
 
 const SignUpForm = ({}) => {
 	const router = useRouter();
 	// for sign in with email and password
 	const onSubmit = async (values, actions) => {
+		console.log(values);
 		actions.resetForm();
 	};
 	// for google auth
@@ -23,11 +25,12 @@ const SignUpForm = ({}) => {
 				username: "",
 				password: "",
 				confirmPassword: "",
+				image: "",
 			}}
 			validationSchema={SignUpSchema}
 			onSubmit={onSubmit}
 		>
-			{({ isSubmitting }) => (
+			{({ isSubmitting, setFieldValue }) => (
 				<Form>
 					<div className="max-screen">
 						<motion.div
@@ -49,6 +52,10 @@ const SignUpForm = ({}) => {
 						<h1 className="font-semibold text-5xl text-white mb-9">
 							Sign up
 						</h1>
+						<ImageInput
+							name="image"
+							setFieldValue={setFieldValue}
+						/>
 						<CustomInput2
 							label="Email"
 							name="email"
