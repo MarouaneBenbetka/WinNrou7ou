@@ -1,7 +1,7 @@
 //this is the mongoose connection so you will do the same but in using sequelize
 
 //import dbConnect from '../../../utils/mongo'
-import {getUser,deleteUser,patchUser} from '../../../controllers/user'
+import {getUser,deleteUser,patchUser} from '@/controllers/user'
 
 export default async function handler (req, res) {
   const { method, cookies } = req

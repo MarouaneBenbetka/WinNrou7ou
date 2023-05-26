@@ -1,0 +1,114 @@
+import React, { useEffect, useState } from "react";
+import { BiChevronDown } from "react-icons/bi";
+import { AiOutlineSearch } from "react-icons/ai";
+
+const Dropdown = ({ label, onChangeValue, open, onOpened, items, value }) => {
+	const [inputValue, setInputValue] = useState("");
+	const [selected, setSelected] = useState("");
+
+	return (
+		<div className="text-dark">
+			<h2 className="mb-1 pl-1 text-[16px] text-white font-semibold   relative  text-opacity-50">
+				{label}
+			</h2>
+			<div className="w-32 sm:w-40 md:w-52 font-semibold max-h-[320px]  cursor-pointer relative">
+				<div
+					className={`text-[14px] sm:text-[16px] bg-white w-full p-2 flex items-center justify-between   placeholder-gray-500 rounded-md border-white ring-1 ring-gray-300 focus:outline-none 	 text-ellipsis ${
+						!selected && "text-gray-500 "
+					}`}
+					onClick={() => {
+						onOpened(!open);
+					}}
+				>
+					{value ? (
+						value?.length > 10 ? (
+							value?.substring(0, 10) + "..."
+						) : (
+							value
+						)
+					) : (
+						<span className="text-gray-500">{label}</span>
+					)}
+					<BiChevronDown
+						size={20}
+						className={`${open && "rotate-180"} cursor-pointer`}
+						color="#069ADF"
+					/>
+				</div>
+				<ul
+					className={`bg-white mt-2 overflow-y-auto absolute ${
+						open
+							? "max-h-28 ring-2 ring-gray-300 rounded z-40"
+							: "max-h-0"
+					} `}
+				>
+					<div className="flex items-center px-2 sticky top-0 bg-white">
+						<AiOutlineSearch
+							size="18px"
+							className="text-gray-500 w-4 h-4"
+						/>
+						<input
+							type="text"
+							value={inputValue}
+							onChange={(e) =>
+								setInputValue(e.target.value.toLowerCase())
+							}
+							placeholder=""
+							className="placeholder:text-gray-500 p-2 outline-none w-full "
+						/>
+					</div>
+					<li
+						className={`p-2 text-sm hover:bg-blue hover:text-white transition-all duration-200 cursor-pointer
+            ${"" === selected?.toLowerCase() && "bg-blue text-white"}
+            ${
+				"Aucun filtre *".toLowerCase().startsWith(inputValue)
+					? "block"
+					: "hidden"
+			}`}
+						onClick={() => {
+							setSelected("");
+							onOpened(false);
+							setInputValue("");
+							onChangeValue("");
+						}}
+					>
+						{label === "Commune" && !items
+							? "Sélectionner une wilaya"
+							: "Aucun filtre *"}
+					</li>
+					{items &&
+						items.map((item) => (
+							<li
+								key={item.key}
+								className={`p-2 text-sm hover:bg-blue hover:text-white transition-all duration-200 cursor-pointer
+            ${
+				item?.value?.toLowerCase() === selected?.toLowerCase() &&
+				"bg-blue text-white"
+			}
+            ${
+				item?.value?.toLowerCase().startsWith(inputValue)
+					? "block"
+					: "hidden"
+			}`}
+								onClick={() => {
+									if (
+										item?.vlue?.toLowerCase() !==
+										selected.toLowerCase()
+									) {
+										setSelected(item?.value);
+										onOpened(false);
+										setInputValue("");
+										onChangeValue(item?.value);
+									}
+								}}
+							>
+								{item?.value}
+							</li>
+						))}
+				</ul>
+			</div>
+		</div>
+	);
+};
+
+export default Dropdown;
