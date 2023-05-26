@@ -2,10 +2,9 @@ import React, { useEffect, useState } from "react";
 import { BiChevronDown } from "react-icons/bi";
 import { AiOutlineSearch } from "react-icons/ai";
 
-const Selector = ({ label, onChangeValue, open, onOpened }) => {
+const Selector = ({ label, onChangeValue, open, onOpened, items }) => {
 	const [inputValue, setInputValue] = useState("");
 	const [selected, setSelected] = useState("");
-	const items = ["Jardin", "Mosquee", "Hotel", "Restaurant"];
 
 	return (
 		<div className="text-dark">

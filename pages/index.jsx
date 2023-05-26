@@ -18,17 +18,23 @@ const MapWrapper = dynamic(() => import("@/components/map/InteractiveMap"), {
 export async function getStaticProps() {
 	try {
 		const res = await axios.get("http://localhost:3000/api/monuments");
+		const res1 = await axios.get("http://localhost:3000/api/wilayas");
+		const res2 = await axios.get("http://localhost:3000/api/types");
+
 		return {
 			props: {
 				markers: res.data.monuments,
+				wilayas: res1.data.wilayas,
+				types: res2.data.types,
 			},
 		};
 	} catch (e) {
 		console.log(e);
+		return null;
 	}
 }
 
-export default function Home({ markers }) {
+export default function Home({ markers, wilayas, types }) {
 	const { lang, mapView } = useSelector((state) => ({
 		lang: state.ui.language,
 		mapView: state.ui.mapView,
@@ -77,6 +83,7 @@ export default function Home({ markers }) {
 				const res = await axios.get(
 					`http://localhost:3000/api/monuments?q=${lastSearch}&wilaya=${query.wilaya}&type=${query.typeAnnonce}`
 				);
+				console.log(res.data.monuments);
 				setHighlightedMarkers(res.data.monuments);
 			} catch (e) {
 				console.log(e);
@@ -122,6 +129,8 @@ export default function Home({ markers }) {
 					onSearch={searchHandler}
 					onFilter={filterHandler}
 					stickTop={mapView}
+					types={types}
+					wilayas={wilayas}
 				/>
 			</motion.div>
 			<div
