@@ -4,12 +4,11 @@ import { useSpring, animated } from "react-spring";
 import React, { useState } from "react";
 import Selector from "./Selector";
 import Dropdown from "./Dropdown";
-import { wilayas } from "@/data/data";
 import { MdOutlineKeyboardDoubleArrowUp } from "react-icons/md";
 import { motion } from "framer-motion";
 import { zoomVariant } from "@/styles/motion";
 
-const Search = ({ onSearch, onFilter, stickTop }, ref) => {
+const Search = ({ onSearch, onFilter, stickTop, wilayas, types }, ref) => {
 	const [showFilters, setShowFilters] = useState(false);
 	const [searchedText, setSearchedText] = useState("");
 	const [filterData, setFilterData] = useState({
@@ -174,15 +173,15 @@ const Search = ({ onSearch, onFilter, stickTop }, ref) => {
 								onChangeValue={changeTypeHandler}
 								open={openedList.type}
 								onOpened={openTypeList}
+								items={types}
 							/>
 
-							<Dropdown
-								items={wilayas}
+							<Selector
 								label="Wilaya"
 								onChangeValue={changeWilayaHandler}
 								open={openedList.wilaya}
 								onOpened={openWilayaList}
-								value={filterData.wilaya}
+								items={wilayas}
 							/>
 
 							<button className=" px-4 py-2 h-fit text-white bg-blue bg-opacity-70 rounded-[10px] font-semibold border-2 border-blue border-opacity-70  hover:bg-dark hover:text-white  transition">
