@@ -8,7 +8,7 @@ const nextConfig = {
 			"images.pexels.com",
 			"i0.wp.com",
 			"media-cdn.tripadvisor.com",
-			"www.360cities.net",
+			"pbs.twimg.com",
 		],
 	},
 };

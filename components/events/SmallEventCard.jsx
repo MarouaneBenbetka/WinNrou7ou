@@ -47,7 +47,7 @@ const SmallEventCard = ({ id, title, date, image }) => {
 			</div>
 			{isHovering && (
 				<motion.div
-					className="absolute bottom-2 right-2"
+					className="absolute bottom-2 right-2 z-50"
 					initial={{ y: 30, opacity: 0 }}
 					animate={{ y: 0, opacity: 1 }}
 					transition={{ duration: 0.3 }}
