@@ -3,12 +3,36 @@ import CustomInput from "./CustomInput";
 import { Schema } from "./Schema";
 import Image from "next/image";
 import Link from "next/link";
+import { signIn, signOut, useSession } from "next-auth/react";
+import { useRouter } from "next/router";
+
 
 const SignInForm = ({ closeModal }) => {
+	const env = process.env.NODE_ENV;
+	const router = useRouter();
 	// for sign in with email and password
 	const onSubmit = async (values, actions) => {
+
 		actions.resetForm();
+
+		const status = await signIn("credentials", {
+			redirect: false,
+			email: values.email,
+			password: values.password,
+			callbackUrl: "/",
+		  });
+		  if (status.ok) {
+			router.push(status.url);
+		  } else {
+			if(status==401) {
+
+				console.log('credentials error')
+			}
+			console.log(status);
+		  }
+	
 		closeModal();
+
 	};
 	// for google auth
 	const googleAuth = () => {};
@@ -67,7 +91,15 @@ const SignInForm = ({ closeModal }) => {
 							</button>
 							<div
 								className="w-[42px] h-[42px] relative rounded-full  cursor-pointer ml-5 hover:scale-[1.06] transition"
-								onClick={googleAuth}
+								onClick={(e) => {
+									e.preventDefault();
+									signIn("google", {
+									  callbackUrl:
+										env === "development"
+										  ? "http://localhost:3000"
+										  : "https://win_nrouhou.vercel.app",
+									});
+								  }}
 							>
 								<Image
 									src="/images/google.png"
