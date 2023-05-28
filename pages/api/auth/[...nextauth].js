@@ -1,11 +1,12 @@
 import NextAuth from 'next-auth'
-import { compare } from 'bcrypt'
 import User from '../../../models/user'
 import GoogleProvider from 'next-auth/providers/google'
 import CredentialsProvider from 'next-auth/providers/credentials'
 import generateJWT from "@/functions/generateJWT";
 import Error from 'next/error'
-import { hash, genSalt } from 'bcrypt'
+import { hash, genSalt, compare } from 'bcrypt'
+import {v1} from "uuid"
+
 
 
 export default NextAuth({
@@ -97,12 +98,13 @@ export default NextAuth({
         async profile (profile, tokens) {
 
 
-          const {email} = profile
+          const {email, name, image} = profile
           const user = await User.findOne({where:{email}});
 
 
             //here basically you recuperate the email from profile.email and then you loockup for it in the sql db, then if the user eists return it's infos
           
+
             if (user) {
             return {
                 email: user.email,
@@ -111,8 +113,19 @@ export default NextAuth({
                 id: user.id
 
             }
+
           }
+
+    const hashedPassword = await hash(process.env.DefaultPass,await genSalt(10))
+    const newUser = await User.create({id:v1(),email,password:hashedPassword,name,image});
           
+    return {
+      email: newUser.email,
+      image: newUser.image,
+      name: newUser.name,
+      id: newUser.id
+
+  }
           
         }
       })
