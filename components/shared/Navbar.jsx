@@ -5,17 +5,19 @@ import { useSpring, animated } from "react-spring";
 import { useSelector } from "react-redux";
 import LanguagePicker from "../navbar/LanguagePicker";
 import Link from "next/link";
+import { useSession, signOut } from "next-auth/react";
 import { useRouter } from "next/router";
 import { IoMdNotificationsOutline } from "react-icons/io";
 import Image from "next/image";
 
 const Navbar = ({ setShowModal }) => {
+	const { status, data: session } = useSession();
 	const [navMobile, setNavMobile] = useState(false);
 	const [lang, navBarColor] = useSelector((state) => [
 		state.ui.language,
 		state.ui.navBarColor,
 	]);
-	const [isAuth, setIsAuth] = useState(false);
+	const isAuth = status !== "unauthenticated";
 	const { pathname } = useRouter();
 
 	const openAnimation = useSpring({
@@ -66,6 +68,30 @@ const Navbar = ({ setShowModal }) => {
 						{pathname === "/" && <LanguagePicker />}
 
 						{isAuth ? (
+							<div className="flex gap-4">
+								<button
+									className="px-4 py-2 hover:text-green hover:bg-transparent  rounded-[10px] font-bold border-2 border-green bg-green text-dark transition"
+									onClick={signOut}
+								>
+									signOut
+								</button>
+								<Link
+									className="flex items-center gap-2 cursor-pointer"
+									href="/user"
+								>
+									<IoMdNotificationsOutline size={26} />
+									<div className="w-[48px] h-[48px]  rounded-full overflow-hidden relative border-2 border-blue">
+										<Image
+											src={
+												"https://pbs.twimg.com/media/FjU2lkcWYAgNG6d.jpg"
+											}
+											alt=""
+											fill
+										/>
+									</div>
+								</Link>
+							</div>
+						) : (
 							<button
 								className="px-4 py-2 hover:text-green hover:bg-transparent  rounded-[10px] font-bold border-2 border-green bg-green text-dark transition"
 								onClick={() => {
@@ -74,22 +100,6 @@ const Navbar = ({ setShowModal }) => {
 							>
 								{lang === "Arabic" ? "تسجيل الدخول" : "login"}
 							</button>
-						) : (
-							<Link
-								className="flex items-center gap-2 cursor-pointer"
-								href="/user"
-							>
-								<IoMdNotificationsOutline size={26} />
-								<div className="w-[48px] h-[48px]  rounded-full overflow-hidden relative border-2 border-blue">
-									<Image
-										src={
-											"https://pbs.twimg.com/media/FjU2lkcWYAgNG6d.jpg"
-										}
-										alt=""
-										fill
-									/>
-								</div>
-							</Link>
 						)}
 					</div>
 
