@@ -14,13 +14,14 @@ export async function getUsers (req, res) {
 
 export async function addUser (req, res) {
   try {
-    const { email, password,name } = req.body;
+    console.log(req.body)
+    const { email, password,name, image } = req.body;
     const userExists = await User.findOne({where:{email}});
     if (userExists){
       return res.status(409).json({message:"email already in use"});
     }
     const hashedPassword = await hash(password,await genSalt(10))
-    const user = await User.create({id:v1(),email,password:hashedPassword,name});
+    const user = await User.create({id:v1(),email,password:hashedPassword,name,image});
     const token = generateJWT(user.id,user.type);
     res.status(200).json({token,userId:user.id,userType:user.type});
   } catch (err) {

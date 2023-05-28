@@ -3,7 +3,7 @@ import CustomInput from "./CustomInput";
 import { Schema } from "./Schema";
 import Image from "next/image";
 import Link from "next/link";
-import { signIn, signOut, useSession } from "next-auth/react";
+import { signIn, useSession } from "next-auth/react";
 import { useRouter } from "next/router";
 
 
