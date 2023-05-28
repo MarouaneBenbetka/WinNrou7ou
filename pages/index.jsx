@@ -15,24 +15,6 @@ const MapWrapper = dynamic(() => import("@/components/map/InteractiveMap"), {
 	ssr: false,
 });
 
-export async function getStaticProps() {
-	try {
-		const res = await axios.get("http://localhost:3000/api/monuments");
-		const res1 = await axios.get("http://localhost:3000/api/wilayas");
-		const res2 = await axios.get("http://localhost:3000/api/types");
-
-		return {
-			props: {
-				markers: res.data.monuments,
-				wilayas: res1.data.wilayas,
-				types: res2.data.types,
-			},
-		};
-	} catch (e) {
-		console.log(e);
-		return null;
-	}
-}
 
 export default function Home({ markers, wilayas, types }) {
 	const { lang, mapView } = useSelector((state) => ({
@@ -169,4 +151,23 @@ export default function Home({ markers, wilayas, types }) {
 			</div>
 		</section>
 	);
+}
+
+export async function getStaticProps() {
+	try {
+		const res = await axios.get("http://localhost:3000/api/monuments");
+		const res1 = await axios.get("http://localhost:3000/api/wilayas");
+		const res2 = await axios.get("http://localhost:3000/api/types");
+
+		return {
+			props: {
+				markers: res?.data.monuments,
+				wilayas: res1?.data.wilayas,
+				types: res2?.data.types,
+			},
+		};
+	} catch (e) {
+		console.log(e);
+		return null;
+	}
 }

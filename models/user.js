@@ -28,6 +28,10 @@ const User = db.define('user', {
     gender:{
         type:ENUM("H","F"),
         defaultValue: "H",
+    },
+    image:{
+        type:STRING,
+        defaultValue:'./imagelink',
     }
 },{createdAt:true,updatedAt:false});
 
