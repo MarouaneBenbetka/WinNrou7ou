@@ -3,6 +3,8 @@ import React, { Children, useEffect, useState } from "react";
 import { uiActions } from "@/store/ui-slice";
 import { useSelector, useDispatch } from "react-redux";
 import Modal from "../auth/Modal";
+import ChatButton from "../chat/ChatButton";
+import Chat from "../chat/Chat";
 
 function getWindowHeight() {
 	return window.innerHeight;
@@ -62,6 +64,8 @@ const Layout = ({ children }) => {
 			className="  font-poppins  overflow-x-hidden "
 		>
 			{children}
+
+			<ChatButton />
 		</div>
 	);
 };
