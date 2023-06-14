@@ -15,7 +15,6 @@ const MapWrapper = dynamic(() => import("@/components/map/InteractiveMap"), {
 	ssr: false,
 });
 
-
 export default function Home({ markers, wilayas, types }) {
 	const { lang, mapView } = useSelector((state) => ({
 		lang: state.ui.language,
@@ -127,6 +126,7 @@ export default function Home({ markers, wilayas, types }) {
 								className="toggle  bg-opacity-20 border-opacity-20  checked:bg-orange checked:border-orange"
 								onClick={toggleLockMap}
 								checked={mapLocked}
+								readOnly
 							/>
 							<h3
 								className={

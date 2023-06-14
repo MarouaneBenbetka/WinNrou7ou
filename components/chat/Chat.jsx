@@ -3,6 +3,7 @@ import TypingAnimation from "./TypingAnimation";
 import DotsAnimation from "./DotsAnimation";
 import { PuffLoader } from "react-spinners";
 import ErrorAlert from "./ErrorAlert";
+import axios from "axios";
 
 export default function Chat({ visible }) {
 	const [inputValue, setInputValue] = useState("");
@@ -12,7 +13,7 @@ export default function Chat({ visible }) {
 
 	const [displayResponse, setDisplayResponse] = useState("");
 	const [completedTyping, setCompletedTyping] = useState(false);
-	const [showError, setShowError] = useState(true);
+	const [showError, setShowError] = useState(false);
 
 	useEffect(() => {
 		if (visible) {
@@ -25,12 +26,14 @@ export default function Chat({ visible }) {
 			return;
 		}
 
-		setCompletedTyping(false);
-
 		let i = 0;
-		const stringResponse = chatLog[chatLog.length - 1].message;
+		const stringResponse = chatLog[chatLog.length - 1]?.content;
+		console.log("------------------------------------");
+		console.log(stringResponse);
+		let intervalId;
 
-		const intervalId = setInterval(() => {
+		setCompletedTyping(false);
+		intervalId = setInterval(() => {
 			setDisplayResponse(stringResponse.slice(0, i));
 
 			i++;
@@ -41,12 +44,8 @@ export default function Chat({ visible }) {
 			}
 		}, 20);
 
-		return () => clearInterval(intervalId);
-	}, [chatLog]);
-
-	useEffect(() => {
-		// 👇️ scroll to bottom every time messages change
 		bottomRef.current?.scrollIntoView({ behavior: "smooth" });
+		return () => clearInterval(intervalId);
 	}, [chatLog]);
 
 	const handleSubmit = (event) => {
@@ -54,35 +53,53 @@ export default function Chat({ visible }) {
 
 		if (!isLoading) {
 			if (inputValue.trim() == "") return;
+			const newChatLog = [
+				{
+					role: "system",
+					content:
+						"You are a friendly algerian  tourist guide  named 'WIN_ASSISTANT'. Your knowledge is limited only to tourism in Algeria if a user asked you something not related to tourism in algeria dont respond even if they repeat it multiple times . Your mission is to improve the algerian tourism reputation .",
+				},
+				...chatLog,
+
+				{
+					role: "user",
+					content:
+						"this is my question, if it's not related to tourism in algeria don't respond : \n " +
+						inputValue,
+				},
+			];
 			setChatLog((prevChatLog) => [
 				...prevChatLog,
-				{ type: "user", message: inputValue },
+				{ role: "user", content: inputValue },
 			]);
 
-			sendMessage(inputValue);
-
 			setInputValue("");
+
+			getResponse(newChatLog);
 		}
 	};
 
-	const sendMessage = (message) => {
+	const getResponse = async (req) => {
 		setIsLoading(true);
 
-		setTimeout(() => {
-			setChatLog((prevChatLog) => [
-				...prevChatLog,
-				{
-					type: "bot",
-					message:
-						"hi this is my response i want to know that you are the best man i want to teach dsfoads alskdf asdjf and that's all man",
-				},
-			]);
-			setIsLoading(false);
-			const value = new SpeechSynthesisUtterance(
-				"hi this is my response"
-			);
-			window.speechSynthesis.speak(value);
-		}, 4000);
+		axios
+			.post("http://localhost:3000/api/chat", req)
+			.then((response) => {
+				console.log(response.data.chatGptResponse);
+				setChatLog((prevChatLog) => [
+					...prevChatLog,
+					{
+						role: "assistant",
+						content: response.data.chatGptResponse,
+					},
+				]);
+				setIsLoading(false);
+				setShowError(false);
+			})
+			.catch((err) => {
+				setShowError(true);
+				setIsLoading(false);
+			});
 	};
 
 	return (
@@ -91,25 +108,25 @@ export default function Chat({ visible }) {
 				<div className="flex flex-col  bg-gray-900 h-[90vh] mb-5 pt-3">
 					<div className="flex-grow p-6 overflow-y-auto overflow-x-hidden">
 						<div className="flex flex-col space-y-4 h-auto">
-							{chatLog.map((message, index) =>
-								message.type === "user" ||
-								index < chatLog.length - 1 ? (
+							{chatLog.map((message, index) => {
+								return message.role === "user" ||
+									index < chatLog.length - 1 ? (
 									<div
 										key={index}
 										className={`flex ${
-											message.type === "user"
+											message.role === "user"
 												? "justify-end"
 												: "justify-start"
 										}`}
 									>
 										<div
 											className={`${
-												message.type === "user"
+												message.role === "user"
 													? "bg-purple-500"
 													: "bg-gray-800"
 											} rounded-lg p-4 text-white max-w-sm break-words`}
 										>
-											{message.message}
+											{message.content}
 										</div>
 									</div>
 								) : (
@@ -136,8 +153,8 @@ export default function Chat({ visible }) {
 											)}
 										</span>
 									</div>
-								)
-							)}
+								);
+							})}
 							{isLoading && (
 								<div
 									key={chatLog.length}
