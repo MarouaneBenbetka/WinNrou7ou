@@ -18,6 +18,13 @@
 	}
 }
 
+html {
+	height: 100%;
+	overscroll-behavior: none;
+	max-width: 100vw;
+	overflow-x: hidden;
+}
+
 body {
 	color: rgb(var(--foreground-rgb));
 	background: linear-gradient(
@@ -26,6 +33,21 @@ body {
 			rgb(var(--background-end-rgb))
 		)
 		rgb(var(--background-start-rgb));
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #1b1e21;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #f7af00;
 }
 
 .nav-link::after {

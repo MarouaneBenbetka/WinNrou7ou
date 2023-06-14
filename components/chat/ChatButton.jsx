@@ -7,7 +7,7 @@ const ChatButton = () => {
 
 	return (
 		<>
-			{chatOpened && <Chat />}
+			<Chat visible={chatOpened} />
 			<div
 				className="flex justify-center items-center w-[60px] h-[60px] rounded-full bg-white fixed bottom-3 right-14 z-[200] cursor-pointer transition hover:scale-[1.05]"
 				onClick={() => {
