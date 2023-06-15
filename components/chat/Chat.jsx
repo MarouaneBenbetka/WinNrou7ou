@@ -4,6 +4,7 @@ import DotsAnimation from "./DotsAnimation";
 import { PuffLoader } from "react-spinners";
 import ErrorAlert from "./ErrorAlert";
 import axios from "axios";
+import { FiSend } from "react-icons/fi";
 
 export default function Chat({ visible }) {
 	const [inputValue, setInputValue] = useState("");
@@ -104,8 +105,8 @@ export default function Chat({ visible }) {
 
 	return (
 		visible && (
-			<div className="fixed origin-bottom-right bottom-0 right-0 z-[200] mr-[120px] ">
-				<div className="flex flex-col  bg-gray-900 h-[90vh] mb-5 pt-3">
+			<div className="fixed md:origin-bottom-right bottom-0 right-1/2   translate-x-1/2 md:translate-x-0   pb-16 md:pb-0  md:bottom-7 md:right-0 z-[200]  md:mr-[140px] ">
+				<div className="flex flex-col  bg-[#0B1723] backdrop-filter backdrop-blur-xl bg-opacity-40 h-[80vh] md:h-[90vh] md:w-[500px] mb-5 pt-3 rounded-2xl rounded-br-none">
 					<div className="flex-grow p-6 overflow-y-auto overflow-x-hidden">
 						<div className="flex flex-col space-y-4 h-auto">
 							{chatLog.map((message, index) => {
@@ -122,9 +123,9 @@ export default function Chat({ visible }) {
 										<div
 											className={`${
 												message.role === "user"
-													? "bg-purple-500"
-													: "bg-gray-800"
-											} rounded-lg p-4 text-white max-w-sm break-words`}
+													? "bg-green rounded-br-none"
+													: "bg-white rounded-bl-none"
+											} rounded-lg p-4 text-dark max-w-sm break-words`}
 										>
 											{message.content}
 										</div>
@@ -134,7 +135,7 @@ export default function Chat({ visible }) {
 										className="flex justify-start"
 										key={index}
 									>
-										<span className="bg-gray-800 rounded-lg p-4 text-white max-w-sm break-words whitespace-pre-line">
+										<span className="bg-white rounded-lg p-4 text-dark max-w-sm break-words whitespace-pre-line">
 											{displayResponse}
 											{!completedTyping && (
 												<svg
@@ -147,7 +148,7 @@ export default function Chat({ visible }) {
 														y="6"
 														width="4"
 														height="12"
-														fill="#fff"
+														fill="#000"
 													/>
 												</svg>
 											)}
@@ -170,21 +171,21 @@ export default function Chat({ visible }) {
 						</div>
 					</div>
 					<form onSubmit={handleSubmit} className="flex-none p-6">
-						<div className="flex rounded-lg border border-gray-700 bg-gray-800">
+						<div className="flex rounded-lg   bg-white shadow-lg">
 							<input
 								autoFocus
 								type="text"
-								className="flex-grow px-4 py-2 bg-transparent text-white focus:outline-none"
+								className="flex-grow pl-4 py-2 bg-transparent text-dark focus:outline-none"
 								placeholder="Type your message..."
 								value={inputValue}
 								onChange={(e) => setInputValue(e.target.value)}
 							/>
 							<button
 								type="submit"
-								className="w-[74px] flex justify-center items-center bg-purple-500 rounded-lg px-4 py-2 text-white font-semibold focus:outline-none hover:bg-purple-600 transition-colors duration-300"
+								className=" flex justify-center items-center  rounded-lg px-4 py-2 text-white font-semibold focus:outline-none  transition-colors duration-300"
 							>
 								{!isLoading ? (
-									"Send"
+									<FiSend size={22} className="text-black" />
 								) : (
 									<PuffLoader
 										loading={isLoading}
