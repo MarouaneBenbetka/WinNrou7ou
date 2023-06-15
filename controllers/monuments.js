@@ -2,11 +2,12 @@ import Monument from "@/models/monument";
 import Image from "@/models/image";
 import MonumentTypesItem from "@/models/monumentTypesItem";
 import Review from "@/models/review";
-import { Op } from "sequelize";
+import {Op, QueryTypes} from "sequelize";
 import ExternalReview from "@/models/ExternalReview";
 import {getServerSession} from "next-auth";
 import {authOptions} from "@/pages/api/auth/[...nextauth]";
 import User from "@/models/user";
+import db from "@/utils/config/dbConnection";
 
 export async function getMonuments(req, res) {
 	const { wilaya, types, q = "" } = req.query;
@@ -55,11 +56,12 @@ export async function getMonument(req, res) {
 				where: { monumentId: id },
 			})
 		).map((image) => image.url);
-		const usersReviews = await Review.findAll({
-			where: { monumentId: id },
-		});
+		const usersReviews = await db.query(`
+		select t1.id,comment,name as sender,image as sender_image from reviews as t1  join users as t2 on t1.userId=t2.id where monumentId=${id}
+		`,{type:QueryTypes.SELECT});
 		const externalReviews = await ExternalReview.findAll({
 			where: { monumentId: id },
+			attributes:{exclude:["monumentId"]}
 		});
 		monument.dataValues.reviews = Array.of(
 			...usersReviews,
