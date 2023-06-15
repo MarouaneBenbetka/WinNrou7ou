@@ -9,12 +9,15 @@ import { FiBookOpen } from "react-icons/fi";
 import Ratting from "./Ratting";
 import { MdExpandMore } from "react-icons/md";
 import { FaRegCommentDots } from "react-icons/fa";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import Review from "./Review";
 import axios from "axios";
 import ModalSkelton from "./ModalSkelton";
 import ErrorLoading from "./ErrorLoading";
+import { PuffLoader } from "react-spinners";
+import { BsFillSendFill } from "react-icons/bs";
+import { useSession } from "next-auth/react";
 
 const InfoModal = ({ id, closeModal }) => {
 	const [expandHistory, setExpandHistory] = useState(false);
@@ -22,6 +25,10 @@ const InfoModal = ({ id, closeModal }) => {
 	const [modalData, setModalData] = useState({});
 	const [loading, setLoading] = useState(true);
 	const [error, setError] = useState(false);
+	const [inputValue, setInputValue] = useState("");
+	const [commentLoading, setCommentLoading] = useState(false);
+	const inputRef = useRef();
+	const { status, data: session } = useSession();
 
 	useEffect(() => {
 		const fetchMarkers = async () => {
@@ -41,6 +48,40 @@ const InfoModal = ({ id, closeModal }) => {
 		};
 		fetchMarkers();
 	}, [id]);
+
+	const handleCommentSubmit = async (e) => {
+		e.preventDefault();
+		if (commentLoading) return;
+		if (status === "authenticated") {
+			try {
+				setCommentLoading(true);
+
+				const res = await axios.post(
+					`http://localhost:3000/api/monuments/${id}/reviews`,
+					{ comment: inputValue },
+					{ withCredentials: true }
+				);
+				console.log(res);
+				setCommentLoading(false);
+				// setModalData((prev) => {
+				// 	const newData = {
+				// 		...prev,
+				// 		reviews: [
+				// 			...prev.review,
+				// 			{
+				// 				id: 1,
+				// 				comment: inputValue,
+				// 				send: session.user.name,
+				// 				sender_image: session.user.image,
+				// 			},
+				// 		],
+				// 	};
+				// });
+			} catch (e) {
+				setCommentLoading(false);
+			}
+		}
+	};
 
 	return (
 		<motion.div
@@ -155,9 +196,6 @@ const InfoModal = ({ id, closeModal }) => {
 
 						{expandReviews && (
 							<>
-								<div>
-									<input type="text" />
-								</div>
 								<div className="ml-2 mt-4">
 									{modalData.reviews.map((item, index) => (
 										<Review
@@ -168,6 +206,51 @@ const InfoModal = ({ id, closeModal }) => {
 										/>
 									))}
 								</div>
+								<form
+									onSubmit={handleCommentSubmit}
+									className="flex-none mb-3"
+								>
+									<div className="flex rounded-lg border border-gray-300 bg-gray-100 max-w-[270px]">
+										<input
+											ref={inputRef}
+											autoFocus
+											type="text"
+											className="w-[200px] flex-grow px-4 py-1 bg-transparent text-dark focus:outline-none "
+											placeholder="Type your comment..."
+											value={inputValue}
+											onChange={(e) =>
+												setInputValue(e.target.value)
+											}
+										/>
+										<div
+											type="submit"
+											className={
+												" flex justify-center items-center bg-transparent  rounded-lg px-4  py-2 text-white font-semibold focus:outline-none  " +
+												(status === "authenticated"
+													? "cursor-pointer"
+													: "cursor-not-allowed")
+											}
+											onClick={handleCommentSubmit}
+											disabled={
+												status !== "authenticated"
+											}
+										>
+											{!commentLoading ? (
+												<BsFillSendFill
+													size={22}
+													className="text-dark "
+												/>
+											) : (
+												<PuffLoader
+													loading={commentLoading}
+													aria-label="Loading Spinner"
+													data-testid="loader"
+													size={22}
+												/>
+											)}
+										</div>
+									</div>
+								</form>
 							</>
 						)}
 						<div className="flex justify-center">
