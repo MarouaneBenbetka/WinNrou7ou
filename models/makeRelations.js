@@ -30,8 +30,8 @@ export default function makeRelations() {
 	Image.belongsTo(Monument);
 
 	//relation between user and monument through reviews
-	User.belongsToMany(Monument, { through: Review });
-	Monument.belongsToMany(User, { through: Review });
+	User.hasMany(Review);
+	Monument.hasMany(Review);
 
 	ExternalReview.belongsTo(Monument);
 
