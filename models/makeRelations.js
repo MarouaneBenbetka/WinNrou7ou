@@ -6,7 +6,9 @@ import MonumentTypesItem from "@/models/monumentTypesItem";
 import Image from "@/models/image";
 import Review from "@/models/review";
 import ExternalReview from "@/models/ExternalReview";
-import Event from "./event";
+import Event from "@/models/event";
+import UserFavouriteEvent from "@/models/userFavouriteEvent";
+import UserFavouriteMonument from "@/models/userFavouriteMonument";
 
 export default function makeRelations() {
 	//relation between wilaya and monument (wilaya has many monuments) (one-to-many relationship)
@@ -32,4 +34,11 @@ export default function makeRelations() {
 	Monument.belongsToMany(User, { through: Review });
 
 	ExternalReview.belongsTo(Monument);
+
+
+	Event.belongsToMany(User,{through:UserFavouriteEvent});
+	User.belongsToMany(Event,{through:UserFavouriteEvent});
+
+	Monument.belongsToMany(User,{through:UserFavouriteMonument});
+	User.belongsToMany(Monument,{through:UserFavouriteMonument});
 }

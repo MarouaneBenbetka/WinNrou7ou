@@ -13,7 +13,7 @@ export async function getEvents(req, res) {
 				offset: Number(page_size) * Number(page),
 			},
 		});
-		res.status(200).send({ events });
+		res.status(200).json({ events });
 	} catch (err) {
 		res.status(500).json(err);
 	}
@@ -23,7 +23,10 @@ export async function getEvent(req, res) {
 	const { id } = req.query;
 	try {
 		const event = await Event.findByPk(id);
-		res.status(200).send({ event });
+		if (!event){
+			res.status(404).json({ message:"event not found" });
+		}
+		res.status(200).json({ event });
 	} catch (err) {
 		res.status(500).json(err);
 	}

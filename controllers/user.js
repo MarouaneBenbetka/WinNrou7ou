@@ -1,9 +1,16 @@
 import User from '../models/user'
+import Event from '../models/event'
 import { transporter, mailOptions } from '../utils/config/nodemailer'
 import {v1} from "uuid"
 import generateJWT from "@/functions/generateJWT";
 import db from "@/utils/config/dbConnection";
 import {compare, genSalt, hash} from "bcrypt"
+import {getServerSession} from "next-auth";
+import {authOptions} from "@/pages/api/auth/[...nextauth]";
+import UserFavouriteEvent from "@/models/userFavouriteEvent";
+import Monument from "@/models/monument";
+import {QueryTypes} from "sequelize";
+import UserFavouriteMonument from "@/models/userFavouriteMonument";
 export async function getUsers (req, res) {
   try {
     // write here you code
@@ -65,17 +72,37 @@ export async function patchUser (req, res) {
   try {
     res.status(200).send({ message: `user is not found successfully` })
   } catch (err) {
-    res.status(500).json(err)
+    res.status(500).json({message:"internal server error"})
   }
 }
 
 export async function getUser (req, res) {
   try {
     const { id } = req.query
-
-    res.status(404).send({ message: `user is not found successfully` })
+    const session = await getServerSession (req,res,authOptions);
+    if (!session){
+      return res.status(401).json({message:"unauthorized"});
+    }
+    const user = await User.findOne({where:{email:session.user.email},attributes:{exclude:"password type createdAt"}});
+    if (user.id!==id){
+      return res.status(400).json({message:"bad request"});
+    }
+    const favouriteMonuments = await db.query(`
+      SELECT id,title,rating,wilaya_name from monuments where id in 
+      (SELECT monumentId from user_favourite_monuments where userId="${user.id}")
+    `,{type:QueryTypes.SELECT});
+    for (const item of favouriteMonuments){
+      item.images = await db.query(`
+          SELECT url from images where monumentId=${item.id} 
+      `,{type:QueryTypes.SELECT});
+    }
+    const favouriteEvents = await db.query(`
+      SELECT * from events where id in 
+      (SELECT eventId from user_favourite_events where userId="${user.id}")
+    `,{type:QueryTypes.SELECT});
+    res.json({user,favouriteEvents,favouriteMonuments});
   } catch (err) {
-    res.status(500).json(err)
+    res.status(500).json({message:"internal server error"})
   }
 }
 
@@ -93,6 +120,82 @@ export async function login(req,res){
       return res.status(404).json({message:"invalid email or password"});
     }
   } catch (err) {
-    res.status(500).json(err)
+    res.status(500).json({message:"internal server error"})
+  }
+}
+
+
+export async function addEventToFavourites(req,res){
+  try {
+    const {eventId} = req.body;
+    const session = await getServerSession (req,res,authOptions);
+    if (!session){
+      return res.status(401).json({message:"unauthorized"});
+    }
+    if (!eventId){
+      return res.status(400).json({message:"bad request"});
+    }
+    if (!(await Event.findByPk(eventId))){
+      return res.status(404).json({message:"event not found"});
+    }
+    const user = await User.findOne({where:{email:session.user.email}});
+    await UserFavouriteEvent.create({userId:user.id,eventId});
+    res.status(200).json({eventId});
+  } catch (err) {
+    res.status(500).json({message:"internal server error"})
+  }
+}
+export async function removeEventFromFavourites(req,res){
+  try {
+    const {eventId} = req.query;
+    const session = await getServerSession (req,res,authOptions);
+    if (!session){
+      return res.status(401).json({message:"unauthorized"});
+    }
+    if (!(await Event.findByPk(eventId))){
+      return res.status(404).json({message:"event not found"});
+    }
+    const user = await User.findOne({where:{email:session.user.email}});
+    await UserFavouriteEvent.destroy({where:{userId:user.id,eventId}});
+    res.status(200).json({eventId});
+  } catch (err) {
+    res.status(500).json({message:"internal server error"})
+  }
+}
+export async function addMonumentToFavourites(req,res){
+  try {
+    const {monumentId} = req.body;
+    const session = await getServerSession (req,res,authOptions);
+    if (!session){
+      return res.status(401).json({message:"unauthorized"});
+    }
+    if (!monumentId){
+      return res.status(400).json({message:"bad request"});
+    }
+    if (!(await Monument.findByPk(monumentId))){
+      return res.status(404).json({message:"monument not found"});
+    }
+    const user = await User.findOne({where:{email:session.user.email}});
+    await UserFavouriteMonument.create({userId:user.id,monumentId});
+    res.status(200).json({monumentId});
+  } catch (err) {
+    res.status(500).json({message:"internal server error"})
+  }
+}
+export async function removeMonumentFromFavourites(req,res){
+  try {
+    const {monumentId} = req.query;
+    const session = await getServerSession (req,res,authOptions);
+    if (!session){
+      return res.status(401).json({message:"unauthorized"});
+    }
+    if (!(await Monument.findByPk(monumentId))){
+      return res.status(404).json({message:"monument not found"});
+    }
+    const user = await User.findOne({where:{email:session.user.email}});
+    await UserFavouriteMonument.destroy({where:{userId:user.id,monumentId}});
+    res.status(200).json({monumentId});
+  } catch (err) {
+    res.status(500).json({message:"internal server error"})
   }
 }
