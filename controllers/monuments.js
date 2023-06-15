@@ -4,9 +4,13 @@ import MonumentTypesItem from "@/models/monumentTypesItem";
 import Review from "@/models/review";
 import { Op } from "sequelize";
 import ExternalReview from "@/models/ExternalReview";
+import {getServerSession} from "next-auth";
+import {authOptions} from "@/pages/api/auth/[...nextauth]";
+import User from "@/models/user";
 
 export async function getMonuments(req, res) {
 	const { wilaya, types, q = "" } = req.query;
+
 	try {
 		let monumentsOfType;
 		if (types) {
@@ -96,13 +100,18 @@ export async function getMonumentReviews(req, res) {
 export async function createMonumentReview(req, res) {
 	const { id } = req.query;
 	const { comment } = req.body;
+	const session = await getServerSession (req,res,authOptions);
+	if (!session){
+		return res.status(401).json({message:"unauthorized"});
+	}
+	const user = await User.findOne({where:{email:session.user.email}});
 	try {
 		const monument = await Monument.findByPk(id);
 		if (!monument) {
 			return res.status(404).json({ message: "monument not found" });
 		}
 		const review = await Review.create({
-			userId: req.user.id,
+			userId: user.id,
 			monumentId: id,
 			comment,
 		});

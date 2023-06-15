@@ -154,16 +154,21 @@ const InfoModal = ({ id, closeModal }) => {
 						</RowInfo>
 
 						{expandReviews && (
-							<div className="ml-2 mt-4">
-								{modalData.reviews.map((item, index) => (
-									<Review
-										key={index}
-										sender={item.sender}
-										image={item.sender_image}
-										comment={item.comment}
-									/>
-								))}
-							</div>
+							<>
+								<div>
+									<input type="text" />
+								</div>
+								<div className="ml-2 mt-4">
+									{modalData.reviews.map((item, index) => (
+										<Review
+											key={index}
+											sender={item.sender}
+											image={item.sender_image}
+											comment={item.comment}
+										/>
+									))}
+								</div>
+							</>
 						)}
 						<div className="flex justify-center">
 							<Ratting num={modalData.rating} />

@@ -10,13 +10,12 @@ import {v1} from "uuid"
 
 
 export default NextAuth({
-    secret: process.env.JWT_SECRET,
+    secret: process.env.NEXTAUTH_SECRET,
     session: {
       jwt: true
     },
     callbacks: {
       async jwt ({ token, user, account }) {
-        console.log('here token user account', token, user, account)
         if (account) {
          // do the same but with new data
 
@@ -24,8 +23,8 @@ export default NextAuth({
             email: user.email,
             id: user.id,
             name: user.name,
-            image: user.image
-  
+            image: user.image,
+            accessToken:account.access_token
           }
         }
         return token
@@ -33,13 +32,13 @@ export default NextAuth({
       async session ({ session, token }) {
 
         // do the same but with new data
-
-        
+        console.log(session);
+        console.log("session : :::::::::::::::::::::");
         token?.email ?  (session.user.email = token.email)    : ''
         token?.id ? (session.user.id  = token.id)   : ''
         token?.name ?  (session.user.name = token.name)  : ''
         token?.image ? (session.user.image  = token.image) : ''
-
+        token?.accessToken ?(session.accessToken = token.accessToken):''
 
         // token?.id ? (session.user.id = token.id) : ''
         // token?.isDonator ? (session.user.isDonator = token.isDonator) : ''
@@ -47,7 +46,7 @@ export default NextAuth({
         // token?.image ? (session.user.image = token.image) : ''
         // token?.phoneNum ? (session.user.phoneNum = token.phoneNum) : ''
         // !(token?.isValid)? (session.user.isValid = token.isValid):''
-  
+        console.log(session);
         return session
       }
     },

@@ -12,6 +12,12 @@ const Review = db.define('review', {
     comment:{
         type:TEXT,
         allowNull:false,
+    },
+    monumentId:{
+        type:INTEGER,
+    },
+    userId:{
+        type:STRING
     }
 },{createdAt:true,updatedAt:false});
 
