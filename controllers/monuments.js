@@ -59,11 +59,9 @@ export async function getMonument(req, res) {
 		const usersReviews = await db.query(`
 		select t1.id,comment,name as sender,image as sender_image from reviews as t1  join users as t2 on t1.userId=t2.id where monumentId=${id}
 		`,{type:QueryTypes.SELECT});
-		const externalReviews = await ExternalReview.findAll({
-			where: { monumentId: id },
-			attributes:{exclude:["monumentId"]}
-		});
-		monument.dataValues.reviews = Array.of(
+
+		const externalReviews = await db.query(`select concat("s",id) as id,comment,sender,sender_image from external_reviews where monumentId=${id}`,{type:QueryTypes.SELECT});
+			monument.dataValues.reviews = Array.of(
 			...usersReviews,
 			...externalReviews
 		);
