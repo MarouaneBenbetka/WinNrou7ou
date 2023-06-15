@@ -61,55 +61,26 @@ export default function InteractiveMap({
 				<TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
 
 				{highlightedMarkers && highlightedMarkers.length ? (
-					<>
-						{/* {markers
-							.filter((item) => {
-								// Check if the 'id' of the item exists in the objects to remove
-								return !highlightedMarkers.some(
-									(removeItem) => removeItem.id === item.id
-								);
-							})
-							.map((item) => (
-								<Marker
-									key={item.id}
-									position={[item.latitude, item.longitude]}
-									title={item.title}
-									icon={L.icon({
-										iconUrl: "/images/logo.svg",
-										iconSize: [42, 42],
-									})}
-									eventHandlers={{
-										click: (e) => {
-											setModalId(item.id);
-											setShowModal((prev) => !prev);
-										},
-										dblclick: (event) => {
-											event.originalEvent.preventDefault(); // Prevents default double-click behavior
-										},
-									}}
-								/>
-							))} */}
-						{highlightedMarkers.map((item) => (
-							<Marker
-								key={item.id}
-								position={[item.latitude, item.longitude]}
-								title={item.title}
-								icon={L.icon({
-									iconUrl: "/images/logo.svg",
-									iconSize: [42, 42],
-								})}
-								eventHandlers={{
-									click: (e) => {
-										setModalId(item.id);
-										setShowModal((prev) => !prev);
-									},
-									dblclick: (event) => {
-										event.originalEvent.preventDefault(); // Prevents default double-click behavior
-									},
-								}}
-							/>
-						))}
-					</>
+					highlightedMarkers.map((item) => (
+						<Marker
+							key={item.id}
+							position={[item.latitude, item.longitude]}
+							title={item.title}
+							icon={L.icon({
+								iconUrl: "/images/logo.svg",
+								iconSize: [42, 42],
+							})}
+							eventHandlers={{
+								click: (e) => {
+									setModalId(item.id);
+									setShowModal((prev) => !prev);
+								},
+								dblclick: (event) => {
+									event.originalEvent.preventDefault(); // Prevents default double-click behavior
+								},
+							}}
+						/>
+					))
 				) : (
 					<MarkerClusterGroup>
 						{markers.map((item) => (
@@ -137,7 +108,12 @@ export default function InteractiveMap({
 
 				<ZoomControl position="bottomright" />
 			</MapContainer>
-			{showModal && <InfoModal id={modalId} />}
+			{showModal && (
+				<InfoModal
+					id={modalId}
+					closeModal={() => setShowModal(false)}
+				/>
+			)}
 		</div>
 	);
 }

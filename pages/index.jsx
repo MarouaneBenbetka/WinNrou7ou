@@ -8,14 +8,15 @@ import Suggestions from "@/components/suggestions/Suggestions";
 import { uiActions } from "@/store/ui-slice";
 import { motion } from "framer-motion";
 import { staggerContainer, textVariant } from "../styles/motion";
-import Modal from "@/components/auth/Modal";
 import axios from "axios";
+import { useErrorBoundary } from "react-error-boundary";
 
 const MapWrapper = dynamic(() => import("@/components/map/InteractiveMap"), {
 	ssr: false,
 });
 
-export default function Home({ markers, wilayas, types }) {
+export default function Home({ markers, wilayas, types, status }) {
+	const { showBoundary } = useErrorBoundary();
 	const { lang, mapView } = useSelector((state) => ({
 		lang: state.ui.language,
 		mapView: state.ui.mapView,
@@ -26,6 +27,10 @@ export default function Home({ markers, wilayas, types }) {
 	const mapRef = useRef();
 	const [highlightedMarkers, setHighlightedMarkers] = useState([]);
 	const [lastSearch, setLastSearch] = useState("");
+
+	useEffect(() => {
+		if (status != "ok") showBoundary(status);
+	}, [status, showBoundary]);
 
 	useEffect(() => {
 		if (mapView) {
@@ -48,10 +53,13 @@ export default function Home({ markers, wilayas, types }) {
 				const res = await axios.get(
 					`http://localhost:3000/api/monuments?q=${query}`
 				);
+
+				if (res.data.monuments.length === 0)
+					throw Error("no result found , try another query");
+				else setLastSearch(query);
 				setHighlightedMarkers(res.data.monuments);
-				setLastSearch(query);
 			} catch (e) {
-				console.log(e);
+				throw Error(e.message);
 			}
 		}
 	};
@@ -64,10 +72,12 @@ export default function Home({ markers, wilayas, types }) {
 				const res = await axios.get(
 					`http://localhost:3000/api/monuments?q=${lastSearch}&wilaya=${query.wilaya}&type=${query.typeAnnonce}`
 				);
-				console.log(res.data.monuments);
+				if (res.data.monuments.length === 0)
+					throw Error("no result found , try another query");
+
 				setHighlightedMarkers(res.data.monuments);
 			} catch (e) {
-				console.log(e);
+				throw Error(e.message);
 			}
 		}
 	};
@@ -164,10 +174,18 @@ export async function getStaticProps() {
 				markers: res?.data.monuments,
 				wilayas: res1?.data.wilayas,
 				types: res2?.data.types,
+				status: "ok",
 			},
 		};
 	} catch (e) {
-		console.log(e);
-		return null;
+		console.log(e.message);
+		return {
+			props: {
+				markers: null,
+				wilayas: null,
+				types: null,
+				status: "error",
+			},
+		};
 	}
 }

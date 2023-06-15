@@ -1,10 +1,11 @@
-import Head from "next/head";
-import React, { Children, useEffect, useState } from "react";
+"use client";
+
 import { uiActions } from "@/store/ui-slice";
-import { useSelector, useDispatch } from "react-redux";
-import Modal from "../auth/Modal";
+import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import ChatButton from "../chat/ChatButton";
-import Chat from "../chat/Chat";
+import { ErrorBoundary } from "react-error-boundary";
+import ErrorBoundaryUI from "../error/ErrorBoundaryUI";
 
 function getWindowHeight() {
 	return window.innerHeight;
@@ -59,14 +60,16 @@ const Layout = ({ children }) => {
 	}, []);
 
 	return (
-		<div
-			onScroll={handleScroll}
-			className="  font-poppins  w-screen max-w-[100vw]"
-		>
-			{children}
+		<ErrorBoundary FallbackComponent={ErrorBoundaryUI}>
+			<div
+				onScroll={handleScroll}
+				className="  font-poppins  w-screen max-w-[100vw]"
+			>
+				{children}
 
-			<ChatButton />
-		</div>
+				<ChatButton />
+			</div>
+		</ErrorBoundary>
 	);
 };
 

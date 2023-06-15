@@ -11,9 +11,9 @@ export default async function handler(req, res) {
 		});
 
 		const chatGptResponse = completion.data.choices[0].message?.content;
-		console.log(chatGptResponse);
 		res.status(200).json({ chatGptResponse });
 	} catch (e) {
+		console.log(e);
 		res.status(400).json({
 			message: `${e}`,
 		});

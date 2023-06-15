@@ -17,7 +17,7 @@ const Navbar = ({ setShowModal }) => {
 		state.ui.language,
 		state.ui.navBarColor,
 	]);
-	const isAuth = status !== "unauthenticated";
+	const isAuth = status == "authenticated";
 	const { pathname } = useRouter();
 
 	const openAnimation = useSpring({
