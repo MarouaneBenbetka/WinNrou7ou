@@ -15,12 +15,10 @@ const Review = db.define(
 			allowNull: false,
 		},
 		monumentId: {
-			type: INTEGER,
-			unique: false,
+			type: INTEGER.UNSIGNED,
 		},
 		userId: {
 			type: STRING,
-			unique: false,
 		},
 	},
 	{ createdAt: true, updatedAt: false }

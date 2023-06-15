@@ -2,10 +2,10 @@ import Monument from "@/models/monument";
 import Image from "@/models/image";
 import MonumentTypesItem from "@/models/monumentTypesItem";
 import Review from "@/models/review";
-import {Op, QueryTypes} from "sequelize";
+import { Op, QueryTypes } from "sequelize";
 import ExternalReview from "@/models/ExternalReview";
-import {getServerSession} from "next-auth";
-import {authOptions} from "@/pages/api/auth/[...nextauth]";
+import { getServerSession } from "next-auth";
+import { authOptions } from "@/pages/api/auth/[...nextauth]";
 import User from "@/models/user";
 import db from "@/utils/config/dbConnection";
 
@@ -56,12 +56,18 @@ export async function getMonument(req, res) {
 				where: { monumentId: id },
 			})
 		).map((image) => image.url);
-		const usersReviews = await db.query(`
-		select t1.id,comment,name as sender,image as sender_image from reviews as t1  join users as t2 on t1.userId=t2.id where monumentId=${id}
-		`,{type:QueryTypes.SELECT});
+		const usersReviews = await db.query(
+			`
+		select t1.id,comment,name as sender,image as sender_image from reviews as t1  join users as t2 on t1.userId=t2.id where monumentId=${id} order by t1.createdAt DESC
+		`,
+			{ type: QueryTypes.SELECT }
+		);
 
-		const externalReviews = await db.query(`select concat("s",id) as id,comment,sender,sender_image from external_reviews where monumentId=${id}`,{type:QueryTypes.SELECT});
-			monument.dataValues.reviews = Array.of(
+		const externalReviews = await db.query(
+			`select concat("s",id) as id,comment,sender,sender_image from external_reviews where monumentId=${id}`,
+			{ type: QueryTypes.SELECT }
+		);
+		monument.dataValues.reviews = Array.of(
 			...usersReviews,
 			...externalReviews
 		);
@@ -100,11 +106,11 @@ export async function getMonumentReviews(req, res) {
 export async function createMonumentReview(req, res) {
 	const { id } = req.query;
 	const { comment } = req.body;
-	const session = await getServerSession (req,res,authOptions);
-	if (!session){
-		return res.status(401).json({message:"unauthorized"});
+	const session = await getServerSession(req, res, authOptions);
+	if (!session) {
+		return res.status(401).json({ message: "unauthorized" });
 	}
-	const user = await User.findOne({where:{email:session.user.email}});
+	const user = await User.findOne({ where: { email: session.user.email } });
 	try {
 		const monument = await Monument.findByPk(id);
 		if (!monument) {

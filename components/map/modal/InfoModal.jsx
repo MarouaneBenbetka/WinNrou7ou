@@ -18,6 +18,7 @@ import ErrorLoading from "./ErrorLoading";
 import { PuffLoader } from "react-spinners";
 import { BsFillSendFill } from "react-icons/bs";
 import { useSession } from "next-auth/react";
+import Filter from "bad-words";
 
 const InfoModal = ({ id, closeModal }) => {
 	const [expandHistory, setExpandHistory] = useState(false);
@@ -55,29 +56,42 @@ const InfoModal = ({ id, closeModal }) => {
 		if (status === "authenticated") {
 			try {
 				setCommentLoading(true);
+				let cleanComment;
+				try {
+					var customFilter = new Filter({
+						replaceRegex: /[A-Za-z0-9가-힣_\u0621-\u064A]/g,
+						placeHolder: "x",
+					});
+					cleanComment = customFilter.clean(inputValue);
+				} catch (e) {
+					cleanComment = inputValue;
+					console.log(e);
+				}
 
 				const res = await axios.post(
 					`http://localhost:3000/api/monuments/${id}/reviews`,
-					{ comment: inputValue },
+					{ comment: cleanComment },
 					{ withCredentials: true }
 				);
-				console.log(res);
+
 				setCommentLoading(false);
-				// setModalData((prev) => {
-				// 	const newData = {
-				// 		...prev,
-				// 		reviews: [
-				// 			...prev.review,
-				// 			{
-				// 				id: 1,
-				// 				comment: inputValue,
-				// 				send: session.user.name,
-				// 				sender_image: session.user.image,
-				// 			},
-				// 		],
-				// 	};
-				// });
+				setModalData((prev) => {
+					const newData = {
+						...prev,
+						reviews: [
+							{
+								id: res.data.review.id,
+								comment: cleanComment,
+								sender: session.user.name,
+								sender_image: session.user.image,
+							},
+							...prev.reviews,
+						],
+					};
+					return newData;
+				});
 			} catch (e) {
+				console.log(e);
 				setCommentLoading(false);
 			}
 		}
@@ -196,16 +210,6 @@ const InfoModal = ({ id, closeModal }) => {
 
 						{expandReviews && (
 							<>
-								<div className="ml-2 mt-4">
-									{modalData.reviews.map((item, index) => (
-										<Review
-											key={index}
-											sender={item.sender}
-											image={item.sender_image}
-											comment={item.comment}
-										/>
-									))}
-								</div>
 								<form
 									onSubmit={handleCommentSubmit}
 									className="flex-none mb-3"
@@ -251,6 +255,16 @@ const InfoModal = ({ id, closeModal }) => {
 										</div>
 									</div>
 								</form>
+								<div className="ml-2 mt-4">
+									{modalData.reviews.map((item, index) => (
+										<Review
+											key={index}
+											sender={item.sender}
+											image={item.sender_image}
+											comment={item.comment}
+										/>
+									))}
+								</div>
 							</>
 						)}
 						<div className="flex justify-center">

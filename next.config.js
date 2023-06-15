@@ -9,6 +9,7 @@ const nextConfig = {
 			"i0.wp.com",
 			"media-cdn.tripadvisor.com",
 			"pbs.twimg.com",
+			"lh3.googleusercontent.com",
 		],
 	},
 };
