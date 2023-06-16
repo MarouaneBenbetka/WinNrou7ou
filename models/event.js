@@ -9,9 +9,12 @@ const Event = db.define('event', {
         primaryKey:true,
         autoIncrement:true
     },
-    name:{
+    title:{
         type:STRING,
         allowNull:false,
+    },
+    address:{
+      type:STRING
     },
     description:{
         type:TEXT,
@@ -29,9 +32,13 @@ const Event = db.define('event', {
         type:DATE,
         allowNull:false
     },
-    image_url:{
+    main_image_url:{
         type:STRING,
-        allowNull:false
+        allowNull:true
+    },
+    secondary_image_url:{
+        type:STRING,
+        allowNull:true
     }
 
 },{timestamps:false});
