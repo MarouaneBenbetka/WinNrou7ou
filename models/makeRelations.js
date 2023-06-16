@@ -9,12 +9,13 @@ import ExternalReview from "@/models/ExternalReview";
 import Event from "@/models/event";
 import UserFavouriteEvent from "@/models/userFavouriteEvent";
 import UserFavouriteMonument from "@/models/userFavouriteMonument";
+import Content360 from "@/models/Content360";
 
 export default function makeRelations() {
 	//relation between wilaya and monument (wilaya has many monuments) (one-to-many relationship)
 	Monument.belongsTo(Wilaya, { foreignKey: "wilaya_name" });
 	Wilaya.hasMany(Monument, { foreignKey: "wilaya_name" });
-
+	Wilaya.hasMany(Content360,{foreignKey: "wilaya_name"})
 	//relation between monument and type (monument has many types and type has many monuments) (many-to-many relationship)
 	Monument.belongsToMany(Type, {
 		through: MonumentTypesItem,
@@ -41,4 +42,6 @@ export default function makeRelations() {
 
 	Monument.belongsToMany(User,{through:UserFavouriteMonument});
 	User.belongsToMany(Monument,{through:UserFavouriteMonument});
+
+
 }
