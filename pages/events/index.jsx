@@ -95,27 +95,6 @@ const DUMMY_EVENTS = [
 	},
 ];
 
-export async function getServerSideProps() {
-	try {
-		const res = await axios.get("http://localhost:3000/api/events");
-		console.log(res.data.events);
-		return {
-			props: {
-				events: res?.data.events,
-				status: "ok",
-			},
-		};
-	} catch (e) {
-		console.log(e.message);
-		return {
-			props: {
-				events: null,
-				status: "error",
-			},
-		};
-	}
-}
-
 const Events = ({ events, status }) => {
 	const nextSectionRef = useRef();
 	const { showBoundary } = useErrorBoundary();
@@ -189,8 +168,8 @@ const Events = ({ events, status }) => {
 								key={event.id}
 								id={event.id}
 								title={event.title}
-								date={event.date}
-								image={event.mainImage}
+								date={event.date.split("T")[0]}
+								image={event.main_image_url}
 							/>
 						))}
 					</div>
@@ -211,13 +190,13 @@ const Events = ({ events, status }) => {
 					/>
 				</div>
 				<div className=" hidden md:grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3   gap-6 mt-8 mb-14 ">
-					{DUMMY_EVENTS.map((event) => (
+					{events.map((event) => (
 						<SmallEventCard
 							id={event.id}
 							key={event.id}
 							title={event.title}
-							date={event.date}
-							image={event.mainImage}
+							date={event.date.split("T")[0]}
+							image={event.main_image_url}
 						/>
 					))}
 				</div>
@@ -226,8 +205,8 @@ const Events = ({ events, status }) => {
 						<EventCard
 							key={event.id}
 							title={event.title}
-							date={event.date}
-							image={event.mainImage}
+							date={event.date.split("T")[0]}
+							image={event.main_image_url}
 						/>
 					))}
 				</div>
@@ -238,3 +217,24 @@ const Events = ({ events, status }) => {
 };
 
 export default Events;
+
+export async function getServerSideProps() {
+	try {
+		const res = await axios.get("http://localhost:3000/api/events");
+		console.log(res.data.events);
+		return {
+			props: {
+				events: res?.data.events,
+				status: "ok",
+			},
+		};
+	} catch (e) {
+		console.log(e.message);
+		return {
+			props: {
+				events: null,
+				status: "error",
+			},
+		};
+	}
+}

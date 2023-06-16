@@ -5,6 +5,7 @@ import { FiCalendar, FiExternalLink } from "react-icons/fi";
 import { motion } from "framer-motion";
 import Link from "next/link";
 const SmallEventCard = ({ id, title, date, image }) => {
+	console.log(image);
 	const [isFavorite, setIsFavorite] = useState(false);
 	const [isHovering, setIsHovering] = useState(false);
 	return (

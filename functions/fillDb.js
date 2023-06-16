@@ -121,7 +121,7 @@ async function fillData() {
 			longitude: item.lon,
 			location: item.location,
 			image_url: item.image_url,
-			wilaya_name: item.wilaya,
+			wilaya_name: item.location,
 		});
 	}
 	for (const event of events) {
