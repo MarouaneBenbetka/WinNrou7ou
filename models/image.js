@@ -12,6 +12,9 @@ const Image = db.define('image', {
     url:{
         type:STRING,
         allowNull:false,
+    },
+    monumentId:{
+        type:INTEGER.UNSIGNED,
     }
 
 },{timestamps:false});

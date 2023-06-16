@@ -14,7 +14,7 @@ const Review = db.define('review', {
         allowNull:false,
     },
     monumentId:{
-        type:INTEGER,
+        type:INTEGER.UNSIGNED,
     },
     userId:{
         type:STRING

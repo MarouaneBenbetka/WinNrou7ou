@@ -8,9 +8,13 @@ import {getServerSession} from "next-auth";
 import {authOptions} from "@/pages/api/auth/[...nextauth]";
 import User from "@/models/user";
 import db from "@/utils/config/dbConnection";
+import UserTypes from "@/models/systemUserTypes";
+import Event from "@/models/event";
+import UserFavouriteEvent from "@/models/userFavouriteEvent";
+import UserFavouriteMonument from "@/models/userFavouriteMonument";
 
 export async function getMonuments(req, res) {
-	const { wilaya, types, q = "" } = req.query;
+	const { wilaya, types, q = "" ,page=0,page_size=10000} = req.query;
 
 	try {
 		let monumentsOfType;
@@ -29,8 +33,11 @@ export async function getMonuments(req, res) {
 				title: { [Op.like]: `%${q}%` },
 			},
 			attributes: { exclude: ["summary", "rating"] },
+			limit:Number(page_size),
+			offset:Number(page)*Number(page_size)
 		});
-		res.status(200).send({ monuments });
+		const page_limit = Math.ceil((await Monument.count())/Number(page_size));
+		res.status(200).send({ monuments,page_limit });
 	} catch (err) {
 		res.status(500).json(err);
 	}
@@ -77,7 +84,54 @@ export async function getMonument(req, res) {
 		res.status(500).json(err);
 	}
 }
+export async function deleteMonument(req, res) {
+	const { id } = req.query;
+	try {
+		const session = await getServerSession (req,res,authOptions);
+		if (!session){
+			return res.status(401).json({message:"unauthorized"});
+		}
+		const user = await User.findOne({where:{email:session.user.email}});
+		if (user.type!==UserTypes.ADMIN){
+			return res.status(401).json({message:"unauthorized"});
+		}
+		const monument = await Monument.findByPk(id);
+		if (!monument){
+			return res.status(404).json({ message:"monument not found" });
+		}
+		await UserFavouriteMonument.destroy({where:{monumentId:id}});
+		await Image.destroy({where:{monumentId:monument.id}});
+		await monument.destroy();
+		res.status(200).json({ monument });
+	} catch (err) {
+		res.status(500).json(err);
+	}
+}
 
+export async function createMonument(req, res) {
+	const { title,summary,latitude,longitude,images,wilaya } = req.query;
+	try {
+		if (!(title&summary&latitude&longitude&wilaya)){
+			return res.status(400).json({message:"missing info"});
+		}
+		const session = await getServerSession (req,res,authOptions);
+		if (!session){
+			return res.status(401).json({message:"unauthorized"});
+		}
+		const user = await User.findOne({where:{email:session.user.email}});
+		if (user.type!==UserTypes.ADMIN){
+			return res.status(401).json({message:"unauthorized"});
+		}
+		const monument = await Monument.create({title,summary,latitude,longitude,wilaya_name:wilaya});
+		for (const url of images){
+			await Image.create({url,monumentId:monument.id});
+		}
+		monument.dataValues.images= images;
+		res.status(200).json({ monument });
+	} catch (err) {
+		res.status(500).json(err);
+	}
+}
 export async function getMonumentReviews(req, res) {
 	const { id, page = 0, page_size = 10 } = req.query;
 	try {
@@ -100,6 +154,9 @@ export async function getMonumentReviews(req, res) {
 export async function createMonumentReview(req, res) {
 	const { id } = req.query;
 	const { comment } = req.body;
+	if (!comment){
+		return res.status(400).json({message:"bad request"});
+	}
 	const session = await getServerSession (req,res,authOptions);
 	if (!session){
 		return res.status(401).json({message:"unauthorized"});
