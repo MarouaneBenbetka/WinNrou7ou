@@ -11,6 +11,7 @@ const nextConfig = {
 			"pbs.twimg.com",
 			"lh3.googleusercontent.com",
 			"res.cloudinary.com",
+			"www.kherdja.com",
 		],
 	},
 };

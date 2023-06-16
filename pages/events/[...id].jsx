@@ -5,15 +5,21 @@ import { FiCalendar, FiMapPin } from "react-icons/fi";
 import Image from "next/image";
 import Footer from "@/components/shared/Footer";
 import dynamic from "next/dynamic";
+const MapWrapper = dynamic(() => import("@/components/map/SimpleMap"), {
+	ssr: false,
+});
+
+export async function getServerSideProps(context) {
+	console.log("id here", context.id);
+	return {
+		props: {},
+	};
+}
 
 const Event = () => {
 	const router = useRouter();
 	const { id } = router.query;
 	console.log(id);
-
-	const MapWrapper = dynamic(() => import("@/components/map/SimpleMap"), {
-		ssr: false,
-	});
 
 	return (
 		<div>
