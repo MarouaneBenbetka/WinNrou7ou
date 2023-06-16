@@ -21,7 +21,7 @@ const Layout = ({ children }) => {
 			e.preventDefault();
 			window.scrollTo(0, window.innerHeight);
 		} else {
-			dispatcher(uiActions.scrollChanged(window.pageYOffset));
+			dispatcher(uiActions.scrollChanged(window.scrollY));
 		}
 	};
 
@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
 		dispatcher(
 			uiActions.onResize({
 				windowHeight: window.innerHeight,
-				scrollOffset: window.pageYOffset,
+				scrollOffset: window.scrollY,
 			})
 		);
 
@@ -45,7 +45,7 @@ const Layout = ({ children }) => {
 			dispatcher(
 				uiActions.onResize({
 					windowHeight: window.innerHeight,
-					scrollOffset: window.pageYOffset,
+					scrollOffset: window.scrollY,
 				})
 			);
 		}

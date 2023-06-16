@@ -25,6 +25,7 @@ export default function Home({ markers, wilayas, types, status }) {
 	const [mapLocked, setMapLocked] = useState(false);
 	const searchBarRef = useRef();
 	const mapRef = useRef();
+	const heroRef = useRef();
 	const [highlightedMarkers, setHighlightedMarkers] = useState([]);
 	const [lastSearch, setLastSearch] = useState("");
 
@@ -36,6 +37,7 @@ export default function Home({ markers, wilayas, types, status }) {
 		if (mapView) {
 			mapRef.current.scrollIntoView({ behavior: "smooth" });
 		} else {
+			heroRef.current.scrollIntoView({ behavior: "smooth" });
 			setMapLocked(false);
 			dispatch(uiActions.disableScroll());
 		}
@@ -90,6 +92,7 @@ export default function Home({ markers, wilayas, types, status }) {
 				variants={staggerContainer}
 				initial="hidden"
 				whileInView="show"
+				ref={heroRef}
 			>
 				<motion.h1
 					className="text-4xl md:text-6xl pb-2  font-semibold"

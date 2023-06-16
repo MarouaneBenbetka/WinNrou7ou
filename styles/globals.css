@@ -34,21 +34,20 @@ body {
 		)
 		rgb(var(--background-start-rgb));
 }
+/* 
 
-/* width */
 ::-webkit-scrollbar {
 	width: 6px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
 	background: #1b1e21;
 }
 
-/* Handle */
+
 ::-webkit-scrollbar-thumb {
 	background: #f7af00;
-}
+} */
 
 .nav-link::after {
 	content: "";

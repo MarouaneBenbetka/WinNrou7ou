@@ -181,7 +181,7 @@ const Events = ({ events, status }) => {
 						Events
 					</h1>
 				</div>
-				<div className="w-[45vw] h-[220px]  absolute top-0 right-0 ">
+				<div className="w-[45vw] h-[230px]  absolute top-0 right-0 ">
 					<Image
 						src={"/images/asset2.png"}
 						alt=""
