@@ -10,7 +10,6 @@ export async function getEvents(req, res) {
     const {page = 0, page_size = 12} = req.query;
     try {
         const events = await Event.findAll({
-            where: {date: {[Op.gte]: Date()}},
             attributes: {
                 exclude: ["description", "latitude", "longitude"],
                 order: [["date", "DESC"]],
