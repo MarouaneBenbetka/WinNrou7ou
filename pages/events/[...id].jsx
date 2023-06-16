@@ -9,8 +9,8 @@ const MapWrapper = dynamic(() => import("@/components/map/SimpleMap"), {
 	ssr: false,
 });
 
-export async function getServerSideProps(context) {
-	console.log("id here", context.id);
+export async function getServerSideProps({ params }) {
+	console.log("id here", params.id);
 	return {
 		props: {},
 	};

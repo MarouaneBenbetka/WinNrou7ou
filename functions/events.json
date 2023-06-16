@@ -2,7 +2,7 @@
 	{
 		"id": 1,
 		"title": "Algiers Choir and Friends",
-		"date": "10-06-2023",
+		"date": "2023-06-10",
 		"mainImage": "https://www.kherdja.com/images/produits/o/recital-de-chorale-algiers-choir-and-friends-a-la-basilique-notre-dame-d-afrique--62546.jpg",
 		"secondaryImage": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686943527/events-images/1_a1gfew.jpg",
 		"latitude": 36.801097962112834,
@@ -13,7 +13,7 @@
 	{
 		"id": 2,
 		"title": "Hamidou en concert",
-		"date": "22-06-2023",
+		"date": "2023-06-22",
 		"mainImage": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686943528/events-images/2_tblrtn.jpg",
 		"secondaryImage": "https://www.kherdja.com/images/produits/o/hamidou-en-concert-a-alger-ce-22-juin--958519.jpg",
 		"latitude": 36.77717328168416,
@@ -21,21 +21,11 @@
 		"description": "Hamidou en concert au Théatre de Verdure Ladi Flici à Alger, le 22 juin 2023 !\n\nHamidou, un artiste très apprécié par le public algérien, donne rendez-vous à son public algérois, le jeudi 22 juin à venir, pour un concert exceptionnel, au Théatre de Verdure Ladi Flici (plus bas que l'hotel l'Aurassi), à partir de 19 heures.\n\nPrix des tickets : 1500 DA (en prévente à partir du 13 juin aux guichets de la salle Ibn Khaldoun et du Théatre de verdure)",
 		"adress": "Théâtre de Verdure Ladi Flici, plus bas que l'hôtel l'Aurassi; "
 	},
-	{
-		"id": 2,
-		"title": "Hamidou en concert",
-		"date": "22-06-2023",
-		"mainImage": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686943527/events-images/3_kzxang.jpg",
-		"secondaryImage": "https://www.kherdja.com/images/produits/o/hamidou-en-concert-a-alger-ce-22-juin--958519.jpg",
-		"latitude": 36.77717328168416,
-		"longitude": 3.0530056767387146,
-		"description": "Hamidou en concert au Théatre de Verdure Ladi Flici à Alger, le 22 juin 2023 !\n\nHamidou, un artiste très apprécié par le public algérien, donne rendez-vous à son public algérois, le jeudi 22 juin à venir, pour un concert exceptionnel, au Théatre de Verdure Ladi Flici (plus bas que l'hotel l'Aurassi), à partir de 19 heures.\n\nPrix des tickets : 1500 DA (en prévente à partir du 13 juin aux guichets de la salle Ibn Khaldoun et du Théatre de verdure)",
-		"adress": "Théâtre de Verdure Ladi Flici, plus bas que l'hôtel l'Aurassi; "
-	},
+
 	{
 		"id": 3,
 		"title": "Abdelkader Chaou et Lamia",
-		"date": "09-06-2023",
+		"date": "2023-06-09",
 		"mainImage": "https://www.kherdja.com/images/produits/o/abdelkader-chaou-et-lamia--62221.jpg",
 		"secondaryImage": "",
 		"latitude": 36.7742457030341,
@@ -46,7 +36,7 @@
 	{
 		"id": 4,
 		"title": "Mis Raíces",
-		"date": "01-06-2023",
+		"date": "2023-06-01",
 		"mainImage": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686943531/events-images/4_x1grgq.jpg",
 		"secondaryImage": "https://www.kherdja.com/images/produits/320/la-mezzosoprano-ana-hasler-et-le-pianiste-david-casanova-en-concert-a-la-basilique-notre-dame-d-afrique-d-alger--744437.jpg",
 		"latitude": 36.801097962112834,
@@ -57,7 +47,7 @@
 	{
 		"id": 5,
 		"title": "Nawel Mebarek en concert",
-		"date": "26-05-2023",
+		"date": "2023-05-26",
 		"mainImage": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686943531/events-images/5_whaoco.jpg",
 		"secondaryImage": "https://www.kherdja.com/images/produits/320/nawel-mebarek-en-concert-a-alger--314774.jpg",
 		"latitude": 36.801097962112834,
@@ -68,7 +58,7 @@
 	{
 		"id": 6,
 		"title": "Le 1er Salon  des Établissements de la Petite Enfance",
-		"date": "03-06-2023",
+		"date": "2023-06-03",
 		"mainImage": "https://www.kherdja.com/images/produits/o/le-1er-salon-algerien-des-etablissements-de-la-petite-enfance--235670.jpg",
 		"secondaryImage": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686943527/events-images/6_b65vod.jpg",
 		"latitude": 35.726290133989075,

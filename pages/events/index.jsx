@@ -2,9 +2,11 @@ import EventCard from "@/components/events/EventCard";
 import SmallEventCard from "@/components/events/SmallEventCard";
 import Footer from "@/components/shared/Footer";
 import { staggerContainer, textVariant } from "@/styles/motion";
+import axios from "axios";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
+import { useErrorBoundary } from "react-error-boundary";
 
 const DUMMY_EVENTS = [
 	{
@@ -93,8 +95,34 @@ const DUMMY_EVENTS = [
 	},
 ];
 
-const Events = () => {
+export async function getServerSideProps() {
+	try {
+		const res = await axios.get("http://localhost:3000/api/events");
+		console.log(res.data.events);
+		return {
+			props: {
+				events: res?.data.events,
+				status: "ok",
+			},
+		};
+	} catch (e) {
+		console.log(e.message);
+		return {
+			props: {
+				events: null,
+				status: "error",
+			},
+		};
+	}
+}
+
+const Events = ({ events, status }) => {
 	const nextSectionRef = useRef();
+	const { showBoundary } = useErrorBoundary();
+
+	useEffect(() => {
+		if (status != "ok") showBoundary(status);
+	}, [status, showBoundary]);
 
 	return (
 		<div className="bg-white">
@@ -156,7 +184,7 @@ const Events = () => {
 				</div>
 				<div className=" px-10 flex justify-center items-center">
 					<div className="  flex mmmd:block  mmd:carousel mmmd:carousel-start   mt-7 mmd:w-[100vw]   py-4 px-6">
-						{DUMMY_EVENTS.slice(0, 3).map((event) => (
+						{events.slice(0, 3).map((event) => (
 							<EventCard
 								key={event.id}
 								id={event.id}
