@@ -10,7 +10,7 @@ const ChatButton = () => {
 		<>
 			<Chat visible={chatOpened} />
 			<div
-				className="flex justify-center items-center h-[64px] w-[64px] md:w-[76px] md:h-[76px] rounded-full bg-white fixed bottom-3 right-14 z-[200] cursor-pointer transition hover:scale-[1.05]"
+				className="flex justify-center items-center h-[64px] w-[64px] md:w-[76px] md:h-[76px] rounded-full bg-white fixed bottom-3 right-14 z-[200] cursor-pointer transition hover:scale-[1.05] shadow-lg"
 				onClick={() => {
 					setChatOpened((prev) => !prev);
 				}}

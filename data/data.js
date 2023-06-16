@@ -25,6 +25,13 @@ export const navLinks = [
 		titleArabic: "الأحداث",
 	},
 	{
+		id: "vr",
+		titleEnglish: "360 view",
+		titleFrench: "Vue 360",
+		titleSpanish: "Vista 360",
+		titleArabic: "360° عرض",
+	},
+	{
 		id: "about",
 		titleEnglish: "About us",
 		titleFrench: "à propos",

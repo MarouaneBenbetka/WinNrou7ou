@@ -30,7 +30,9 @@ const Navbar = ({ setShowModal }) => {
 		pathname !== "/signup" && (
 			<div
 				className={`snap-start z-50  top-0 w-screen ${
-					pathname === "/" ? "absolute" : "fixed"
+					pathname === "/" || pathname === "/vr"
+						? "absolute"
+						: "fixed"
 				} ${
 					navMobile || navBarColor === "blur"
 						? " bg-[#0B1723] backdrop-filter backdrop-blur-xl bg-opacity-40 "
@@ -38,9 +40,19 @@ const Navbar = ({ setShowModal }) => {
 				} md:transition md:ease-in-out md:duration-200`}
 			>
 				<div className="flex justify-between items-center   sm:px-8  py-4 md:px-4 lg:px-8 relative">
-					<div className="ml-4">
-						<h1>logo</h1>
+					<div className="ml-4 relative h-[42px]">
+						<div className="absolute top-0 left-0 ">
+							<div className="relative w-[54px] h-[54px] ">
+								<Image
+									src="/images/logo.png"
+									alt=""
+									fill
+									className="object-contain"
+								/>
+							</div>
+						</div>
 					</div>
+
 					<ul
 						className={
 							"hidden md:flex items-center gap-2 " +
