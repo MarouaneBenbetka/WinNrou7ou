@@ -2,7 +2,7 @@ import { wilayas } from "@/data/data";
 import { useRef, useState } from "react";
 import { BsSearch } from "react-icons/bs";
 
-const SearchBar = ({ setWilaya }) => {
+const SearchBar = ({ setWilaya, openModal }) => {
 	const [inputValue, setInputValue] = useState("");
 	const dropdownRef = useRef();
 	const blurInput = () => {
@@ -42,6 +42,7 @@ const SearchBar = ({ setWilaya }) => {
 									setInputValue(wilaya.key);
 									blurInput();
 									setWilaya(wilaya.key);
+									openModal();
 								}}
 							>
 								<p>{wilaya.value}</p>

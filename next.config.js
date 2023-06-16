@@ -10,6 +10,7 @@ const nextConfig = {
 			"media-cdn.tripadvisor.com",
 			"pbs.twimg.com",
 			"lh3.googleusercontent.com",
+			"res.cloudinary.com",
 		],
 	},
 };

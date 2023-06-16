@@ -5,6 +5,8 @@ import Image from "next/image";
 import { useRef, useState } from "react";
 import SearchBar from "@/components/vr/SearchBar";
 import { Map } from "react-algeria-map";
+import VrModal from "@/components/vr/modal/VrModal";
+import { wilayas } from "@/data/data";
 
 const data = {
 	Adrar: 0,
@@ -70,6 +72,7 @@ const data = {
 const Vr = () => {
 	const nextSectionRef = useRef();
 	const [wilaya, setWilaya] = useState("");
+	const [showModal, setShowModal] = useState(false);
 	return (
 		<section>
 			<VrBg />
@@ -132,6 +135,10 @@ const Vr = () => {
 				ref={nextSectionRef}
 				className="min-h-screen w-full flex  items-center flex-col bg-white pt-10 md:pt-[80px] relative"
 			>
+				<div
+					className="w-screen min-h-screen absolute top-0 left-0  bg-transparent"
+					onClick={() => setShowModal(false)}
+				/>
 				<div className="relative mb-6">
 					<h1 className="bg-white text-center text-dark font-bold hidden md:block md:text-3xl lg:text-5xl relative z-10 before:content-[''] before:h-5 before:bg-blue before:w-full before:absolute before:bottom-0 before:left-0 before:-z-10">
 						select a city and enjoy a 360° view
@@ -151,8 +158,11 @@ const Vr = () => {
 						className="object-fill"
 					/>
 				</div>
-				<SearchBar setWilaya={setWilaya} />
-				<div>
+				<SearchBar
+					setWilaya={setWilaya}
+					openModal={() => setShowModal(true)}
+				/>
+				<div className="relative z-10">
 					<Map
 						color="#069ADF"
 						HoverColor="#1e739a"
@@ -161,12 +171,19 @@ const Vr = () => {
 						height="500px"
 						width="500px"
 						data={data}
-						onWilayaClick={(wilaya, data) =>
-							console.log(wilaya, data)
-						}
+						onWilayaClick={(wilaya, data) => {
+							console.log(wilaya, data);
+							setShowModal(true);
+							setWilaya(wilayas[data].key);
+						}}
 					/>
-					;
 				</div>
+				{showModal && (
+					<VrModal
+						wilaya={wilaya}
+						closeModal={() => setShowModal(false)}
+					/>
+				)}
 			</section>
 		</section>
 	);
