@@ -61,9 +61,9 @@ export async function deleteEvent(req, res) {
 }
 
 export async function createEvent(req, res) {
-    const {name, description, latitude, longitude, date, image_url} = req.query;
+    const {name, description, latitude, longitude, date, main_image_url,secondary_image_url} = req.query;
     try {
-        if (!(name&description&latitude&longitude&date&image_url)){
+        if (!(name&description&latitude&longitude&date&main_image_url&secondary_image_url)){
             return res.status(400).json({message:"missing info"});
         }
         const session = await getServerSession(req, res, authOptions);
@@ -74,7 +74,7 @@ export async function createEvent(req, res) {
         if (user.type !== UserTypes.ADMIN) {
             return res.status(401).json({message: "unauthorized"});
         }
-        const event = await Event.create({name, description, latitude, longitude, date: Date.parse(date), image_url});
+        const event = await Event.create({name, description, latitude, longitude, date: Date.parse(date), main_image_url,secondary_image_url});
         res.status(200).json({event});
     } catch (err) {
         res.status(500).json(err);

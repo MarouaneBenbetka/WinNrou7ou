@@ -1,10 +1,12 @@
 import data from "./discover_dz.json";
 import content360Data from "./content360_data.json";
+import events from "./events.json";
 import Wilaya from "../models/wilaya";
 import Type from "../models/type";
 import Monument from "../models/monument";
 import Image from "../models/image";
 import Content360 from "../models/Content360";
+import Event from "../models/event";
 
 import MonumentTypesItem from "../models/monumentTypesItem";
 import makeRelations from "@/models/makeRelations";
@@ -117,8 +119,21 @@ async function fillData() {
 			vr_link: item.vr_link,
 			latitude: item.lat,
 			longitude: item.lon,
+			location: item.location,
 			image_url: item.image_url,
-			wilaya_name: item.location,
+			wilaya_name: item.wilaya,
+		});
+	}
+	for (const event of events) {
+		await Event.create({
+			title: event.title,
+			date: Date.parse(event.date),
+			address: event.adress,
+			description: event.description,
+			latitude: event.latitude,
+			longitude: event.longitude,
+			main_image_url: event.mainImage,
+			secondary_image_url: event.secondaryImage,
 		});
 	}
 	return "done";
