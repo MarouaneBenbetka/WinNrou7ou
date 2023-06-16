@@ -19,6 +19,7 @@ module.exports = {
 			backgroundImage: {
 				events: "url('/images/events.png')",
 				event: "url('/images/event-bg.png')",
+				about: "url(/images/about_bg.png)",
 			},
 		},
 		screens: {
@@ -28,6 +29,7 @@ module.exports = {
 			sm: "640px",
 
 			md: "768px",
+			xmd: "880px",
 
 			lg: "1024px",
 

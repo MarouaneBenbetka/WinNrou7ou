@@ -11,7 +11,7 @@ import {
 
 export const navLinks = [
 	{
-		id: "/",
+		id: "",
 		titleEnglish: "Home",
 		titleFrench: "Accueil",
 		titleSpanish: "Bienvenida",
@@ -23,6 +23,13 @@ export const navLinks = [
 		titleFrench: "Événements",
 		titleSpanish: "Eventos",
 		titleArabic: "الأحداث",
+	},
+	{
+		id: "vr",
+		titleEnglish: "360 view",
+		titleFrench: "Vue 360",
+		titleSpanish: "Vista 360",
+		titleArabic: "360° عرض",
 	},
 	{
 		id: "about",
@@ -224,5 +231,64 @@ export const aboutInfo = [
 		name: "team",
 		icon: <RiTeamLine size={20}></RiTeamLine>,
 		content: "Our team",
+	},
+];
+
+export const team = [
+	{
+		id: 1,
+		image: "KEBIR_Ahmed_Rayane.JPG",
+		profession: "Team leader",
+		fullName: "KEBIR Rayane",
+		linkedin: "",
+	},
+	{
+		id: 2,
+		image: "BENBETKA_Marouane.jpg",
+		profession: "Devellopment Manager",
+		fullName: "BENBETKA Marouane",
+		linkedin: "",
+	},
+	{
+		id: 3,
+		image: "Bilel_Sefsaf.jpg",
+		profession: "Backend Developer",
+		fullName: "SEFSAF Bilel",
+		linkedin: "",
+	},
+	{
+		id: 4,
+		image: "ANANE_Ayoub.JPG",
+		profession: "Motion Designer",
+		fullName: "ANANE Ayoub",
+		linkedin: "",
+	},
+	{
+		id: 5,
+		image: "Meriem_Zitouni.jpg",
+		profession: "",
+		fullName: "ZITOUNI meriem",
+		linkedin: "",
+	},
+	{
+		id: 6,
+		image: "Meryem_Romaissa_FERHI.jpg",
+		profession: "",
+		fullName: "FERHI Romaissa",
+		linkedin: "",
+	},
+	{
+		id: 7,
+		image: "Ikram_Zerrouki.jpg",
+		profession: "",
+		fullName: "ZERROUKI Ikram",
+		linkedin: "",
+	},
+	{
+		id: 8,
+		image: "djellal_Meriem.png",
+		profession: "",
+		fullName: "DJELLAL Meriem",
+		linkedin: "",
 	},
 ];

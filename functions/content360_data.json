@@ -1,1 +1,682 @@
-[]
+[
+	{
+		"title": "Tin Akachaker",
+		"vr_link": "https://www.360cities.net/image/tin-akachaker-africa/vr",
+		"lat": "21.6363270545894",
+		"lon": "6.43983364105225",
+		"location": "Tamanrasset",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686903244/vr-screenshots/tin-akachaker-africa_o1rk8h.png"
+	},
+	{
+		"title": "Tahagart (Tassili du Hoggar)",
+		"vr_link": "https://www.360cities.net/image/akachaker-tassili-du-hoggar-africa/vr",
+		"lat": "21.862813090586",
+		"lon": "7.13154315948486",
+		"location": "Tamanrasset",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902125/vr-screenshots/akachaker-tassili-du-hoggar-africa_grva7c.png"
+	},
+	{
+		"title": "Grotte d'El Ghessour",
+		"vr_link": "https://www.360cities.net/image/grotte-del-ghessour-africa/vr",
+		"lat": "21.8250105660111",
+		"lon": "6.48553848266602",
+		"location": "Tamanrasset",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902602/vr-screenshots/grotte-del-ghessour-africa_kzmnt4.png"
+	},
+	{
+		"title": "Sunset View from Hermitage of Father de Foucauld .",
+		"vr_link": "https://www.360cities.net/image/sunset-view-from-hermitage-of-father-de-foucauld-at-the-assekrem-tamanrasset-algeria/vr",
+		"lat": "23.26090120154945",
+		"lon": "5.635557042953451",
+		"location": "Tamanrasset",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686903101/vr-screenshots/sunset-view-from-hermitage-of-father-de-foucauld-at-the-assekrem-tamanrasset-algeria_m8vbiz.png"
+	},
+	{
+		"title": "Vache qui pleure",
+		"vr_link": "https://www.360cities.net/image/vache-qui-pleure-1/vr",
+		"lat": "24.3398875338936",
+		"lon": "9.45530424316405",
+		"location": "Djanet",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686903296/vr-screenshots/vache-qui-pleure-1_nlotjy.png"
+	},
+	{
+		"title": "Tikoubaouin",
+		"vr_link": "https://www.360cities.net/image/tikoubaouine/vr",
+		"lat": "24.6184471575614",
+		"lon": "9.28501615722655",
+		"location": "Djanet",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686903270/vr-screenshots/tikoubaouine_mikgss.png"
+	},
+	{
+		"title": "Cardada (02)",
+		"vr_link": "https://www.360cities.net/image/cardada-02/vr",
+		"lat": "28.464281988108485",
+		"lon": "7.120465636253357",
+		"location": "Illizi",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902402/vr-screenshots/cardada-02_ajyg2v.png"
+	},
+	{
+		"title": "The desert near Aghlad, Algeria",
+		"vr_link": "https://www.360cities.net/image/the-desert-near-aghlad-algeria/vr",
+		"lat": "29.37484102103656",
+		"lon": "0.18064011374281108",
+		"location": "Timimoun",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686903163/vr-screenshots/the-desert-near-aghlad-algeria_g9jkrk.png"
+	},
+	{
+		"title": "View Over Citadelle of Ighzer",
+		"vr_link": "https://www.360cities.net/image/view-over-citadelle-of-ighzer-algeria/vr",
+		"lat": "29.37499996108564",
+		"lon": "0.33243168631361186",
+		"location": "Timimoun",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902028/vr-screenshots/view-over-citadelle-of-ighzer-algeria_o6cgoh.png"
+	},
+	{
+		"title": "Beni A\u00c3\u00afssi, Algeria",
+		"vr_link": "https://www.360cities.net/image/beni-assi-algeria/vr",
+		"lat": "29.603775866073065",
+		"lon": "0.2519872960006069",
+		"location": "Timimoun",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902330/vr-screenshots/beni-assi-algeria_j3wi4e.png"
+	},
+	{
+		"title": "Fort Tinerkouk, Zaouiet Debagh, Algeria",
+		"vr_link": "https://www.360cities.net/image/fort-tinerkouk-zaouiet-debagh-algeria/vr",
+		"lat": "29.70560670543531",
+		"lon": "0.7285188559608287",
+		"location": "Timimoun",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902543/vr-screenshots/fort-tinerkouk-zaouiet-debagh-algeria_u6xzae.png"
+	},
+	{
+		"title": "Cafe EL oued",
+		"vr_link": "https://www.360cities.net/image/cafe-el-oued/vr",
+		"lat": "33.3612338432854",
+		"lon": "6.84810876846313",
+		"location": "El Oued",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902392/vr-screenshots/cafe-el-oued_jyfx3y.png"
+	},
+	{
+		"title": "Kirche Aussen 3daa1",
+		"vr_link": "https://www.360cities.net/image/kirche-aussen-3daa1/vr",
+		"lat": "34.8859309407532",
+		"lon": "6.328125",
+		"location": "Biskra",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902725/vr-screenshots/kirche-aussen-3daa1_e0nvlg.png"
+	},
+	{
+		"title": "The River Oasis ghoufi ",
+		"vr_link": "https://www.360cities.net/image/the-river-oasis-ghoufi/vr",
+		"lat": "35.0541612246962",
+		"lon": "6.16649240255356",
+		"location": "Batna",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686903211/vr-screenshots/the-river-oasis-ghoufi_szwdua.png"
+	},
+	{
+		"title": "Mgadda",
+		"vr_link": "https://www.360cities.net/image/mgadda-1/vr",
+		"lat": "35.2083190788384",
+		"lon": "7.20233201980591",
+		"location": "Khenchela",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902803/vr-screenshots/mgadda-1_o8dtiv.png"
+	},
+	{
+		"title": "centre de formation Ouled rechache",
+		"vr_link": "https://www.360cities.net/image/centre-de-formation-ouled-rechache-africa/vr",
+		"lat": "35.2924214063471",
+		"lon": "7.35263228416443",
+		"location": "Khenchela",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902485/vr-screenshots/centre-de-formation-ouled-rechache-africa_px3vvx.png"
+	},
+	{
+		"title": "Timgad - Arc of Trajan (east side)",
+		"vr_link": "https://www.360cities.net/image/timgad-arc-of-trajan-east-side/vr",
+		"lat": "35.4949115",
+		"lon": "6.468012499999999",
+		"location": "Batna",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686903229/vr-screenshots/timgad-arc-of-trajan-east-side_gy72fc.png"
+	},
+	{
+		"title": "Campus Fijix Batna",
+		"vr_link": "https://www.360cities.net/image/4-2-3/vr",
+		"lat": "35.6321197717003",
+		"lon": "6.276228278875351",
+		"location": "Batna",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902037/vr-screenshots/4-2-3_xzpckj.png"
+	},
+	{
+		"title": "Oued Zitoun",
+		"vr_link": "https://www.360cities.net/image/oued-zitoun/vr",
+		"lat": "36.4359809",
+		"lon": "8.035608700000012",
+		"location": "El Tarf",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902934/vr-screenshots/oued-zitoun_ejbhvy.png"
+	},
+	{
+		"title": "Basilica of St. Augustine in Annaba",
+		"vr_link": "https://www.360cities.net/image/basilica-of-st-augustine-in-annaba/vr",
+		"lat": "36.8818636861464",
+		"lon": "7.74475380778313",
+		"location": "Annaba",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902246/vr-screenshots/basilica-of-st-augustine-in-annaba_ffhzxn.png"
+	},
+	{
+		"title": "La Marsa and Skikda bay",
+		"vr_link": "https://www.360cities.net/image/la-marsa-and-skikda-bay-africa/vr",
+		"lat": "37.0305995926122",
+		"lon": "7.251877784729",
+		"location": "Skikda",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902712/vr-screenshots/la-marsa-and-skikda-bay-africa_opsa0a.png"
+	},
+	{
+		"title": "Massinissa's tomb",
+		"vr_link": "https://www.360cities.net/image/massinissa-tomb/vr",
+		"lat": "36.27227314884911",
+		"lon": "6.725001343933172",
+		"location": "Constantine",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902927/vr-screenshots/massinissa-tomb_tusmcz.png"
+	},
+	{
+		"title": "Palais du Bey, Constantine, Algeria",
+		"vr_link": "https://www.360cities.net/image/palais-du-bey-constantine-algeria/vr",
+		"lat": "36.36793061069409",
+		"lon": "6.611257684619886",
+		"location": "Constantine",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902952/vr-screenshots/palais-du-bey-constantine-algeria_tfh00p.png"
+	},
+	{
+		"title": "road to Tiddis",
+		"vr_link": "https://www.360cities.net/image/road-to-tiddis/vr",
+		"lat": "36.46635417088752",
+		"lon": "6.487004827188912",
+		"location": "Constantine",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686903030/vr-screenshots/road-to-tiddis_syyrmd.png"
+	},
+	{
+		"title": "Poney cleub of Skikda",
+		"vr_link": "https://www.360cities.net/image/pony-cleub-of-skikda/vr",
+		"lat": "36.8419493162313",
+		"lon": "6.96001589298248",
+		"location": "Skikda",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686903004/vr-screenshots/pony-cleub-of-skikda_ritahq.png"
+	},
+	{
+		"title": "Municipal Theatre of Skikda and Skikda downtown",
+		"vr_link": "https://www.360cities.net/image/municipal-theatre-of-skikda-and-skikda-downtown-africa/vr",
+		"lat": "36.8811224361166",
+		"lon": "6.90666139125824",
+		"location": "Skikda",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902852/vr-screenshots/municipal-theatre-of-skikda-and-skikda-downtown-africa_e0utxj.png"
+	},
+	{
+		"title": "Stora View, Skikda",
+		"vr_link": "https://www.360cities.net/image/stora-view-skikda-algeria-africa/vr",
+		"lat": "36.9140094189892",
+		"lon": "6.87938332557678",
+		"location": "Skikda",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686903157/vr-screenshots/stora-view-skikda-algeria-africa_w5yhqu.png"
+	},
+	{
+		"title": "Ras El-Ghoul Ksir El-Bez - Collo",
+		"vr_link": "https://www.360cities.net/image/pras-el-ghoul-ksir-el-bez-collo/vr",
+		"lat": "36.9975401439891",
+		"lon": "6.56695291399956",
+		"location": "Skikda",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686903004/vr-screenshots/pras-el-ghoul-ksir-el-bez-collo_w3ndfb.png"
+	},
+	{
+		"title": "Lebrarek Beach - Collo",
+		"vr_link": "https://www.360cities.net/image/lebrarek-beach-collo-africa/vr",
+		"lat": "37.0007254939682",
+		"lon": "6.56776830554008",
+		"location": "Skikda",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902819/vr-screenshots/lebrarek-beach-collo-africa_lum9ja.png"
+	},
+	{
+		"title": "Al-Jaraka skikda",
+		"vr_link": "https://www.360cities.net/image/al-jarda-collo-algeria/vr",
+		"lat": "37.01088259161202",
+		"lon": "6.572708934545517",
+		"location": "Skikda",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902181/vr-screenshots/al-jarda-collo-algeria_b4lana.png"
+	},
+	{
+		"title": "El Jerda Road - Collo",
+		"vr_link": "https://www.360cities.net/image/eljerda-raod-collo/vr",
+		"lat": "37.0119063654661",
+		"lon": "6.57510414719582",
+		"location": "Skikda",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902723/vr-screenshots/eljerda-raod-collo_cplynp.png"
+	},
+	{
+		"title": "Ras El Mallah - Collo",
+		"vr_link": "https://www.360cities.net/image/ras-el-mallah-africa/vr",
+		"lat": "37.0139378089444",
+		"lon": "6.57691597938538",
+		"location": "Skikda",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686903039/vr-screenshots/ras-el-mallah-africa_vaombc.png"
+	},
+	{
+		"title": "The Phoenician Minaret - Al-Jaraka",
+		"vr_link": "https://www.360cities.net/image/phoenician-port/vr",
+		"lat": "37.01408192074187",
+		"lon": "6.578011852228542",
+		"location": "Skikda",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686903265/vr-screenshots/phoenician-port_kefae5.png"
+	},
+	{
+		"title": "Ain El Quolla",
+		"vr_link": "https://www.360cities.net/image/ain-dawla-spring/vr",
+		"lat": "37.01399839398373",
+		"lon": "6.563565474474331",
+		"location": "Skikda",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902146/vr-screenshots/ain-dawla-spring_tu64em.png"
+	},
+	{
+		"title": "ghedir bareche Skikda",
+		"vr_link": "https://www.360cities.net/image/ghedir-bareche/vr",
+		"lat": "37.01360860123186",
+		"lon": "6.560081284963985",
+		"location": "Skikda",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902570/vr-screenshots/ghedir-bareche_menvv9.png"
+	},
+	{
+		"title": "Seven Wells Mosque",
+		"vr_link": "https://www.360cities.net/image/7wells-praying-place/vr",
+		"lat": "37.01667334634618",
+		"lon": "6.566541385376354",
+		"location": "Skikda",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902044/vr-screenshots/7wells-praying-place_y9rzw8.png"
+	},
+	{
+		"title": "View of El-Djarda Peninsula",
+		"vr_link": "https://www.360cities.net/image/view-of-el-djarda-peninsula-africa/vr",
+		"lat": "37.0175968402996",
+		"lon": "6.56712859869003",
+		"location": "Skikda",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686903306/vr-screenshots/view-of-el-djarda-peninsula-africa_okijgs.png"
+	},
+	{
+		"title": "Dambo Mountain",
+		"vr_link": "https://www.360cities.net/image/collo-view-dambo-mountain-africa/vr",
+		"lat": "37.0170335943855",
+		"lon": "6.56543880701065",
+		"location": "Skikda",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902448/vr-screenshots/collo-view-dambo-mountain-africa_cu9bhm.png"
+	},
+	{
+		"title": "Ain Daoula Beach ",
+		"vr_link": "https://www.360cities.net/image/ain-daoula-beach-view-from-dambo-mountain-collo-africa/vr",
+		"lat": "37.014636004707",
+		"lon": "6.56250715255737",
+		"location": "Skikda",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902110/vr-screenshots/ain-daoula-beach-view-from-dambo-mountain-collo-africa_aimiab.png"
+	},
+	{
+		"title": "View of Mount Achour",
+		"vr_link": "https://www.360cities.net/image/view-of-mount-achour-from-the-new-dambo-road-africa/vr",
+		"lat": "37.0209698035583",
+		"lon": "6.5494367480278",
+		"location": "Skikda",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686903319/vr-screenshots/view-of-mount-achour-from-the-new-dambo-road-africa_bqmeca.png"
+	},
+	{
+		"title": "Siwaq Playground - Akhoshka",
+		"vr_link": "https://www.360cities.net/image/siouane-stadium-akhoucha/vr",
+		"lat": "36.959851610658525",
+		"lon": "6.396479946100499",
+		"location": "Skikda",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686903082/vr-screenshots/siouane-stadium-akhoucha_utiyqw.png"
+	},
+	{
+		"title": "taher",
+		"vr_link": "https://www.360cities.net/image/taher/vr",
+		"lat": "36.74292889266677",
+		"lon": "5.893782639503456",
+		"location": "Jijel",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686903154/vr-screenshots/taher_jnghqw.png"
+	},
+	{
+		"title": "Montagne Hamara",
+		"vr_link": "https://www.360cities.net/image/montagne-hamara/vr",
+		"lat": "36.3732194616776",
+		"lon": "5.91430842876434",
+		"location": "Mila",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902848/vr-screenshots/montagne-hamara_cziruw.png"
+	},
+	{
+		"title": "Roman theatre, Djemila.",
+		"vr_link": "https://www.360cities.net/image/roman-theatre-djemila-algeria/vr",
+		"lat": "36.320630116015955",
+		"lon": "5.737724670944999",
+		"location": "S\u00e9tif",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686903097/vr-screenshots/roman-theatre-djemila-algeria_hd5jay.png"
+	},
+	{
+		"title": "Djemila Theater ",
+		"vr_link": "https://www.360cities.net/image/djemila-theater-seating-section-mid-height/vr",
+		"lat": "36.3432903",
+		"lon": "5.7435695",
+		"location": "S\u00e9tif",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902517/vr-screenshots/djemila-theater-seating-section-mid-height_wthgln.png"
+	},
+	{
+		"title": "Ziama",
+		"vr_link": "https://www.360cities.net/image/ziama-africa/vr",
+		"lat": "36.693056",
+		"lon": "5.524104",
+		"location": "Jijel",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902031/vr-screenshots/ziama-africa_zhvaas.png"
+	},
+	{
+		"title": "Landscape in Kabylia: Taguemount",
+		"vr_link": "https://www.360cities.net/image/landscape-in-kabylia-taguemount-bejaia-algeria-africa/vr",
+		"lat": "36.6095531279514",
+		"lon": "5.08582234382629",
+		"location": "B\u00e9ja\u00efa",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902766/vr-screenshots/landscape-in-kabylia-taguemount-bejaia-algeria-africa_cv8pfi.png"
+	},
+	{
+		"title": "Landscape in kabylia: Aguemoun",
+		"vr_link": "https://www.360cities.net/image/landscape-aguemoun-ath-slimane-kabylia-bejaia-algeria-africa/vr",
+		"lat": "36.597208660983014",
+		"lon": "5.074138641357422",
+		"location": "S\u00e9tif",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902750/vr-screenshots/landscape-aguemoun-ath-slimane-kabylia-bejaia-algeria-africa_qlcugf.png"
+	},
+	{
+		"title": "Mezaia Lake at Bejaia",
+		"vr_link": "https://www.360cities.net/image/mezaia-lake-at-bejaia/vr",
+		"lat": "36.7493694585306",
+		"lon": "5.05211234092712",
+		"location": "B\u00e9ja\u00efa",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902791/vr-screenshots/mezaia-lake-at-bejaia_gogg0a.png"
+	},
+	{
+		"title": "International  Half  Marathon",
+		"vr_link": "https://www.360cities.net/image/bejaia-international-half-marathon-2014-algeria-africa/vr",
+		"lat": "36.75113066498915",
+		"lon": "5.0655582547187805",
+		"location": "B\u00e9ja\u00efa",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902342/vr-screenshots/bejaia-international-half-marathon-2014-algeria-africa_rt02vc.png"
+	},
+	{
+		"title": "Pasteur  Square   in  Bejaia",
+		"vr_link": "https://www.360cities.net/image/pasteur-square-2-in-bejaia-1/vr",
+		"lat": "36.7537224340393",
+		"lon": "5.0771427154541",
+		"location": "B\u00e9ja\u00efa",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686903060/vr-screenshots/pasteur-square-2-in-bejaia-1_prwvpt.png"
+	},
+	{
+		"title": "Bordj Moussa Fort",
+		"vr_link": "https://www.360cities.net/image/bordj-moussa-fort-bejaia-algeria-africa/vr",
+		"lat": "36.7547228160367",
+		"lon": "5.08396324232785",
+		"location": "B\u00e9ja\u00efa",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902456/vr-screenshots/bordj-moussa-fort-bejaia-algeria-africa_rylpua.png"
+	},
+	{
+		"title": "Sidi Abdelkader Seafront at bejaia",
+		"vr_link": "https://www.360cities.net/image/sidi-abdelkader-seafront-bejaia-algeria/vr",
+		"lat": "36.75426613567328",
+		"lon": "5.09179562330246",
+		"location": "B\u00e9ja\u00efa",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686903081/vr-screenshots/sidi-abdelkader-seafront-bejaia-algeria_ao2mnb.png"
+	},
+	{
+		"title": "Christian  cemetery  in  Bejaia",
+		"vr_link": "https://www.360cities.net/image/christian-cemetery-in-bejaia/vr",
+		"lat": "36.7577904322663",
+		"lon": "5.08897930383682",
+		"location": "B\u00e9ja\u00efa",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902518/vr-screenshots/christian-cemetery-in-bejaia_kybnve.png"
+	},
+	{
+		"title": "Cape Bouak cornice",
+		"vr_link": "https://www.360cities.net/image/bejaia-cape-bouak-cornice-viewpoint-2-algeria-africa/vr",
+		"lat": "36.7594816073455",
+		"lon": "5.10539710521698",
+		"location": "B\u00e9ja\u00efa",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902263/vr-screenshots/bejaia-cape-bouak-cornice-viewpoint-2-algeria-africa_setm6n.png"
+	},
+	{
+		"title": " La Corniche Des Aiguades",
+		"vr_link": "https://www.360cities.net/image/aiguades-corniche-cape-bouak-viewpoint-2-bejaia-algeria-africa/vr",
+		"lat": "36.76309161490545",
+		"lon": "5.102205276489258",
+		"location": "B\u00e9ja\u00efa",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686932491/vr-screenshots/aiguades-corniche-cape-bouak-viewpoint-2-bejaia-algeria-africa_y6jfnv.png"
+	},
+	{
+		"title": "the summit of  Peak Monkeys",
+		"vr_link": "https://www.360cities.net/image/bejaia-peak-monkeys-summit-algeria/vr",
+		"lat": "36.7695752345279",
+		"lon": "5.09617432951927",
+		"location": "B\u00e9ja\u00efa",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902310/vr-screenshots/bejaia-peak-monkeys-summit-algeria_cqeagb.png"
+	},
+	{
+		"title": "from the crest of  Gouraya",
+		"vr_link": "https://www.360cities.net/image/bejaia-gouraya-ridge-viewpoint-2-algeria/vr",
+		"lat": "36.7705281246259",
+		"lon": "5.09082734584808",
+		"location": "B\u00e9ja\u00efa",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902291/vr-screenshots/bejaia-gouraya-ridge-viewpoint-2-algeria_j3if3e.png"
+	},
+	{
+		"title": "North Face of Gouraya",
+		"vr_link": "https://www.360cities.net/image/north-face-of-gouraya-at-bejaia-algeria/vr",
+		"lat": "36.774365347965514",
+		"lon": "5.073806047439575",
+		"location": "B\u00e9ja\u00efa",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902892/vr-screenshots/north-face-of-gouraya-at-bejaia-algeria_qrz8zi.png"
+	},
+	{
+		"title": "Gouraya from the Salines Point",
+		"vr_link": "https://www.360cities.net/image/bejaia-gouraya-salines-algeria/vr",
+		"lat": "36.7772893293037",
+		"lon": "5.09084343910217",
+		"location": "B\u00e9ja\u00efa",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902391/vr-screenshots/bejaia-gouraya-salines-algeria_bhsrkw.png"
+	},
+	{
+		"title": "Cape Black since the creek of the Pertuis",
+		"vr_link": "https://www.360cities.net/image/view-of-cape-black-since-the-creek-of-the-pertuis-algeria/vr",
+		"lat": "36.774004407928636",
+		"lon": "5.103575885295868",
+		"location": "B\u00e9ja\u00efa",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686903311/vr-screenshots/view-of-cape-black-since-the-creek-of-the-pertuis-algeria_ycszpq.png"
+	},
+	{
+		"title": "Cape Carbon  from Black Point Cornice",
+		"vr_link": "https://www.360cities.net/image/a-view-of-the-cape-carbon-from-black-point-cornice-in-b-ja-a/vr",
+		"lat": "36.7703798741823",
+		"lon": "5.10429739952087",
+		"location": "B\u00e9ja\u00efa",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902245/vr-screenshots/a-view-of-the-cape-carbon-from-black-point-cornice-in-b-ja-a_t5j7zs.png"
+	},
+	{
+		"title": "Mouten",
+		"vr_link": "https://www.360cities.net/image/mouten-1/vr",
+		"lat": "36.2496269500255",
+		"lon": "4.62514489889145",
+		"location": "Bordj Bou Arreridj",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902852/vr-screenshots/mouten-1_pugfkb.png"
+	},
+	{
+		"title": "Black Lake or Aguelmim Aberkane",
+		"vr_link": "https://www.360cities.net/image/landscape-kabylia-black-lake-aguelmim-aberkane-1-akfadou-adekar-algeria-africa/vr",
+		"lat": "36.69589831262051",
+		"lon": "4.602069854736328",
+		"location": "B\u00e9ja\u00efa",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902767/vr-screenshots/landscape-kabylia-black-lake-aguelmim-aberkane-1-akfadou-adekar-algeria-africa_l20vtx.png"
+	},
+	{
+		"title": "House of The Soummam Congress",
+		"vr_link": "https://www.360cities.net/image/house-soummam-congress-ifri-ouzellaguene-bejaia-algeria/vr",
+		"lat": "36.55062944324445",
+		"lon": "4.551078379154205",
+		"location": "B\u00e9ja\u00efa",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902648/vr-screenshots/house-soummam-congress-ifri-ouzellaguene-bejaia-algeria_ukqmbi.png"
+	},
+	{
+		"title": "Tikjda",
+		"vr_link": "https://www.360cities.net/image/tikjda/vr",
+		"lat": "36.4631619",
+		"lon": "4.1897788",
+		"location": "Bouira",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686903242/vr-screenshots/tikjda_vi3vop.png"
+	},
+	{
+		"title": "lakhdaria",
+		"vr_link": "https://www.360cities.net/image/lakhdaria-360/vr",
+		"lat": "36.56394568335784",
+		"lon": "3.5873526393645534",
+		"location": "Bouira",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902663/vr-screenshots/lakhdaria-360_fwvglb.png"
+	},
+	{
+		"title": "Algeria-Tell Atlas Mountains",
+		"vr_link": "https://www.360cities.net/image/algeria-tell-atlas-mountains-highway-blida-medea-berrouaghia/vr",
+		"lat": "36.3760312583949",
+		"lon": "2.77350068092346",
+		"location": "Blida",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902124/vr-screenshots/algeria-tell-atlas-mountains-highway-blida-medea-berrouaghia_q58tai.png"
+	},
+	{
+		"title": "bouinane",
+		"vr_link": "https://www.360cities.net/image/bouinane/vr",
+		"lat": "36.5266740707282",
+		"lon": "2.99043774604797",
+		"location": "Blida",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902381/vr-screenshots/bouinane_ud1n2i.png"
+	},
+	{
+		"title": "Roman public baths of Comodus",
+		"vr_link": "https://www.360cities.net/image/front-of-the-big-set-of-roman-public-baths-of-comodus-1/vr",
+		"lat": "36.6997294",
+		"lon": "3.0576198999999633",
+		"location": "Constantine",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902592/vr-screenshots/front-of-the-big-set-of-roman-public-baths-of-comodus-1_cjtzmg.png"
+	},
+	{
+		"title": "Tarzan Tree, Botanical Garden Hamma, Algiers",
+		"vr_link": "https://www.360cities.net/image/tarzan-tree-botanical-garden-hamma-algiers-algeria/vr",
+		"lat": "36.74684890314653",
+		"lon": "3.076686667264539",
+		"location": "Alger",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686903163/vr-screenshots/tarzan-tree-botanical-garden-hamma-algiers-algeria_eitysh.png"
+	},
+	{
+		"title": "Algiers -Telemly- The High School Fine Arts",
+		"vr_link": "https://www.360cities.net/image/algiers-telemly-the-high-schoo-fine-arts-ghezaltar/vr",
+		"lat": "36.7615573824543",
+		"lon": "3.04409265518188",
+		"location": "Alger",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902192/vr-screenshots/algiers-telemly-the-high-schoo-fine-arts-ghezaltar_zuwp4r.png"
+	},
+	{
+		"title": "Algiers",
+		"vr_link": "https://www.360cities.net/image/algiers/vr",
+		"lat": "36.77413385673206",
+		"lon": "3.061016582153343",
+		"location": "Alger",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902234/vr-screenshots/algiers_wcydn1.png"
+	},
+	{
+		"title": "House Interior Casbah, Algiers",
+		"vr_link": "https://www.360cities.net/image/house-interior-casbah-algiers-algeria/vr",
+		"lat": "36.78322546985465",
+		"lon": "3.0587976742397505",
+		"location": "Alger",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902659/vr-screenshots/house-interior-casbah-algiers-algeria_ifpdh3.png"
+	},
+	{
+		"title": "Zeralda Sidi Menif",
+		"vr_link": "https://www.360cities.net/image/zeralda-sidi-mehif-view-360/vr",
+		"lat": "36.6964682313291",
+		"lon": "2.82593250274658",
+		"location": "Alger",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902026/vr-screenshots/zeralda-sidi-mehif-view-360_vdi9eq.png"
+	},
+	{
+		"title": "Amphitheatre in the Roman ruins",
+		"vr_link": "https://www.360cities.net/image/img-8097-8-9-2-panorama/vr",
+		"lat": "36.5931429305601",
+		"lon": "2.44542896747589",
+		"location": "Tipaza",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902674/vr-screenshots/img-8097-8-9-2-panorama_uduk2w.png"
+	},
+	{
+		"title": "T\u00c3\u00a9n\u00c3\u00a8s",
+		"vr_link": "https://www.360cities.net/image/t-n-s/vr",
+		"lat": "36.4990524212425",
+		"lon": "1.31347730555729",
+		"location": "Chlef",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686903274/vr-screenshots/t-n-s_ljevis.png"
+	},
+	{
+		"title": "Gare d'Oran",
+		"vr_link": "https://www.360cities.net/image/oran-railway-station/vr",
+		"lat": "35.69790896388904",
+		"lon": "-0.6392894537506209",
+		"location": "Oran",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902933/vr-screenshots/oran-railway-station_rw0irn.png"
+	},
+	{
+		"title": "Palais Du Bey, Oran",
+		"vr_link": "https://www.360cities.net/image/palais-du-bey-oran-algeria/vr",
+		"lat": "35.705263884835546",
+		"lon": "-0.6491826605880533",
+		"location": "Oran",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902987/vr-screenshots/palais-du-bey-oran-algeria_q0fqvb.png"
+	},
+	{
+		"title": "Compagnie Building, Oran Algeria",
+		"vr_link": "https://www.360cities.net/image/compagnie-building-oran-algeria/vr",
+		"lat": "35.70223975741983",
+		"lon": "-0.6467032524797673",
+		"location": "Oran",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902478/vr-screenshots/compagnie-building-oran-algeria_xr4i9n.png"
+	},
+	{
+		"title": "Basilique Santa Cruz",
+		"vr_link": "https://www.360cities.net/image/basilique-santa-cruz-oran-algeria/vr",
+		"lat": "35.7098942504926",
+		"lon": "-0.663647813805369",
+		"location": "Oran",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902277/vr-screenshots/basilique-santa-cruz-oran-algeria_znzlsv.png"
+	},
+	{
+		"title": "Oran panorama",
+		"vr_link": "https://www.360cities.net/image/oran-algeria/vr",
+		"lat": "35.70639272737507",
+		"lon": "-0.6707467199875055",
+		"location": "Oran",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902921/vr-screenshots/oran-algeria_lyzng7.png"
+	},
+	{
+		"title": "Ain El Turk - Plage Beau Sejour",
+		"vr_link": "https://www.360cities.net/image/ain-el-turk/vr",
+		"lat": "35.74858254346164",
+		"lon": "-0.7697685123993097",
+		"location": "Oran",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902168/vr-screenshots/ain-el-turk_ilc58o.png"
+	},
+	{
+		"title": "Cavern",
+		"vr_link": "https://www.360cities.net/image/cavern/vr",
+		"lat": "34.853548",
+		"lon": "-1.2060930000000099",
+		"location": "Tlemcen",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902473/vr-screenshots/cavern_uob3n3.png"
+	},
+	{
+		"title": "protection civile 1021",
+		"vr_link": "https://www.360cities.net/image/120567334/vr",
+		"lat": "34.899786714309386",
+		"lon": "-1.3531575715027202",
+		"location": "Tlemcen",
+		"image_url": "https://res.cloudinary.com/dus25a6ll/image/upload/v1686902013/vr-screenshots/120567334_f7tfra.png"
+	}
+]

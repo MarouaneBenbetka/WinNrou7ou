@@ -20,7 +20,7 @@ const EventCard = ({ id, title, date, image }) => {
 					<Image
 						fill
 						src={image}
-						alt=""
+						alt="img"
 						className="rounded-2xl object-cover"
 					/>
 				</div>

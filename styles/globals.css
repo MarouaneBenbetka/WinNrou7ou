@@ -18,6 +18,13 @@
 	}
 }
 
+html {
+	height: 100%;
+	overscroll-behavior: none;
+	max-width: 100vw;
+	overflow-x: hidden;
+}
+
 body {
 	color: rgb(var(--foreground-rgb));
 	background: linear-gradient(
@@ -27,6 +34,20 @@ body {
 		)
 		rgb(var(--background-start-rgb));
 }
+/* 
+
+::-webkit-scrollbar {
+	width: 6px;
+}
+
+::-webkit-scrollbar-track {
+	background: #1b1e21;
+}
+
+
+::-webkit-scrollbar-thumb {
+	background: #f7af00;
+} */
 
 .nav-link::after {
 	content: "";
@@ -116,4 +137,30 @@ body {
 .modal p {
 	color: #444;
 	font-weight: bold;
+}
+
+/* Define the keyframes for the cursor animation */
+@keyframes flicker {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+.cursor {
+	display: inline-block;
+	width: 1ch;
+	animation: flicker 0.5s infinite;
+	margin-bottom: 4px;
+}
+
+.alertButton:hover {
+	background-color: initial;
+	color: initial;
+	text-decoration: initial;
 }

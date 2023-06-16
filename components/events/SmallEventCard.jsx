@@ -5,6 +5,7 @@ import { FiCalendar, FiExternalLink } from "react-icons/fi";
 import { motion } from "framer-motion";
 import Link from "next/link";
 const SmallEventCard = ({ id, title, date, image }) => {
+	console.log(image);
 	const [isFavorite, setIsFavorite] = useState(false);
 	const [isHovering, setIsHovering] = useState(false);
 	return (
@@ -47,7 +48,7 @@ const SmallEventCard = ({ id, title, date, image }) => {
 			</div>
 			{isHovering && (
 				<motion.div
-					className="absolute bottom-2 right-2"
+					className="absolute bottom-2 right-2 z-50"
 					initial={{ y: 30, opacity: 0 }}
 					animate={{ y: 0, opacity: 1 }}
 					transition={{ duration: 0.3 }}

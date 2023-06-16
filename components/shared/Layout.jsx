@@ -1,8 +1,11 @@
-import Head from "next/head";
-import React, { Children, useEffect, useState } from "react";
+"use client";
+
 import { uiActions } from "@/store/ui-slice";
-import { useSelector, useDispatch } from "react-redux";
-import Modal from "../auth/Modal";
+import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import ChatButton from "../chat/ChatButton";
+import { ErrorBoundary } from "react-error-boundary";
+import ErrorBoundaryUI from "../error/ErrorBoundaryUI";
 
 function getWindowHeight() {
 	return window.innerHeight;
@@ -18,7 +21,7 @@ const Layout = ({ children }) => {
 			e.preventDefault();
 			window.scrollTo(0, window.innerHeight);
 		} else {
-			dispatcher(uiActions.scrollChanged(window.pageYOffset));
+			dispatcher(uiActions.scrollChanged(window.scrollY));
 		}
 	};
 
@@ -34,7 +37,7 @@ const Layout = ({ children }) => {
 		dispatcher(
 			uiActions.onResize({
 				windowHeight: window.innerHeight,
-				scrollOffset: window.pageYOffset,
+				scrollOffset: window.scrollY,
 			})
 		);
 
@@ -42,7 +45,7 @@ const Layout = ({ children }) => {
 			dispatcher(
 				uiActions.onResize({
 					windowHeight: window.innerHeight,
-					scrollOffset: window.pageYOffset,
+					scrollOffset: window.scrollY,
 				})
 			);
 		}
@@ -57,12 +60,16 @@ const Layout = ({ children }) => {
 	}, []);
 
 	return (
-		<div
-			onScroll={handleScroll}
-			className="  font-poppins  overflow-x-hidden "
-		>
-			{children}
-		</div>
+		<ErrorBoundary FallbackComponent={ErrorBoundaryUI}>
+			<div
+				onScroll={handleScroll}
+				className="  font-poppins  w-screen max-w-[100vw]"
+			>
+				{children}
+
+				<ChatButton />
+			</div>
+		</ErrorBoundary>
 	);
 };
 

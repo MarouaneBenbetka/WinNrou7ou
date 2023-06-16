@@ -8,15 +8,15 @@ import Suggestions from "@/components/suggestions/Suggestions";
 import { uiActions } from "@/store/ui-slice";
 import { motion } from "framer-motion";
 import { staggerContainer, textVariant } from "../styles/motion";
-import Modal from "@/components/auth/Modal";
 import axios from "axios";
+import { useErrorBoundary } from "react-error-boundary";
 
 const MapWrapper = dynamic(() => import("@/components/map/InteractiveMap"), {
 	ssr: false,
 });
 
-
-export default function Home({ markers, wilayas, types }) {
+export default function Home({ markers, wilayas, types, status }) {
+	const { showBoundary } = useErrorBoundary();
 	const { lang, mapView } = useSelector((state) => ({
 		lang: state.ui.language,
 		mapView: state.ui.mapView,
@@ -25,13 +25,19 @@ export default function Home({ markers, wilayas, types }) {
 	const [mapLocked, setMapLocked] = useState(false);
 	const searchBarRef = useRef();
 	const mapRef = useRef();
+	const heroRef = useRef();
 	const [highlightedMarkers, setHighlightedMarkers] = useState([]);
 	const [lastSearch, setLastSearch] = useState("");
+
+	useEffect(() => {
+		if (status != "ok") showBoundary(status);
+	}, [status, showBoundary]);
 
 	useEffect(() => {
 		if (mapView) {
 			mapRef.current.scrollIntoView({ behavior: "smooth" });
 		} else {
+			heroRef.current.scrollIntoView({ behavior: "smooth" });
 			setMapLocked(false);
 			dispatch(uiActions.disableScroll());
 		}
@@ -49,10 +55,13 @@ export default function Home({ markers, wilayas, types }) {
 				const res = await axios.get(
 					`http://localhost:3000/api/monuments?q=${query}`
 				);
+
+				if (res.data.monuments.length === 0)
+					throw Error("no result found , try another query");
+				else setLastSearch(query);
 				setHighlightedMarkers(res.data.monuments);
-				setLastSearch(query);
 			} catch (e) {
-				console.log(e);
+				throw Error(e.message);
 			}
 		}
 	};
@@ -65,10 +74,12 @@ export default function Home({ markers, wilayas, types }) {
 				const res = await axios.get(
 					`http://localhost:3000/api/monuments?q=${lastSearch}&wilaya=${query.wilaya}&type=${query.typeAnnonce}`
 				);
-				console.log(res.data.monuments);
+				if (res.data.monuments.length === 0)
+					throw Error("no result found , try another query");
+
 				setHighlightedMarkers(res.data.monuments);
 			} catch (e) {
-				console.log(e);
+				throw Error(e.message);
 			}
 		}
 	};
@@ -81,6 +92,7 @@ export default function Home({ markers, wilayas, types }) {
 				variants={staggerContainer}
 				initial="hidden"
 				whileInView="show"
+				ref={heroRef}
 			>
 				<motion.h1
 					className="text-4xl md:text-6xl pb-2  font-semibold"
@@ -127,6 +139,7 @@ export default function Home({ markers, wilayas, types }) {
 								className="toggle  bg-opacity-20 border-opacity-20  checked:bg-orange checked:border-orange"
 								onClick={toggleLockMap}
 								checked={mapLocked}
+								readOnly
 							/>
 							<h3
 								className={
@@ -138,7 +151,10 @@ export default function Home({ markers, wilayas, types }) {
 								lock map
 							</h3>
 						</div>
-						<Suggestions />
+						<Suggestions
+							id={lastSearch}
+							moveToSuggestion={(e) => setHighlightedMarkers([e])}
+						/>
 					</>
 				)}
 				<MapWrapper
@@ -164,10 +180,18 @@ export async function getStaticProps() {
 				markers: res?.data.monuments,
 				wilayas: res1?.data.wilayas,
 				types: res2?.data.types,
+				status: "ok",
 			},
 		};
 	} catch (e) {
-		console.log(e);
-		return null;
+		console.log(e.message);
+		return {
+			props: {
+				markers: null,
+				wilayas: null,
+				types: null,
+				status: "error",
+			},
+		};
 	}
 }

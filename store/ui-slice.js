@@ -23,8 +23,18 @@ const uiSlice = createSlice({
 			else if (payload.payload <= 80 && state.navBarColor === "blur")
 				state.navBarColor = "transparent";
 
-			if (payload.payload >= state.windowHeight) state.mapView = true;
-			else if (payload.payload < state.windowHeight)
+			// if (payload.payload >= state.windowHeight) state.mapView = true;
+			// else if (payload.payload < state.windowHeight)
+			// 	state.mapView = false;
+			if (
+				payload.payload >= state.windowHeight / 2 &&
+				state.mapView === false
+			)
+				state.mapView = true;
+			else if (
+				payload.payload < state.windowHeight / 2 &&
+				state.mapView === true
+			)
 				state.mapView = false;
 		},
 		setLanguage: (state, payload) => {

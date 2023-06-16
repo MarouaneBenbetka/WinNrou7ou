@@ -1,9 +1,7 @@
 import {
-	Map,
 	TileLayer,
 	useMap,
 	Marker,
-	Popup,
 	MapContainer,
 	ZoomControl,
 	useMapEvents,
@@ -18,6 +16,53 @@ import InfoModal from "./modal/InfoModal";
 import { markersPostions } from "@/data/mapData";
 import MarkerClusterGroup from "./MarkerClusterGroup";
 import axios from "axios";
+
+const HighlightedMarkersComponent = ({
+	highlightedMarkers,
+	setModalId,
+	setShowModal,
+}) => {
+	const map1 = useMap();
+	useEffect(() => {
+		if (highlightedMarkers.length === 1) {
+			map1.flyTo(
+				[
+					highlightedMarkers[0].latitude,
+					highlightedMarkers[0].longitude,
+				],
+				10
+			);
+			setTimeout(() => {
+				setShowModal(true);
+				setModalId(highlightedMarkers[0].id);
+			}, 500);
+		} else {
+			setShowModal(false);
+			map1.flyTo([34.254999624124345, 3.291259381451609], 6);
+		}
+	}, [highlightedMarkers, map1, setModalId, setShowModal]);
+
+	return highlightedMarkers.map((item) => (
+		<Marker
+			key={item.id}
+			position={[item.latitude, item.longitude]}
+			title={item.title}
+			icon={L.icon({
+				iconUrl: "/images/logo.svg",
+				iconSize: [42, 42],
+			})}
+			eventHandlers={{
+				click: (e) => {
+					setModalId(item.id);
+					setShowModal((prev) => !prev);
+				},
+				dblclick: (event) => {
+					event.originalEvent.preventDefault(); // Prevents default double-click behavior
+				},
+			}}
+		/>
+	));
+};
 
 export default function InteractiveMap({
 	lat,
@@ -61,55 +106,11 @@ export default function InteractiveMap({
 				<TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
 
 				{highlightedMarkers && highlightedMarkers.length ? (
-					<>
-						{/* {markers
-							.filter((item) => {
-								// Check if the 'id' of the item exists in the objects to remove
-								return !highlightedMarkers.some(
-									(removeItem) => removeItem.id === item.id
-								);
-							})
-							.map((item) => (
-								<Marker
-									key={item.id}
-									position={[item.latitude, item.longitude]}
-									title={item.title}
-									icon={L.icon({
-										iconUrl: "/images/logo.svg",
-										iconSize: [42, 42],
-									})}
-									eventHandlers={{
-										click: (e) => {
-											setModalId(item.id);
-											setShowModal((prev) => !prev);
-										},
-										dblclick: (event) => {
-											event.originalEvent.preventDefault(); // Prevents default double-click behavior
-										},
-									}}
-								/>
-							))} */}
-						{highlightedMarkers.map((item) => (
-							<Marker
-								key={item.id}
-								position={[item.latitude, item.longitude]}
-								title={item.title}
-								icon={L.icon({
-									iconUrl: "/images/logo.svg",
-									iconSize: [42, 42],
-								})}
-								eventHandlers={{
-									click: (e) => {
-										setModalId(item.id);
-										setShowModal((prev) => !prev);
-									},
-									dblclick: (event) => {
-										event.originalEvent.preventDefault(); // Prevents default double-click behavior
-									},
-								}}
-							/>
-						))}
-					</>
+					<HighlightedMarkersComponent
+						highlightedMarkers={highlightedMarkers}
+						setShowModal={setShowModal}
+						setModalId={setModalId}
+					/>
 				) : (
 					<MarkerClusterGroup>
 						{markers.map((item) => (
@@ -137,7 +138,12 @@ export default function InteractiveMap({
 
 				<ZoomControl position="bottomright" />
 			</MapContainer>
-			{showModal && <InfoModal id={modalId} />}
+			{showModal && (
+				<InfoModal
+					id={modalId}
+					closeModal={() => setShowModal(false)}
+				/>
+			)}
 		</div>
 	);
 }

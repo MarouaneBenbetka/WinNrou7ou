@@ -6,7 +6,7 @@ export default function SimpleMap({ lat, lng }) {
 	return (
 		<MapContainer
 			center={[lat, lng]}
-			zoom={15}
+			zoom={6}
 			scrollWheelZoom={false}
 			className="h-full w-full focus:outline-none relative z-0"
 		>

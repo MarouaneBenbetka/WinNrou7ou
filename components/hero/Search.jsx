@@ -7,6 +7,8 @@ import Dropdown from "./Dropdown";
 import { MdOutlineKeyboardDoubleArrowUp } from "react-icons/md";
 import { motion } from "framer-motion";
 import { zoomVariant } from "@/styles/motion";
+import { MoonLoader } from "react-spinners";
+import { AiOutlineCloseCircle } from "react-icons/ai";
 
 const Search = ({ onSearch, onFilter, stickTop, wilayas, types }, ref) => {
 	const [showFilters, setShowFilters] = useState(false);
@@ -20,6 +22,9 @@ const Search = ({ onSearch, onFilter, stickTop, wilayas, types }, ref) => {
 		wilaya: false,
 	});
 	const [collapsedBar, setCollapsedBar] = useState(false);
+	const [loading, setLoading] = useState(false);
+	const [error, setError] = useState(false);
+	const [errorMessage, setErrorMessage] = useState("");
 
 	const changeTypeHandler = (type) => {
 		setFilterData((prev) => ({ ...prev, typeAnnonce: type }));
@@ -60,6 +65,33 @@ const Search = ({ onSearch, onFilter, stickTop, wilayas, types }, ref) => {
 		to: { maxHeight: showFilters ? "200px" : "0" },
 		config: { duration: "250" },
 	});
+
+	const searchHandler = async (query) => {
+		setLoading(true);
+		setError(false);
+		try {
+			await onSearch(query);
+			setLoading(false);
+		} catch (e) {
+			console.log(e);
+			setLoading(false);
+			setError(true);
+			setErrorMessage(e.message);
+		}
+	};
+	const filterHandler = async (query) => {
+		setLoading(true);
+		setError(false);
+		try {
+			await onFilter(query);
+			setLoading(false);
+		} catch (e) {
+			console.log(e);
+			setLoading(false);
+			setError(true);
+			setErrorMessage(e.message);
+		}
+	};
 
 	return (
 		<motion.div
@@ -110,15 +142,27 @@ const Search = ({ onSearch, onFilter, stickTop, wilayas, types }, ref) => {
 						<>
 							<button
 								type="submit"
-								className="absolute right-3"
+								className="absolute right-3 z-10 top-6"
 								onClick={(e) => {
 									e.preventDefault();
-									onSearch(searchedText);
+									searchHandler(searchedText);
 								}}
+								disabled={loading}
 							>
-								<FiSearch size="30px" color="#069ADF" />
+								{loading ? (
+									<div className=" flex">
+										<MoonLoader size={26} color="#069ADF" />
+									</div>
+								) : (
+									<FiSearch size="30px" color="#069ADF" />
+								)}
 							</button>
-							<div className="my-4 pl-3 md:pl-0">
+							<div
+								className={
+									"mt-4 pl-3 md:pl-0 relative" +
+									(error ? " mb-9" : " mb-4")
+								}
+							>
 								<input
 									type="text"
 									name="search"
@@ -130,14 +174,25 @@ const Search = ({ onSearch, onFilter, stickTop, wilayas, types }, ref) => {
 									onKeyDown={(e) => {
 										if (e.key === "Enter") {
 											setShowFilters(false);
-											onSearch(searchedText);
+											searchHandler(searchedText);
 										}
 									}}
 								/>
+								{error && (
+									<div className="flex items-center gap-2 text-red-600 absolute top-[54px] left-4 font-medium">
+										<AiOutlineCloseCircle
+											className="text-red-600 cursor-pointer"
+											size={20}
+											onClick={() => setError(false)}
+										/>
+										<p>{errorMessage}</p>
+									</div>
+								)}
 							</div>
 						</>
 					)}
 				</div>
+
 				{(!stickTop || !collapsedBar) && (
 					<div
 						className="cursor-pointer"
@@ -163,7 +218,7 @@ const Search = ({ onSearch, onFilter, stickTop, wilayas, types }, ref) => {
 					<form
 						onSubmit={(e) => {
 							e.preventDefault();
-							onFilter(filterData);
+							filterHandler(filterData);
 							setOpenedLists("");
 						}}
 					>
@@ -184,7 +239,10 @@ const Search = ({ onSearch, onFilter, stickTop, wilayas, types }, ref) => {
 								items={wilayas}
 							/>
 
-							<button className=" px-4 py-2 h-fit text-white bg-blue bg-opacity-70 rounded-[10px] font-semibold border-2 border-blue border-opacity-70  hover:bg-dark hover:text-white  transition">
+							<button
+								className=" px-4 py-2 h-fit text-white bg-blue bg-opacity-70 rounded-[10px] font-semibold border-2 border-blue border-opacity-70  hover:bg-dark hover:text-white  transition"
+								disabled={loading}
+							>
 								Filtrer
 							</button>
 						</div>
