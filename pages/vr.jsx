@@ -7,6 +7,7 @@ import SearchBar from "@/components/vr/SearchBar";
 import { Map } from "react-algeria-map";
 import VrModal from "@/components/vr/modal/VrModal";
 import { wilayas } from "@/data/data";
+import Footer from "@/components/shared/Footer";
 
 const data = {
 	Adrar: 0,
@@ -185,6 +186,7 @@ const Vr = () => {
 					/>
 				)}
 			</section>
+			<Footer />
 		</section>
 	);
 };

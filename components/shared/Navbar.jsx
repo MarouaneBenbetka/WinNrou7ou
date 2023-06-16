@@ -67,7 +67,7 @@ const Navbar = ({ setShowModal }) => {
 								className="relative md:px-3 lg:px-5 nav-link cursor-pointer"
 							>
 								<Link
-									href={navLink.id}
+									href={"/" + navLink.id}
 									className={" text-[18px] "}
 								>
 									{navLink["title" + lang]}

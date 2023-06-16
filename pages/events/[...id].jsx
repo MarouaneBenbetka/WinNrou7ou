@@ -15,9 +15,12 @@ const MapWrapper = dynamic(() => import("@/components/map/SimpleMap"), {
 const Event = ({ event, status }) => {
 	const { showBoundary } = useErrorBoundary();
 	const router = useRouter();
-
+	console.log(status);
 	useEffect(() => {
-		if (status != "ok") showBoundary(status);
+		if (status != "ok") {
+			showBoundary(status);
+			console.log("hi");
+		}
 	}, [status, showBoundary]);
 
 	return (
@@ -60,7 +63,7 @@ const Event = ({ event, status }) => {
 										size={24}
 										className="text-white opacity-80"
 									/>
-									<h2>{event.date.split("T")[0]}</h2>
+									<h2>{event.date?.split("T")[0]}</h2>
 								</div>
 							</div>
 						</div>
@@ -98,7 +101,7 @@ const Event = ({ event, status }) => {
 						</div>
 						<div className="flex gap-3 items-center">
 							<FiCalendar size={24} className="text-blue " />
-							<h2>{event.date.split("T")[0]}</h2>
+							<h2>{event.date?.split("T")[0]}</h2>
 						</div>
 					</div>
 				</div>
@@ -123,10 +126,9 @@ export async function getServerSideProps({ params }) {
 			},
 		};
 	} catch (e) {
-		console.log(e.message);
 		return {
 			props: {
-				event: null,
+				event: {},
 				status: "error",
 			},
 		};
