@@ -1,13 +1,26 @@
 import { DUMMY_SUGGESTIONS } from "@/data/data";
 import SuggestionCard from "./SuggestionCard";
 import { MdOutlineKeyboardDoubleArrowUp } from "react-icons/md";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import axios from "axios";
 
-const Suggestions = () => {
+const Suggestions = ({ id, moveToSuggestion }) => {
 	const [collapsedBar, setCollapsedBar] = useState(true);
+	const [data, setData] = useState(DUMMY_SUGGESTIONS);
 	const toggleCollapseHanlder = () => {
 		setCollapsedBar((prev) => !prev);
 	};
+
+	useEffect(() => {
+		const fetchSuggestions = async () => {
+			const res = await axios.get(
+				"http://localhost:3000/api/monuments/random"
+			);
+			setData(res.data.monuments);
+			console.log(res.data.monuments);
+		};
+		fetchSuggestions();
+	}, [id]);
 
 	return (
 		<section
@@ -18,11 +31,21 @@ const Suggestions = () => {
 			<div className="relative w-full h-full flex justify-center ">
 				{!collapsedBar && (
 					<div className=" carousel carousel-start w-[280px]  x2:w-[580px] x3:w-[850px] x4:w-[1125px] rounded-t-[20px] ">
-						{DUMMY_SUGGESTIONS.map((item) => (
+						{data.map((item) => (
 							<SuggestionCard
 								key={item.id}
 								title={item.title}
 								img={item.img}
+								id={item.id}
+								clickHandler={() => {
+									moveToSuggestion({
+										id: item.id,
+										title: item.title,
+										latitude: item.latitude,
+										longitude: item.longitude,
+									});
+									setCollapsedBar(true);
+								}}
 							/>
 						))}
 					</div>

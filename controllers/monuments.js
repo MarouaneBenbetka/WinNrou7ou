@@ -126,3 +126,16 @@ export async function createMonumentReview(req, res) {
 		res.status(500).json(err);
 	}
 }
+
+export async function getRandomMonuments(req, res) {
+	try {
+		const monuments = await db.query(
+			"SELECT t1.id , title , latitude , longitude ,(select url image from images where monumentid = t1.id limit 1) img FROM Monuments as t1 ORDER BY RAND() LIMIT 10",
+			{ type: QueryTypes.SELECT }
+		);
+
+		res.status(200).send({ monuments });
+	} catch (err) {
+		res.status(500).json(err);
+	}
+}

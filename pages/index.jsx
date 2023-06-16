@@ -148,7 +148,10 @@ export default function Home({ markers, wilayas, types, status }) {
 								lock map
 							</h3>
 						</div>
-						<Suggestions />
+						<Suggestions
+							id={lastSearch}
+							moveToSuggestion={(e) => setHighlightedMarkers([e])}
+						/>
 					</>
 				)}
 				<MapWrapper
