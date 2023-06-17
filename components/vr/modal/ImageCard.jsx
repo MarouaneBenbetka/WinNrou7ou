@@ -5,14 +5,6 @@ const ImageCard = ({ title, img, link }) => {
 	return (
 		<motion.div
 			className="py-3 px-3 cursor-pointer"
-			drag
-			whileDrag={{
-				scale: 1.08,
-				zIndex: 100,
-				border: 1,
-				borderBlockColor: "#D5DD18",
-			}}
-			dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
 			onClick={() => {
 				window.open(link, "newwindow", "fullscreen=yes");
 			}}

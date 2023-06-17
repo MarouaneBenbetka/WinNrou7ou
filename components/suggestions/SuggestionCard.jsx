@@ -4,14 +4,6 @@ const SuggestionCard = ({ title, img, id, clickHandler }) => {
 	return (
 		<motion.div
 			className="carousel-item py-3 px-3 cursor-pointer"
-			drag
-			whileDrag={{
-				scale: 1.08,
-				zIndex: 100,
-				border: 1,
-				borderBlockColor: "#D5DD18",
-			}}
-			dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
 			onClick={clickHandler}
 		>
 			<div className="relative hover:scale-[1.03] transition">

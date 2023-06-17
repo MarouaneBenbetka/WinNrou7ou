@@ -37,13 +37,13 @@ const Suggestions = ({ id, moveToSuggestion }) => {
 				collapsedBar ? "" : "slideUpAnimation"
 			} w-[80vw] sm:w-[90vw] md:w-[85vw] flex justify-center    mt-0 rounded-t-[20px]  bg-white fixed bottom-0 z-50 border-2 border-green `}
 		>
-			{loading ? (
-				<div className=" flex ">
-					<MoonLoader size={32} color="#069ADF" />
-				</div>
-			) : (
-				<div className="relative w-full h-full flex justify-center ">
-					{!collapsedBar && (
+			<div className="relative w-full h-full flex justify-center ">
+				{!collapsedBar &&
+					(loading ? (
+						<div className=" flex ">
+							<MoonLoader size={32} color="#069ADF" />
+						</div>
+					) : (
 						<div className=" carousel carousel-start w-[280px]  x2:w-[580px] x3:w-[850px] x4:w-[1125px] rounded-t-[20px] ">
 							{data.map((item) => (
 								<SuggestionCard
@@ -63,27 +63,26 @@ const Suggestions = ({ id, moveToSuggestion }) => {
 								/>
 							))}
 						</div>
-					)}
-					<div
-						className={`floatAnimation ${
-							collapsedBar
-								? "fixed bottom-0 left-0 md:left-14 border-2 bg-green rounded-t-2xl"
-								: "absolute top-2 left-0 "
-						} cursor-pointer  rounded-t-2xl`}
-						onClick={toggleCollapseHanlder}
-					>
-						<MdOutlineKeyboardDoubleArrowUp
-							size={38}
-							className={
-								(collapsedBar
-									? "rotate-0 text-white"
-									: "rotate-180 text-green") +
-								" transition-all ease-in-out duration-500 "
-							}
-						/>
-					</div>
+					))}
+				<div
+					className={`floatAnimation ${
+						collapsedBar
+							? "fixed bottom-0 left-0 md:left-14 border-2 bg-green rounded-t-2xl"
+							: "absolute top-2 left-0 "
+					} cursor-pointer  rounded-t-2xl`}
+					onClick={toggleCollapseHanlder}
+				>
+					<MdOutlineKeyboardDoubleArrowUp
+						size={38}
+						className={
+							(collapsedBar
+								? "rotate-0 text-white"
+								: "rotate-180 text-green") +
+							" transition-all ease-in-out duration-500 "
+						}
+					/>
 				</div>
-			)}
+			</div>
 		</section>
 	);
 };

@@ -131,7 +131,7 @@ export default function Home({ markers, wilayas, types, status }) {
 			>
 				{mapView && (
 					<>
-						<div className="fixed  bottom-2 top-auto md:top-2 md:bottom-auto right-14 md:right-2 z-50 flex flex-col-reverse md:flex-col  justify-center items-center">
+						<div className="fixed  bottom-2 top-auto md:top-2 md:bottom-auto right-28 md:right-2 z-50 flex flex-col-reverse md:flex-col  justify-center items-center">
 							<input
 								type="checkbox"
 								className="toggle  bg-opacity-20 border-opacity-20  checked:bg-orange checked:border-orange"
