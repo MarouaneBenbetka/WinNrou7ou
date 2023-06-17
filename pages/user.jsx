@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { FiEdit2 } from "react-icons/fi";
 import Notification from "@/components/userCards/Notification";
+import { useSession } from "next-auth/react";
 
 const links = [
 	{ id: 1, title: "Places" },
@@ -53,6 +54,7 @@ const DUMMY_EVENTS = [
 
 const User = () => {
 	const [active, setActive] = useState(1);
+	const { status, data: session } = useSession();
 
 	const editProlifeHandler = () => {
 		console.log("edit profile");
@@ -64,19 +66,20 @@ const User = () => {
 				<div className="h-[40vh] relative w-screen">
 					<div className="absolute inset-0  bg-black opacity-30 z-10"></div>
 					<Image
-						src="/images/bg-user.png"
+						src={"/images/bg-user.png"}
 						alt=""
 						fill
 						className="object-cover object-center"
 					/>
 					<div
-						className="absolute -bottom-[100px] left-[calc(50vw-138px)] flex flex-col justify-center items-center cursor-pointer"
+						className="absolute -bottom-[100px] left-0 right-0 flex flex-col justify-center items-center cursor-pointer"
 						onClick={editProlifeHandler}
 					>
 						<div className="w-[146px] h-[146px]   rounded-full overflow-hidden relative border-4 border-blue z-20">
 							<Image
 								src={
-									"https://pbs.twimg.com/media/FjU2lkcWYAgNG6d.jpg"
+									session?.user?.image ||
+									"/images/user-placeholder.png"
 								}
 								alt=""
 								fill
@@ -84,7 +87,7 @@ const User = () => {
 						</div>
 						<div className="text-center flex items-center  gap-3">
 							<h1 className="text-dark text-2xl mt-2">
-								Marouane Benbetka
+								{session.user.name}
 							</h1>
 							<FiEdit2 size={22} className="text-black" />
 						</div>

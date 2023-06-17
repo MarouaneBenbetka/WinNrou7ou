@@ -95,7 +95,8 @@ const Navbar = ({ setShowModal }) => {
 									<div className="w-[48px] h-[48px]  rounded-full overflow-hidden relative border-2 border-blue">
 										<Image
 											src={
-												"https://pbs.twimg.com/media/FjU2lkcWYAgNG6d.jpg"
+												session?.user?.image ||
+												"/images/user-placeholder.png"
 											}
 											alt=""
 											fill

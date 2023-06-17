@@ -10,27 +10,23 @@ import { useRouter } from "next/router";
 import ImageInput from "./ImageInput";
 import axios from "axios";
 
-
 const SignUpForm = ({}) => {
 	const router = useRouter();
 	// for sign in with email and password
 	const onSubmit = async (values, actions) => {
+		console.log(values);
 
-		console.log(values);	
-		
 		try {
 			const result = await axios.post(`http://localhost:3000/api/users`, {
 				email: values.email,
-				name:values.username,
-				password:values.password,
-				image:values.image
+				name: values.username,
+				password: values.password,
+				image: values.image,
 			});
 			console.log(result);
-
-		  } catch (error) {
-	  
+		} catch (error) {
 			console.log(error);
-		  }
+		}
 		actions.resetForm();
 	};
 	// for google auth
