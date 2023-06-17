@@ -63,7 +63,7 @@ const Layout = ({ children }) => {
 		<ErrorBoundary FallbackComponent={ErrorBoundaryUI}>
 			<div
 				onScroll={handleScroll}
-				className="  font-poppins  w-screen max-w-[100vw]"
+				className="  font-poppins  w-screen max-w-[100vw] text-white"
 			>
 				{children}
 

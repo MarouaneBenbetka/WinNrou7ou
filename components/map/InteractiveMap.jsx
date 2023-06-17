@@ -42,26 +42,30 @@ const HighlightedMarkersComponent = ({
 		}
 	}, [highlightedMarkers, map1, setModalId, setShowModal]);
 
-	return highlightedMarkers.map((item) => (
-		<Marker
-			key={item.id}
-			position={[item.latitude, item.longitude]}
-			title={item.title}
-			icon={L.icon({
-				iconUrl: "/images/logo.svg",
-				iconSize: [42, 42],
-			})}
-			eventHandlers={{
-				click: (e) => {
-					setModalId(item.id);
-					setShowModal((prev) => !prev);
-				},
-				dblclick: (event) => {
-					event.originalEvent.preventDefault(); // Prevents default double-click behavior
-				},
-			}}
-		/>
-	));
+	return (
+		<MarkerClusterGroup>
+			{highlightedMarkers.map((item) => (
+				<Marker
+					key={item.id}
+					position={[item.latitude, item.longitude]}
+					title={item.title}
+					icon={L.icon({
+						iconUrl: "/images/logo.svg",
+						iconSize: [42, 42],
+					})}
+					eventHandlers={{
+						click: (e) => {
+							setModalId(item.id);
+							setShowModal((prev) => !prev);
+						},
+						dblclick: (event) => {
+							event.originalEvent.preventDefault(); // Prevents default double-click behavior
+						},
+					}}
+				/>
+			))}
+		</MarkerClusterGroup>
+	);
 };
 
 export default function InteractiveMap({

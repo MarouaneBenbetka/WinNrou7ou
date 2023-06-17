@@ -49,18 +49,16 @@ export default function Home({ markers, wilayas, types, status }) {
 	};
 	const searchHandler = async (query) => {
 		if (!mapView) mapRef.current.scrollIntoView({ behavior: "smooth" });
-		if (query === "") setHighlightedMarkers([]);
-		else {
-			try {
-				const res = await instance.get(`/api/monuments?q=${query}`);
 
-				if (res.data.monuments.length === 0)
-					throw Error("no result found , try another query");
-				else setLastSearch(query);
-				setHighlightedMarkers(res.data.monuments);
-			} catch (e) {
-				throw Error(e.message);
-			}
+		try {
+			const res = await instance.get(`/api/monuments?q=${query}`);
+
+			if (res.data.monuments.length === 0)
+				throw Error("no result found , try another query");
+			else setLastSearch(query);
+			setHighlightedMarkers(res.data.monuments);
+		} catch (e) {
+			throw Error(e.message);
 		}
 	};
 	const filterHandler = async (query) => {
