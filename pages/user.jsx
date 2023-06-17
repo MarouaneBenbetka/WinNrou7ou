@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { FiEdit2 } from "react-icons/fi";
 import Notification from "@/components/userCards/Notification";
-import { useSession } from "next-auth/react";
+import { getSession, useSession } from "next-auth/react";
 
 const links = [
 	{ id: 1, title: "Places" },
@@ -161,3 +161,24 @@ const User = () => {
 };
 
 export default User;
+
+export async function getServerSideProps({ req }) {
+	try {
+		const session = await getSession({ req });
+
+		if (!session) {
+			return {
+				redirect: {
+					destination: "/login",
+					permanent: false,
+				},
+			};
+		}
+
+		return {
+			props: { session },
+		};
+	} catch {
+		console.log("error");
+	}
+}
