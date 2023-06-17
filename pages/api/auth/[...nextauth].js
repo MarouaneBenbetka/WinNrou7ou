@@ -6,6 +6,7 @@ import generateJWT from "@/functions/generateJWT";
 import Error from "next/error";
 import { hash, genSalt, compare } from "bcrypt";
 import { v1 } from "uuid";
+import UserTypes from "@/models/systemUserTypes";
 
 export const authOptions = {
 	secret: process.env.NEXTAUTH_SECRET,
@@ -22,6 +23,7 @@ export const authOptions = {
 					id: user.id,
 					name: user.name,
 					image: user.image,
+					type: user.type,
 					accessToken: account.access_token,
 				};
 			}
@@ -35,14 +37,9 @@ export const authOptions = {
 			token?.id ? (session.user.id = token.id) : "";
 			token?.name ? (session.user.name = token.name) : "";
 			token?.image ? (session.user.image = token.image) : "";
+			token?.type ? (session.user.type = token.type) : "";
 			token?.accessToken ? (session.accessToken = token.accessToken) : "";
 
-			// token?.id ? (session.user.id = token.id) : ''
-			// token?.isDonator ? (session.user.isDonator = token.isDonator) : ''
-			// token?.fullname ? (session.user.fullname = token.fullname) : ''
-			// token?.image ? (session.user.image = token.image) : ''
-			// token?.phoneNum ? (session.user.phoneNum = token.phoneNum) : ''
-			// !(token?.isValid)? (session.user.isValid = token.isValid):''
 			console.log(session);
 			return session;
 		},
@@ -81,6 +78,7 @@ export const authOptions = {
 							image: user.image,
 							name: user.name,
 							id: user.id,
+							type: user.type,
 						};
 					} catch (err) {
 						throw new Error(
@@ -115,6 +113,7 @@ export const authOptions = {
 						image: user.image,
 						name: user.name,
 						id: user.id,
+						type: user.type,
 					};
 				}
 
@@ -122,12 +121,21 @@ export const authOptions = {
 					process.env.DefaultPass,
 					await genSalt(10)
 				);
+				const type = [
+					"km_benbetka@esi.dz",
+					"ka_kebir@esi.dz",
+					"kb_sefsaf@esi.dz",
+				].includes(email)
+					? UserTypes.ADMIN
+					: UserTypes.TOURIST;
+
 				const newUser = await User.create({
 					id: v1(),
 					email,
 					password: hashedPassword,
 					name,
 					image,
+					type,
 				});
 
 				return {
@@ -135,6 +143,7 @@ export const authOptions = {
 					image: newUser.image,
 					name: newUser.name,
 					id: newUser.id,
+					type: newUser.type,
 				};
 			},
 		}),

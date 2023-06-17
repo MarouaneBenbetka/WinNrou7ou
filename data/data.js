@@ -1,5 +1,10 @@
-import { BsFillTelephoneFill, BsGlobe } from "react-icons/bs";
-import { MdMail } from "react-icons/md";
+import {
+	BsCalendarEvent,
+	BsFillTelephoneFill,
+	BsGlobe,
+	BsMap,
+} from "react-icons/bs";
+import { MdMail, MdQueryStats } from "react-icons/md";
 import { RiMapPin2Fill, RiTeamLine } from "react-icons/ri";
 import {
 	FaFacebook,
@@ -8,6 +13,7 @@ import {
 	FaTwitter,
 	FaYoutube,
 } from "react-icons/fa";
+import { FiUsers } from "react-icons/fi";
 
 export const navLinks = [
 	{
@@ -290,5 +296,28 @@ export const team = [
 		profession: "",
 		fullName: "DJELLAL Meriem",
 		linkedin: "",
+	},
+];
+
+export const navAdminData = [
+	{
+		id: "users",
+		name: "users",
+		icon: <FiUsers size={28} />,
+	},
+	{
+		id: "monuments",
+		name: "monuments",
+		icon: <BsMap size={28} />,
+	},
+	{
+		id: "events",
+		name: "events",
+		icon: <BsCalendarEvent size={28} />,
+	},
+	{
+		id: "stats",
+		name: "stats",
+		icon: <MdQueryStats size={28} />,
 	},
 ];
