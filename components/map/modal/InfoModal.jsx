@@ -19,6 +19,7 @@ import { PuffLoader } from "react-spinners";
 import { BsFillSendFill } from "react-icons/bs";
 import { useSession } from "next-auth/react";
 import Filter from "bad-words";
+import { instance } from "@/utils/services/url";
 
 const InfoModal = ({ id, closeModal }) => {
 	const [expandHistory, setExpandHistory] = useState(false);
@@ -36,9 +37,7 @@ const InfoModal = ({ id, closeModal }) => {
 			setLoading(true);
 			setError(false);
 			try {
-				const res = await axios.get(
-					`http://localhost:3000/api/monuments/${id}`
-				);
+				const res = await instance.get(`/api/monuments/${id}`);
 				setModalData(res.data.monument);
 				setLoading(false);
 			} catch (e) {
@@ -68,8 +67,8 @@ const InfoModal = ({ id, closeModal }) => {
 					console.log(e);
 				}
 
-				const res = await axios.post(
-					`http://localhost:3000/api/monuments/${id}/reviews`,
+				const res = await instance.post(
+					`/api/monuments/${id}/reviews`,
 					{ comment: cleanComment },
 					{ withCredentials: true }
 				);

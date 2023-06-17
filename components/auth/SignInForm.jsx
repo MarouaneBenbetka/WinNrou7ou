@@ -93,7 +93,7 @@ const SignInForm = ({ closeModal }) => {
 										callbackUrl:
 											env === "development"
 												? "http://localhost:3000"
-												: "https://win_nrouhou.vercel.app",
+												: "https://win-nrou7ou.vercel.app/",
 									});
 								}}
 							>

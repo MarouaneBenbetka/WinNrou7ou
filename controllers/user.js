@@ -11,6 +11,7 @@ import UserFavouriteEvent from "@/models/userFavouriteEvent";
 import Monument from "@/models/monument";
 import { QueryTypes } from "sequelize";
 import UserFavouriteMonument from "@/models/userFavouriteMonument";
+import { BASE_URL } from "@/utils/services/url";
 export async function getUsers(req, res) {
 	try {
 		// write here you code
@@ -20,7 +21,7 @@ export async function getUsers(req, res) {
 	}
 }
 
-const URL = "http://localhost:3000/api";
+const URL = `${BASE_URL}/api`;
 
 export async function addUser(req, res) {
 	try {

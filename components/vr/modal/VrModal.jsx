@@ -5,6 +5,7 @@ import ModalSkelton from "@/components/map/modal/ModalSkelton";
 import ErrorLoading from "@/components/map/modal/ErrorLoading";
 import ImageCard from "./ImageCard";
 import NoData from "./NoData";
+import { instance } from "@/utils/services/url";
 
 const VrModal = ({ wilaya, closeModal }) => {
 	const [modalData, setModalData] = useState({});
@@ -16,8 +17,8 @@ const VrModal = ({ wilaya, closeModal }) => {
 			setLoading(true);
 			setError(false);
 			try {
-				const res = await axios.get(
-					`http://localhost:3000/api/content360?wilaya=${wilaya}`
+				const res = await instance.get(
+					`/api/content360?wilaya=${wilaya}`
 				);
 				setModalData(res.data.content360);
 				console.log(res.data.content360);

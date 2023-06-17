@@ -93,6 +93,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import axios from "axios";
 import { AiFillHeart, AiFillStar, AiOutlineHeart } from "react-icons/ai";
+import { instance } from "@/utils/services/url";
 
 const Place = ({ id }) => {
 	const [modalData, setModalData] = useState(DUMMY_INFO);
@@ -101,9 +102,7 @@ const Place = ({ id }) => {
 	useEffect(() => {
 		const fetchMarkers = async () => {
 			try {
-				const res = await axios.get(
-					`http://localhost:3000/api/monuments/${id}`
-				);
+				const res = await instance.get(`/api/monuments/${id}`);
 				setModalData(res.data.monument);
 			} catch (e) {
 				console.log(e);

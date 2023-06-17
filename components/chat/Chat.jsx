@@ -5,6 +5,7 @@ import { PuffLoader } from "react-spinners";
 import ErrorAlert from "./ErrorAlert";
 import axios from "axios";
 import { FiSend } from "react-icons/fi";
+import { instance } from "@/utils/services/url";
 
 export default function Chat({ visible }) {
 	const [inputValue, setInputValue] = useState("");
@@ -83,8 +84,8 @@ export default function Chat({ visible }) {
 	const getResponse = async (req) => {
 		setIsLoading(true);
 
-		axios
-			.post("http://localhost:3000/api/chat", req)
+		instance
+			.post("/api/chat", req)
 			.then((response) => {
 				console.log(response.data.chatGptResponse);
 				setChatLog((prevChatLog) => [

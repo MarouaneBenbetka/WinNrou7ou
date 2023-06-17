@@ -10,6 +10,7 @@ import { motion } from "framer-motion";
 import { staggerContainer, textVariant } from "../styles/motion";
 import axios from "axios";
 import { useErrorBoundary } from "react-error-boundary";
+import { instance } from "@/utils/services/url";
 
 const MapWrapper = dynamic(() => import("@/components/map/InteractiveMap"), {
 	ssr: false,
@@ -52,9 +53,7 @@ export default function Home({ markers, wilayas, types, status }) {
 		if (query === "") setHighlightedMarkers([]);
 		else {
 			try {
-				const res = await axios.get(
-					`http://localhost:3000/api/monuments?q=${query}`
-				);
+				const res = await instance.get(`/api/monuments?q=${query}`);
 
 				if (res.data.monuments.length === 0)
 					throw Error("no result found , try another query");
@@ -71,8 +70,8 @@ export default function Home({ markers, wilayas, types, status }) {
 		if (query === "") setHighlightedMarkers([]);
 		else {
 			try {
-				const res = await axios.get(
-					`http://localhost:3000/api/monuments?q=${lastSearch}&wilaya=${query.wilaya}&type=${query.typeAnnonce}`
+				const res = await instance.get(
+					`/api/monuments?q=${lastSearch}&wilaya=${query.wilaya}&type=${query.typeAnnonce}`
 				);
 				if (res.data.monuments.length === 0)
 					throw Error("no result found , try another query");
@@ -171,9 +170,9 @@ export default function Home({ markers, wilayas, types, status }) {
 
 export async function getStaticProps() {
 	try {
-		const res = await axios.get("http://localhost:3000/api/monuments");
-		const res1 = await axios.get("http://localhost:3000/api/wilayas");
-		const res2 = await axios.get("http://localhost:3000/api/types");
+		const res = await instance.get("/api/monuments");
+		const res1 = await instance.get("/api/wilayas");
+		const res2 = await instance.get("/api/types");
 
 		return {
 			props: {

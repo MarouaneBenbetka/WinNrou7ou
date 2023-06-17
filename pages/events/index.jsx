@@ -2,6 +2,7 @@ import EventCard from "@/components/events/EventCard";
 import SmallEventCard from "@/components/events/SmallEventCard";
 import Footer from "@/components/shared/Footer";
 import { staggerContainer, textVariant } from "@/styles/motion";
+import { instance } from "@/utils/services/url";
 import axios from "axios";
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -220,7 +221,7 @@ export default Events;
 
 export async function getServerSideProps() {
 	try {
-		const res = await axios.get("http://localhost:3000/api/events");
+		const res = await instance.get("/api/events");
 		console.log(res.data.events);
 		return {
 			props: {

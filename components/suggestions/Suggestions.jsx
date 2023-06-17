@@ -3,6 +3,7 @@ import SuggestionCard from "./SuggestionCard";
 import { MdOutlineKeyboardDoubleArrowUp } from "react-icons/md";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { instance } from "@/utils/services/url";
 
 const Suggestions = ({ id, moveToSuggestion }) => {
 	const [collapsedBar, setCollapsedBar] = useState(true);
@@ -13,9 +14,7 @@ const Suggestions = ({ id, moveToSuggestion }) => {
 
 	useEffect(() => {
 		const fetchSuggestions = async () => {
-			const res = await axios.get(
-				"http://localhost:3000/api/monuments/random"
-			);
+			const res = await instance.get("/api/monuments/random");
 			setData(res.data.monuments);
 			console.log(res.data.monuments);
 		};

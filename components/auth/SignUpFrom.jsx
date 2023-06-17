@@ -9,6 +9,7 @@ import CustomInput2 from "./CustomInput2";
 import { useRouter } from "next/router";
 import ImageInput from "./ImageInput";
 import axios from "axios";
+import { instance } from "@/utils/services/url";
 
 const SignUpForm = ({}) => {
 	const router = useRouter();
@@ -17,7 +18,7 @@ const SignUpForm = ({}) => {
 		console.log(values);
 
 		try {
-			const result = await axios.post(`http://localhost:3000/api/users`, {
+			const result = await instance.post(`/api/users`, {
 				email: values.email,
 				name: values.username,
 				password: values.password,

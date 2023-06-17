@@ -8,6 +8,7 @@ import dynamic from "next/dynamic";
 import { useErrorBoundary } from "react-error-boundary";
 import { useEffect } from "react";
 import axios from "axios";
+import { instance } from "@/utils/services/url";
 const MapWrapper = dynamic(() => import("@/components/map/SimpleMap"), {
 	ssr: false,
 });
@@ -115,9 +116,7 @@ export default Event;
 
 export async function getServerSideProps({ params }) {
 	try {
-		const res = await axios.get(
-			`http://localhost:3000/api/events/${params.id}`
-		);
+		const res = await instance.get(`/api/events/${params.id}`);
 		console.log(res.data.event);
 		return {
 			props: {
