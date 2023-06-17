@@ -107,7 +107,7 @@ const Events = ({ events, status }) => {
 	return (
 		<div className="bg-white">
 			<motion.section
-				className="relative  h-screen w-full bg-events bg-cover "
+				className="relative  h-screen w-screen bg-events bg-cover "
 				variants={staggerContainer}
 				initial="hidden"
 				whileInView="show"
