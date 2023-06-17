@@ -20,8 +20,6 @@
     "bcrypt": "^5.1.0",
     "daisyui": "^2.51.6",
     "embla-carousel-react": "^7.1.0",
-    "eslint": "8.40.0",
-    "eslint-config-next": "13.4.2",
     "formik": "^2.2.9",
     "framer-motion": "^10.12.12",
     "jose": "^4.14.4",
