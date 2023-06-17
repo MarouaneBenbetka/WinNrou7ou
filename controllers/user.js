@@ -9,13 +9,34 @@ import { getServerSession } from "next-auth";
 import { authOptions } from "@/pages/api/auth/[...nextauth]";
 import UserFavouriteEvent from "@/models/userFavouriteEvent";
 import Monument from "@/models/monument";
-import { QueryTypes } from "sequelize";
+import { Op, QueryTypes } from "sequelize";
 import UserFavouriteMonument from "@/models/userFavouriteMonument";
 import { BASE_URL } from "@/utils/services/url";
+import UserTypes from "@/models/systemUserTypes";
 export async function getUsers(req, res) {
 	try {
-		// write here you code
-		res.status(200).send({ message: `user is not found successfully` });
+		const { q = "", page = 0, page_size = 10000 } = req.query;
+		// const session = await getServerSession(req, res, authOptions);
+		// if (!session) {
+		// 	return res.status(401).json({ message: "unauthorized" });
+		// }
+		// const user = await User.findOne({
+		// 	where: { email: session.user.email },
+		// });
+		// if (user.type !== UserTypes.ADMIN) {
+		// 	return res.status(401).json({ message: "unauthorized" });
+		// }
+		const users = await User.findAll({
+			limit: Number(page_size),
+			offset: Number(page) * Number(page_size),
+			order: [["createdAt", "desc"]],
+			attributes: { exclude: ["password", "createdAt"] },
+			where: {
+				name: { [Op.like]: `%${q}%` },
+			},
+		});
+		const page_limit = Math.ceil((await User.count()) / Number(page_size));
+		res.status(200).json({ users, page_limit });
 	} catch (err) {
 		res.status(500).json(err);
 	}
