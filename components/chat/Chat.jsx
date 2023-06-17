@@ -101,6 +101,7 @@ export default function Chat({ visible }) {
 			.catch((err) => {
 				setShowError(true);
 				setIsLoading(false);
+				console.log(err);
 			});
 	};
 
