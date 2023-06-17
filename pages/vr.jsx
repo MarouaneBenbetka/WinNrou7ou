@@ -165,6 +165,7 @@ const Vr = () => {
 				/>
 				<div className="relative z-10">
 					<Map
+						className="relaive z-10"
 						color="#069ADF"
 						HoverColor="#1e739a"
 						stroke="#fff"
