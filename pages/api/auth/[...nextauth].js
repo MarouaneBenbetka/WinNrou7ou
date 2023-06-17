@@ -7,7 +7,7 @@ import Error from "next/error";
 import { hash, genSalt, compare } from "bcrypt";
 import { v1 } from "uuid";
 
-export default NextAuth({
+export const authOptions = {
 	secret: process.env.NEXTAUTH_SECRET,
 	session: {
 		jwt: true,
@@ -142,4 +142,6 @@ export default NextAuth({
 	pages: {
 		signIn: "/auth/signIn",
 	},
-});
+};
+
+export default NextAuth(authOptions);
