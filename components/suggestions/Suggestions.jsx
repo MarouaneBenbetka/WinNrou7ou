@@ -19,7 +19,11 @@ const Suggestions = ({ id, moveToSuggestion }) => {
 			setData(res.data.monuments);
 			console.log(res.data.monuments);
 		};
-		fetchSuggestions();
+		try {
+			fetchSuggestions();
+		} catch (e) {
+			console.log(e);
+		}
 	}, [id]);
 
 	return (

@@ -90,6 +90,7 @@ const InfoModal = ({ id, closeModal }) => {
 					};
 					return newData;
 				});
+				setInputValue("");
 			} catch (e) {
 				console.log(e);
 				setCommentLoading(false);
