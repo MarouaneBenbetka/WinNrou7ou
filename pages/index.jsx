@@ -8,7 +8,6 @@ import Suggestions from "@/components/suggestions/Suggestions";
 import { uiActions } from "@/store/ui-slice";
 import { motion } from "framer-motion";
 import { staggerContainer, textVariant } from "../styles/motion";
-import axios from "axios";
 import { useErrorBoundary } from "react-error-boundary";
 import { instance } from "@/utils/services/url";
 

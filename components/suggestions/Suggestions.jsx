@@ -2,8 +2,8 @@ import { DUMMY_SUGGESTIONS } from "@/data/data";
 import SuggestionCard from "./SuggestionCard";
 import { MdOutlineKeyboardDoubleArrowUp } from "react-icons/md";
 import { useEffect, useState } from "react";
-import axios from "axios";
 import { instance } from "@/utils/services/url";
+import axios from "axios";
 
 const Suggestions = ({ id, moveToSuggestion }) => {
 	const [collapsedBar, setCollapsedBar] = useState(true);
@@ -14,15 +14,18 @@ const Suggestions = ({ id, moveToSuggestion }) => {
 
 	useEffect(() => {
 		const fetchSuggestions = async () => {
-			const res = await instance.get("/api/monuments/random");
-			setData(res.data.monuments);
-			console.log(res.data.monuments);
+			try {
+				const res = await axios.get(
+					"https://win-nrou7ou.vercel.app/api/monuments/random"
+				);
+				setData(res.data.monuments);
+				console.log(res.data.monuments);
+			} catch (e) {
+				console.log(e);
+			}
 		};
-		try {
-			fetchSuggestions();
-		} catch (e) {
-			console.log(e);
-		}
+
+		fetchSuggestions();
 	}, [id]);
 
 	return (
