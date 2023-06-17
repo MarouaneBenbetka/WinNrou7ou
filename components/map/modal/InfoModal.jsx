@@ -99,7 +99,7 @@ const InfoModal = ({ id, closeModal }) => {
 
 	return (
 		<motion.div
-			className="mantine-carousel bg-white shadow-md h-[calc(96vh-130px)] py-5 px-2 w-[360px] rounded-3xl absolute left-4 top-28 z-50 overflow-y-scroll"
+			className="mantine-carousel bg-white shadow-md h-[calc(96vh-130px)] py-5 px-2 w-[90vw] md:w-[360px] rounded-3xl absolute left-4 top-28 z-50 overflow-y-scroll"
 			initial={{ x: "-400px" }}
 			animate={{ x: 0 }}
 			transition={{ type: "spring", stiffness: 105 }}

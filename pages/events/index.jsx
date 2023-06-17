@@ -147,7 +147,7 @@ const Events = ({ events, status }) => {
 			</motion.section>
 			<section
 				ref={nextSectionRef}
-				className="min-h-screen w-full flex  items-center flex-col pt-[150px] relative"
+				className="min-h-screen w-screen flex  items-center flex-col pt-[150px] relative"
 			>
 				<div className="relative">
 					<h1 className="text-dark font-bold text-5xl relative z-10 before:content-[''] before:h-5 before:bg-blue before:w-full before:absolute before:bottom-0 before:left-0 before:-z-10">

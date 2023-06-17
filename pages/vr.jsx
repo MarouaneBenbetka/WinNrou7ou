@@ -78,7 +78,7 @@ const Vr = () => {
 		<section>
 			<VrBg />
 			<motion.div
-				className="snap-start h-screen pt-20 flex items-center justify-center flex-col text-white relative z-30"
+				className="snap-start h-screen w-screen pt-20 flex items-center justify-center flex-col text-white relative z-30"
 				variants={staggerContainer}
 				initial="hidden"
 				whileInView="show"
@@ -108,7 +108,7 @@ const Vr = () => {
 					Algeria&apos;s cities,
 				</motion.h2>
 				<motion.h1
-					className="text-2xl md:text-4xl  xmd:text-5xl xl:text-5xl pb-2  font-medium mt-3"
+					className="text-2xl md:text-4xl  xmd:text-5xl xl:text-5xl text-center pb-2  font-medium mt-3"
 					variants={textVariant(0.6)}
 					initial="hidden"
 					animate="show"
@@ -163,7 +163,7 @@ const Vr = () => {
 					setWilaya={setWilaya}
 					openModal={() => setShowModal(true)}
 				/>
-				<div className="relative z-10">
+				<div className="hidden md:block relative z-10">
 					<Map
 						className="relaive z-10"
 						color="#069ADF"
@@ -172,6 +172,23 @@ const Vr = () => {
 						hoverStroke="#17475e"
 						height="500px"
 						width="500px"
+						data={data}
+						onWilayaClick={(wilaya, data) => {
+							console.log(wilaya, data);
+							setShowModal(true);
+							setWilaya(wilayas[data].key);
+						}}
+					/>
+				</div>
+				<div className="block md:hidden relative z-10 mt-3">
+					<Map
+						className="relaive z-10"
+						color="#069ADF"
+						HoverColor="#1e739a"
+						stroke="#fff"
+						hoverStroke="#17475e"
+						height="320px"
+						width="320px"
 						data={data}
 						onWilayaClick={(wilaya, data) => {
 							console.log(wilaya, data);

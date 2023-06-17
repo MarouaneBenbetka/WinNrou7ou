@@ -133,7 +133,7 @@ const Navbar = ({ setShowModal }) => {
 						<animated.div
 							style={openAnimation}
 							className={
-								"fixed flex flex-col z-20 justify-start items-center gap-4 bg-[#0B1723] backdrop-filter backdrop-blur-xl bg-opacity-40    px-8   text-center top-[62px] left-0 w-screen h-[calc(100vh-64px)]  overflow-hidden"
+								"fixed flex flex-col z-20 justify-start items-center gap-4 bg-dark backdrop-filter backdrop-blur-xl     px-8   text-center top-[62px] left-0 w-screen h-[calc(100vh-64px)]  overflow-hidden"
 							}
 						>
 							<div className="flex flex-col items-center justify-center pt-20">
