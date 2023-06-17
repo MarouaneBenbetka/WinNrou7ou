@@ -108,7 +108,7 @@ export default function Chat({ visible }) {
 	return (
 		visible && (
 			<div className="fixed md:origin-bottom-right bottom-0 right-1/2   translate-x-1/2 md:translate-x-0   pb-16 md:pb-0  md:bottom-7 md:right-0 z-[200]  md:mr-[140px] ">
-				<div className="flex flex-col  bg-[#0B1723] backdrop-filter backdrop-blur-xl bg-opacity-40 h-[80vh] md:h-[90vh] md:w-[500px] mb-5 pt-3 rounded-2xl rounded-br-none">
+				<div className="flex flex-col  bg-[#0B1723] backdrop-filter backdrop-blur-xl bg-opacity-40 w-[90vw] h-[80vh] md:h-[90vh] md:w-[500px] mb-5 pt-3 rounded-2xl rounded-br-none">
 					<div className="flex-grow p-6 overflow-y-auto overflow-x-hidden">
 						<div className="flex flex-col space-y-4 h-auto">
 							{chatLog.map((message, index) => {

@@ -29,7 +29,7 @@ const Navbar = ({ setShowModal }) => {
 	return (
 		pathname !== "/signup" && (
 			<div
-				className={`snap-start z-50  top-0 w-screen ${
+				className={`snap-start z-50  top-0 w-screen  text-white ${
 					pathname === "/" || pathname === "/vr"
 						? "absolute"
 						: "fixed"
