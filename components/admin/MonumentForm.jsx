@@ -109,7 +109,7 @@ const AddAnnonce = ({ onFinishSubmit }) => {
 							<Form>
 								<div className="md:grid md:grid-cols-2 md:gap-y-1 md:gap-x-6">
 									<FormikControl
-										control="textarea"
+										control="input"
 										type="text"
 										label="Titre"
 										name="titre"
@@ -124,7 +124,7 @@ const AddAnnonce = ({ onFinishSubmit }) => {
 									/>
 
 									<FormikControl
-										control="textarea"
+										control="input"
 										label="Description"
 										name="description"
 										formik={formik}
