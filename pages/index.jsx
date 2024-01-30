@@ -10,6 +10,7 @@ import { motion } from "framer-motion";
 import { staggerContainer, textVariant } from "../styles/motion";
 import { useErrorBoundary } from "react-error-boundary";
 import { instance } from "@/utils/services/url";
+import { getSession } from "next-auth/react";
 
 const MapWrapper = dynamic(() => import("@/components/map/InteractiveMap"), {
 	ssr: false,
@@ -68,7 +69,11 @@ export default function Home({ markers, wilayas, types, status }) {
 		else {
 			try {
 				const res = await instance.get(
-					`/api/monuments?q=${lastSearch}&wilaya=${query.wilaya}&type=${query.typeAnnonce}`
+					`/api/monuments?q=${lastSearch}&wilaya=${
+						query.wilaya
+					}&types=${query.typeAnnonce
+						.replaceAll(" ", "+")
+						.replaceAll("&", "+")}`
 				);
 				if (res.data.monuments.length === 0)
 					throw Error("no result found , try another query");
@@ -165,7 +170,22 @@ export default function Home({ markers, wilayas, types, status }) {
 	);
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps({ req }) {
+	try {
+		const session = await getSession({ req });
+
+		if (session?.user?.type == "ADMIN") {
+			return {
+				redirect: {
+					destination: "/dashboard/monuments",
+					permanent: false,
+				},
+			};
+		}
+	} catch {
+		console.log("error in checking auth");
+	}
+
 	try {
 		const res = await instance.get("/api/monuments");
 		const res1 = await instance.get("/api/wilayas");
@@ -180,6 +200,7 @@ export async function getStaticProps() {
 			},
 		};
 	} catch (e) {
+		console.log(e);
 		console.log(e.message);
 		return {
 			props: {

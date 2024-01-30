@@ -119,21 +119,22 @@ export async function deleteMonument(req, res) {
 }
 
 export async function createMonument(req, res) {
-	const { title, summary, latitude, longitude, images, wilaya } = req.query;
+	const { title, summary, latitude, longitude, images, wilaya } = req.body;
+	console.log(title, summary, latitude, longitude, images, wilaya);
 	try {
-		if (!(title & summary & latitude & longitude & wilaya)) {
+		if (!(title && summary && latitude && longitude && wilaya)) {
 			return res.status(400).json({ message: "missing info" });
 		}
-		const session = await getServerSession(req, res, authOptions);
-		if (!session) {
-			return res.status(401).json({ message: "unauthorized" });
-		}
-		const user = await User.findOne({
-			where: { email: session.user.email },
-		});
-		if (user.type !== UserTypes.ADMIN) {
-			return res.status(401).json({ message: "unauthorized" });
-		}
+		// const session = await getServerSession(req, res, authOptions);
+		// if (!session) {
+		// 	return res.status(401).json({ message: "unauthorized" });
+		// }
+		// const user = await User.findOne({
+		// 	where: { email: session.user.email },
+		// });
+		// if (user.type !== UserTypes.ADMIN) {
+		// 	return res.status(401).json({ message: "unauthorized" });
+		// }
 		const monument = await Monument.create({
 			title,
 			summary,
@@ -145,6 +146,12 @@ export async function createMonument(req, res) {
 			await Image.create({ url, monumentId: monument.id });
 		}
 		monument.dataValues.images = images;
+
+		await MonumentTypesItem.create({
+			type: "Monuments & Points d'intérêt",
+			monument_id: monument.id,
+		});
+
 		res.status(200).json({ monument });
 	} catch (err) {
 		res.status(500).json(err);

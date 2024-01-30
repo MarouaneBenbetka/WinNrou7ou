@@ -24,10 +24,11 @@ const SignUpForm = ({}) => {
 				password: values.password,
 				image: values.image,
 			});
-			console.log(result);
+			alert("Check you email");
 		} catch (error) {
 			console.log(error);
 		}
+
 		actions.resetForm();
 	};
 	// for google auth

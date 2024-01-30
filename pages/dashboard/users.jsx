@@ -1,6 +1,7 @@
 import MonumentModal from "@/components/admin/MonumentModal";
 import InfoModal from "@/components/map/modal/InfoModal";
 import { instance } from "@/utils/services/url";
+import { getSession } from "next-auth/react";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { useErrorBoundary } from "react-error-boundary";
@@ -121,6 +122,21 @@ const Users = ({ users, status }) => {
 export default Users;
 
 export async function getServerSideProps() {
+	try {
+		const session = await getSession({ req });
+
+		if (session?.user?.type != "ADMIN") {
+			return {
+				redirect: {
+					destination: "/",
+					permanent: false,
+				},
+			};
+		}
+	} catch {
+		console.log("error");
+	}
+
 	try {
 		const res = await instance.get("/api/users", { withCredentials: true });
 		console.log(res);

@@ -3,6 +3,7 @@ import styles from "../../styles/navbar.module.css";
 import { navAdminData } from "@/data/data";
 import Link from "next/link";
 import { IoMdNotificationsOutline } from "react-icons/io";
+import { signOut } from "next-auth/react";
 const AdminNavbar = ({ image, name }) => {
 	return (
 		<>
@@ -35,7 +36,13 @@ const AdminNavbar = ({ image, name }) => {
 				</div>
 			</div>
 			<div className="flex items-center gap-2 cursor-pointer fixed top-4 right-6">
-				<h1 className="text-dark text-xl">{name}</h1>
+				<button
+					className="px-4 py-2 hover:text-green hover:bg-transparent  rounded-[10px] font-bold border-2 border-green bg-green text-dark transition"
+					onClick={signOut}
+				>
+					signOut
+				</button>
+
 				<div className="w-[48px] h-[48px]  rounded-full overflow-hidden relative border-2 border-blue">
 					<Image
 						src={image || "/images/user-placeholder.png"}

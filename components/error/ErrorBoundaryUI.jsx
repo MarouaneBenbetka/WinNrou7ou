@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Router from "next/router";
 const ErrorBoundaryUI = ({ error, resetErrorBoundary }) => {
+	console.log(error);
 	return (
 		<div className=" bg-white flex flex-col items-center justify-center pb-10 min-h-screen">
 			<div className="w-[650px] h-[260px] relative">

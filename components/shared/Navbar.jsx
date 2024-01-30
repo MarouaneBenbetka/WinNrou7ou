@@ -28,7 +28,7 @@ const Navbar = ({ setShowModal }) => {
 		config: { duration: "200" },
 	});
 
-	if (session?.user?.type === "Admin")
+	if (session?.user?.type !== "ADMIN")
 		return (
 			pathname !== "/signup" &&
 			pathname !== "/login" && (

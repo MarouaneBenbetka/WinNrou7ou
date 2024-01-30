@@ -1,6 +1,8 @@
+import AddMonument from "@/components/admin/AddMonument";
 import MonumentModal from "@/components/admin/MonumentModal";
 import InfoModal from "@/components/map/modal/InfoModal";
 import { instance } from "@/utils/services/url";
+import { getSession } from "next-auth/react";
 import { useEffect, useRef, useState } from "react";
 import { useErrorBoundary } from "react-error-boundary";
 import { AiOutlinePlus } from "react-icons/ai";
@@ -13,6 +15,7 @@ const Monuments = ({ monuments, status }) => {
 	const [lieux, setLieux] = useState(monuments);
 	const inputRef = useRef();
 	const [modalId, setModalId] = useState(1);
+	const [showModal, setShowModal] = useState(false);
 
 	useEffect(() => {
 		if (status != "ok") showBoundary(status);
@@ -38,7 +41,10 @@ const Monuments = ({ monuments, status }) => {
 		<section className="h-screen bg-white pl-44 pt-11">
 			<h1 className="font-bold text-4xl text-dark">Lieux</h1>
 			<div className="flex mt-6 gap-10">
-				<div className="bg-green flex w-fit text-dark items-center gap-4 py-2 px-3 rounded-lg  cursor-pointer">
+				<div
+					className="bg-green flex w-fit text-dark items-center gap-4 py-2 px-3 rounded-lg  cursor-pointer"
+					onClick={() => setShowModal(true)}
+				>
 					<AiOutlinePlus size={22} className="text-dark" />
 					<h2>Ajouter un lieu</h2>
 				</div>
@@ -101,13 +107,29 @@ const Monuments = ({ monuments, status }) => {
 				</div>
 				<MonumentModal id={modalId} closeModal={() => setModalId(1)} />
 			</div>
+			<AddMonument showModal={showModal} setShowModal={setShowModal} />
 		</section>
 	);
 };
 
 export default Monuments;
 
-export async function getServerSideProps() {
+export async function getServerSideProps({ req }) {
+	try {
+		const session = await getSession({ req });
+
+		if (session?.user?.type != "ADMIN") {
+			return {
+				redirect: {
+					destination: "/",
+					permanent: false,
+				},
+			};
+		}
+	} catch {
+		console.log("error");
+	}
+
 	try {
 		const res = await instance.get("/api/monuments");
 		console.log(res);
