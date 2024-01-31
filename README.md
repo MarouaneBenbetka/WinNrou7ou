@@ -1,38 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img src="./public/images/logo.png" alt="App Logo" width="60" style="max-width:100%; height:auto;">
 
-## Getting Started
+# Win Nrou7ou - Algerian eTourisme Web Application
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1. [Overview](#overview)
+2. [Features](#features)
+    - [Multi-language Support](#1-multi-language-support)
+    - [Touristic Places](#2-touristic-places)
+    - [360 View](#3-360-view)
+    - [Events in Algeria](#4-events-in-algeria)
+    - [Interactive Chatbot](#5-interactive-chatbot)
+    - [Admin Dashboard](#6-admin-dashboard)
+3. [Demo Videos](#demo-videos)
+4. [Tech Stack](#tech-stack)
+5. [Development](#development)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Welcome to Win Nrou7ou, an innovative eTourisme web application focused on showcasing the beauty and richness of tourism in Algeria. This application was developed during the 3rd year at ESI Algiers using Next.js for the frontend and MySQL as the relational database.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Features
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### 1. Multi-language Support
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+-   Explore Win Nrou7ou in your preferred language for a personalized experience.
 
-## Learn More
+### 2. Touristic Places
 
-To learn more about Next.js, take a look at the following resources:
+-   Discover over 300 iconic Algerian tourist sites with detailed information.
+-   Each location includes images, reviews, historical descriptions, location coordinates, and other essential data.
+-   Utilize an interactive map with clustering for a better visualization of tourist hotspots.
+-   Benefit from search and filter options to find specific places of interest.
+-   Receive custom suggestions based on your preferences.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 3. 360 View
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+-   Immerse yourself in high-quality 360 views of more than 80 breathtaking locations.
 
-## Deploy on Vercel
+### 4. Events in Algeria
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+-   Stay informed about upcoming events across Algeria with specific details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### 5. Interactive Chatbot
+
+-   Engage with an interactive chatbot tailored to provide information and assistance related to tourism in Algeria.
+
+### 6. Admin Dashboard
+
+-   Manage and update the content of the website seamlessly through the admin dashboard.
+
+## Demo Videos
+
+-   [Demo of Win Nrou7ou Web Application](https://youtu.be/b_-SNg4mGWg)
+-   [Brief Explanation of the solution Solution](https://youtu.be/vPuQy5XQS6E)
+
+## Tech Stack
+
+-   **Frontend/Backend :** Next.js deployed in vercel
+-   **Database:** MySQL deployed in railway
+
+## Development
+
+This web application was crafted during the 3rd year at ESI Algiers, reflecting a commitment to delivering a user-friendly and visually engaging platform for exploring Algerian tourism.
+
+Feel free to explore, enjoy, and let Win Nrou7ou guide you through the wonders of Algeria!
